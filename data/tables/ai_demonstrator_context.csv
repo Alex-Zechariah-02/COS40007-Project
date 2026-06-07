@@ -1,0 +1,16 @@
+Context Item,Value
+Final SVR MAE,2.023946549144871
+Final SVR RMSE,2.73260976914434
+Final SVR R2,-0.3006762586745686
+Final SVR Median_AE,1.5768237097878242
+Mean Residual,1.4923247530654258
+Bias Direction,Underprediction bias
+Beats training-mean baseline on MAE,True
+Beats training-mean baseline on RMSE,True
+Beats persistence baseline on MAE,True
+Beats persistence baseline on RMSE,True
+Highest-error state,w.p. putrajaya
+Highest-error stage,primary
+Highest-error sex group,male
+Top five positive permutation-importance features,"rolling2_gap_mean, living_quarters_per_household, households_per_living_quarter, completion_gap_from_malaysia, teachers_growth_1y"
+Top five absolute permutation-effect features,"rolling2_gap_mean, living_quarters_per_household, households_per_living_quarter, completion_gap_from_malaysia, students_per_teacher"

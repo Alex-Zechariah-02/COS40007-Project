@@ -1,0 +1,5 @@
+Baseline Name,Baseline Type,Definition
+historical_state_stage_sex_mean_baseline,Historical group mean,"Predict using the training-period mean target for the same state, stage, and sex."
+stage_sex_mean_baseline,Historical group mean,Predict using the training-period mean target for the same stage and sex.
+rolling2_completion_mean_baseline,Recent-history rule,Predict using the rolling two-year mean of current and lagged completion rate.
+previous_year_trend_baseline,Recent-trend rule,Predict using current completion plus the latest one-year completion-rate change.

@@ -1,0 +1,10 @@
+Check,Value,Status
+Test year check,[np.int64(2021)],Pass
+Forecast-candidate separation,True,Pass
+Selected feature count,33,Pass
+Calibration method,mean_residual,Pass
+Calibration intercept,0.6659344803565374,Pass
+Held-out prediction row count,96,Pass
+Forecast-candidate prediction row count,96,Recorded separately
+Classification metrics calculated,False,Pass
+Evaluation status,Held-out SVR regression metrics calculated once on test panel only,Pass

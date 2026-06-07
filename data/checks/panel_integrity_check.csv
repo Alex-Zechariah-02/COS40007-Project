@@ -1,0 +1,12 @@
+Check,Value
+Row count,672
+Supervised row count,576
+Forecast-candidate row count,96
+Test-candidate row count,96
+State count,16
+Stage count,3
+Sex count,2
+Year coverage,"2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Duplicate key count,0
+Missing target count,96
+Key-preservation status,Pass

@@ -1,0 +1,11 @@
+Item,Value
+Train rows,384
+Test rows,96
+Forecast rows,96
+Numeric feature count,37
+Categorical feature count,3
+Final feature count,40
+Feature-set count,5
+SVR candidate count,73
+Targeted SVR candidate included,True
+Readiness status,Ready for chronological SVR tuning with calibrated candidate selection

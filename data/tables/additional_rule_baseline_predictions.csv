@@ -1,0 +1,385 @@
+state,stage,sex,year,target_year,completion_rate,Baseline Name,Actual Next-Year Completion Rate,Predicted Next-Year Completion Rate,Residual,Absolute Error,Fallback Prediction Count
+johor,primary,female,2021,2022,99.7,historical_state_stage_sex_mean_baseline,99.3,98.75,0.5499999999999972,0.5499999999999972,0
+johor,primary,male,2021,2022,91.8,historical_state_stage_sex_mean_baseline,98.7,95.8925,2.8075000000000045,2.8075000000000045,0
+johor,secondary_lower,female,2021,2022,98.4,historical_state_stage_sex_mean_baseline,97.6,98.228525,-0.6285250000000104,0.6285250000000104,0
+johor,secondary_lower,male,2021,2022,97.4,historical_state_stage_sex_mean_baseline,102.5,96.61404999999999,5.885950000000008,5.885950000000008,0
+johor,secondary_upper,female,2021,2022,97.2,historical_state_stage_sex_mean_baseline,98.5,95.19975,3.3002500000000055,3.3002500000000055,0
+johor,secondary_upper,male,2021,2022,96.8,historical_state_stage_sex_mean_baseline,97.8,93.765425,4.034575000000004,4.034575000000004,0
+kedah,primary,female,2021,2022,99.3,historical_state_stage_sex_mean_baseline,102.4,100.6,1.8000000000000114,1.8000000000000114,0
+kedah,primary,male,2021,2022,95.3,historical_state_stage_sex_mean_baseline,99.8,98.3825,1.417500000000004,1.417500000000004,0
+kedah,secondary_lower,female,2021,2022,100.9,historical_state_stage_sex_mean_baseline,99.2,98.82702499999999,0.37297500000001094,0.37297500000001094,0
+kedah,secondary_lower,male,2021,2022,99.7,historical_state_stage_sex_mean_baseline,99.6,95.968775,3.6312250000000006,3.6312250000000006,0
+kedah,secondary_upper,female,2021,2022,100.0,historical_state_stage_sex_mean_baseline,99.6,98.33340000000001,1.2665999999999826,1.2665999999999826,0
+kedah,secondary_upper,male,2021,2022,101.2,historical_state_stage_sex_mean_baseline,98.7,96.48005,2.219949999999997,2.219949999999997,0
+kelantan,primary,female,2021,2022,101.8,historical_state_stage_sex_mean_baseline,99.2,101.2475,-2.0474999999999994,2.0474999999999994,0
+kelantan,primary,male,2021,2022,98.7,historical_state_stage_sex_mean_baseline,97.3,98.28,-0.980000000000004,0.980000000000004,0
+kelantan,secondary_lower,female,2021,2022,112.9,historical_state_stage_sex_mean_baseline,98.7,102.7291,-4.0291,4.0291,0
+kelantan,secondary_lower,male,2021,2022,110.5,historical_state_stage_sex_mean_baseline,99.4,100.0584,-0.6584000000000003,0.6584000000000003,0
+kelantan,secondary_upper,female,2021,2022,99.6,historical_state_stage_sex_mean_baseline,98.8,99.338875,-0.5388750000000044,0.5388750000000044,0
+kelantan,secondary_upper,male,2021,2022,101.1,historical_state_stage_sex_mean_baseline,100.0,98.518425,1.4815750000000065,1.4815750000000065,0
+melaka,primary,female,2021,2022,96.8,historical_state_stage_sex_mean_baseline,100.3,98.8675,1.4324999999999903,1.4324999999999903,0
+melaka,primary,male,2021,2022,93.5,historical_state_stage_sex_mean_baseline,98.7,96.7675,1.9325000000000045,1.9325000000000045,0
+melaka,secondary_lower,female,2021,2022,99.2,historical_state_stage_sex_mean_baseline,99.3,99.08262500000001,0.21737499999998988,0.21737499999998988,0
+melaka,secondary_lower,male,2021,2022,97.1,historical_state_stage_sex_mean_baseline,98.6,98.176625,0.42337499999999295,0.42337499999999295,0
+melaka,secondary_upper,female,2021,2022,98.0,historical_state_stage_sex_mean_baseline,98.3,97.5026,0.7973999999999961,0.7973999999999961,0
+melaka,secondary_upper,male,2021,2022,98.5,historical_state_stage_sex_mean_baseline,97.1,96.242825,0.857174999999998,0.857174999999998,0
+negeri sembilan,primary,female,2021,2022,102.9,historical_state_stage_sex_mean_baseline,102.7,100.8175,1.8825000000000074,1.8825000000000074,0
+negeri sembilan,primary,male,2021,2022,102.8,historical_state_stage_sex_mean_baseline,100.6,99.775,0.8249999999999886,0.8249999999999886,0
+negeri sembilan,secondary_lower,female,2021,2022,99.6,historical_state_stage_sex_mean_baseline,99.8,98.700925,1.0990749999999991,1.0990749999999991,0
+negeri sembilan,secondary_lower,male,2021,2022,98.3,historical_state_stage_sex_mean_baseline,99.9,96.912575,2.9874250000000018,2.9874250000000018,0
+negeri sembilan,secondary_upper,female,2021,2022,98.6,historical_state_stage_sex_mean_baseline,99.8,97.044675,2.755324999999999,2.755324999999999,0
+negeri sembilan,secondary_upper,male,2021,2022,98.6,historical_state_stage_sex_mean_baseline,100.9,95.7538,5.146200000000007,5.146200000000007,0
+pahang,primary,female,2021,2022,97.9,historical_state_stage_sex_mean_baseline,98.1,97.73750000000001,0.36249999999998295,0.36249999999998295,0
+pahang,primary,male,2021,2022,96.8,historical_state_stage_sex_mean_baseline,95.1,96.2075,-1.1075000000000017,1.1075000000000017,0
+pahang,secondary_lower,female,2021,2022,100.0,historical_state_stage_sex_mean_baseline,98.8,97.9627,0.837299999999999,0.837299999999999,0
+pahang,secondary_lower,male,2021,2022,98.2,historical_state_stage_sex_mean_baseline,98.6,95.2996,3.3003999999999962,3.3003999999999962,0
+pahang,secondary_upper,female,2021,2022,99.1,historical_state_stage_sex_mean_baseline,99.5,97.363025,2.1369750000000067,2.1369750000000067,0
+pahang,secondary_upper,male,2021,2022,100.2,historical_state_stage_sex_mean_baseline,100.6,97.26965,3.3303499999999957,3.3303499999999957,0
+perak,primary,female,2021,2022,99.7,historical_state_stage_sex_mean_baseline,100.9,99.3275,1.5725000000000051,1.5725000000000051,0
+perak,primary,male,2021,2022,98.0,historical_state_stage_sex_mean_baseline,99.1,98.02250000000001,1.0774999999999864,1.0774999999999864,0
+perak,secondary_lower,female,2021,2022,100.2,historical_state_stage_sex_mean_baseline,99.4,98.4695,0.9305000000000092,0.9305000000000092,0
+perak,secondary_lower,male,2021,2022,98.6,historical_state_stage_sex_mean_baseline,99.0,96.28184999999999,2.7181500000000085,2.7181500000000085,0
+perak,secondary_upper,female,2021,2022,99.2,historical_state_stage_sex_mean_baseline,99.9,97.5778,2.3222000000000094,2.3222000000000094,0
+perak,secondary_upper,male,2021,2022,98.4,historical_state_stage_sex_mean_baseline,100.7,95.63655,5.063450000000003,5.063450000000003,0
+perlis,primary,female,2021,2022,99.8,historical_state_stage_sex_mean_baseline,107.2,100.2775,6.922499999999999,6.922499999999999,0
+perlis,primary,male,2021,2022,94.4,historical_state_stage_sex_mean_baseline,103.9,97.0575,6.842500000000001,6.842500000000001,0
+perlis,secondary_lower,female,2021,2022,98.6,historical_state_stage_sex_mean_baseline,100.3,97.130725,3.169274999999999,3.169274999999999,0
+perlis,secondary_lower,male,2021,2022,97.1,historical_state_stage_sex_mean_baseline,99.1,93.84875,5.251249999999999,5.251249999999999,0
+perlis,secondary_upper,female,2021,2022,98.3,historical_state_stage_sex_mean_baseline,98.2,96.710325,1.4896750000000054,1.4896750000000054,0
+perlis,secondary_upper,male,2021,2022,96.5,historical_state_stage_sex_mean_baseline,97.6,93.21845,4.38154999999999,4.38154999999999,0
+pulau pinang,primary,female,2021,2022,96.8,historical_state_stage_sex_mean_baseline,98.9,97.225,1.6750000000000114,1.6750000000000114,0
+pulau pinang,primary,male,2021,2022,91.6,historical_state_stage_sex_mean_baseline,96.6,94.65,1.9499999999999886,1.9499999999999886,0
+pulau pinang,secondary_lower,female,2021,2022,97.9,historical_state_stage_sex_mean_baseline,99.7,98.12515,1.5748499999999979,1.5748499999999979,0
+pulau pinang,secondary_lower,male,2021,2022,96.3,historical_state_stage_sex_mean_baseline,99.7,96.0099,3.690100000000001,3.690100000000001,0
+pulau pinang,secondary_upper,female,2021,2022,95.9,historical_state_stage_sex_mean_baseline,101.0,95.809225,5.190775000000002,5.190775000000002,0
+pulau pinang,secondary_upper,male,2021,2022,95.1,historical_state_stage_sex_mean_baseline,100.0,93.86165,6.138350000000003,6.138350000000003,0
+sabah,primary,female,2021,2022,98.1,historical_state_stage_sex_mean_baseline,100.8,100.115,0.6850000000000023,0.6850000000000023,0
+sabah,primary,male,2021,2022,97.3,historical_state_stage_sex_mean_baseline,100.3,98.66,1.6400000000000006,1.6400000000000006,0
+sabah,secondary_lower,female,2021,2022,98.7,historical_state_stage_sex_mean_baseline,99.7,97.385475,2.3145250000000033,2.3145250000000033,0
+sabah,secondary_lower,male,2021,2022,97.1,historical_state_stage_sex_mean_baseline,99.5,93.96555000000001,5.5344499999999925,5.5344499999999925,0
+sabah,secondary_upper,female,2021,2022,98.8,historical_state_stage_sex_mean_baseline,99.5,96.887275,2.6127249999999975,2.6127249999999975,0
+sabah,secondary_upper,male,2021,2022,98.5,historical_state_stage_sex_mean_baseline,99.7,94.82245,4.877549999999999,4.877549999999999,0
+sarawak,primary,female,2021,2022,100.7,historical_state_stage_sex_mean_baseline,101.1,100.0925,1.0074999999999932,1.0074999999999932,0
+sarawak,primary,male,2021,2022,99.6,historical_state_stage_sex_mean_baseline,100.3,99.4525,0.8474999999999966,0.8474999999999966,0
+sarawak,secondary_lower,female,2021,2022,98.7,historical_state_stage_sex_mean_baseline,99.6,97.69685,1.9031499999999966,1.9031499999999966,0
+sarawak,secondary_lower,male,2021,2022,96.4,historical_state_stage_sex_mean_baseline,98.5,94.470325,4.0296749999999975,4.0296749999999975,0
+sarawak,secondary_upper,female,2021,2022,97.9,historical_state_stage_sex_mean_baseline,98.9,96.32075,2.579250000000002,2.579250000000002,0
+sarawak,secondary_upper,male,2021,2022,97.2,historical_state_stage_sex_mean_baseline,98.8,94.4399,4.360100000000003,4.360100000000003,0
+selangor,primary,female,2021,2022,105.4,historical_state_stage_sex_mean_baseline,99.1,99.2275,-0.12750000000001194,0.12750000000001194,0
+selangor,primary,male,2021,2022,103.6,historical_state_stage_sex_mean_baseline,98.2,97.52000000000001,0.6799999999999926,0.6799999999999926,0
+selangor,secondary_lower,female,2021,2022,101.5,historical_state_stage_sex_mean_baseline,98.4,100.168575,-1.7685749999999985,1.7685749999999985,0
+selangor,secondary_lower,male,2021,2022,102.1,historical_state_stage_sex_mean_baseline,97.7,99.083125,-1.3831249999999926,1.3831249999999926,0
+selangor,secondary_upper,female,2021,2022,96.1,historical_state_stage_sex_mean_baseline,99.6,96.3659,3.234099999999998,3.234099999999998,0
+selangor,secondary_upper,male,2021,2022,95.0,historical_state_stage_sex_mean_baseline,98.9,94.55055,4.3494500000000045,4.3494500000000045,0
+terengganu,primary,female,2021,2022,104.4,historical_state_stage_sex_mean_baseline,104.6,102.4025,2.197499999999991,2.197499999999991,0
+terengganu,primary,male,2021,2022,102.9,historical_state_stage_sex_mean_baseline,103.1,99.9725,3.1274999999999977,3.1274999999999977,0
+terengganu,secondary_lower,female,2021,2022,99.0,historical_state_stage_sex_mean_baseline,99.9,100.241625,-0.3416249999999934,0.3416249999999934,0
+terengganu,secondary_lower,male,2021,2022,99.1,historical_state_stage_sex_mean_baseline,99.6,100.110125,-0.5101250000000022,0.5101250000000022,0
+terengganu,secondary_upper,female,2021,2022,100.0,historical_state_stage_sex_mean_baseline,99.1,99.1499,-0.04990000000000805,0.04990000000000805,0
+terengganu,secondary_upper,male,2021,2022,100.9,historical_state_stage_sex_mean_baseline,98.8,98.15035,0.6496499999999941,0.6496499999999941,0
+w.p. kuala lumpur,primary,female,2021,2022,96.8,historical_state_stage_sex_mean_baseline,94.6,93.625,0.9749999999999943,0.9749999999999943,0
+w.p. kuala lumpur,primary,male,2021,2022,92.4,historical_state_stage_sex_mean_baseline,92.9,91.2525,1.647500000000008,1.647500000000008,0
+w.p. kuala lumpur,secondary_lower,female,2021,2022,98.7,historical_state_stage_sex_mean_baseline,96.4,97.532975,-1.1329749999999876,1.1329749999999876,0
+w.p. kuala lumpur,secondary_lower,male,2021,2022,97.2,historical_state_stage_sex_mean_baseline,96.5,95.494375,1.0056249999999949,1.0056249999999949,0
+w.p. kuala lumpur,secondary_upper,female,2021,2022,94.9,historical_state_stage_sex_mean_baseline,98.1,92.509925,5.590074999999999,5.590074999999999,0
+w.p. kuala lumpur,secondary_upper,male,2021,2022,94.5,historical_state_stage_sex_mean_baseline,97.0,90.91485,6.085149999999999,6.085149999999999,0
+w.p. labuan,primary,female,2021,2022,93.2,historical_state_stage_sex_mean_baseline,93.9,93.7475,0.1525000000000034,0.1525000000000034,0
+w.p. labuan,primary,male,2021,2022,89.5,historical_state_stage_sex_mean_baseline,90.9,91.2225,-0.3224999999999909,0.3224999999999909,0
+w.p. labuan,secondary_lower,female,2021,2022,98.2,historical_state_stage_sex_mean_baseline,103.2,96.547725,6.652275000000003,6.652275000000003,0
+w.p. labuan,secondary_lower,male,2021,2022,97.8,historical_state_stage_sex_mean_baseline,102.5,96.040075,6.459924999999998,6.459924999999998,0
+w.p. labuan,secondary_upper,female,2021,2022,95.0,historical_state_stage_sex_mean_baseline,99.5,96.21934999999999,3.2806500000000085,3.2806500000000085,0
+w.p. labuan,secondary_upper,male,2021,2022,97.0,historical_state_stage_sex_mean_baseline,99.2,95.47992500000001,3.7200749999999942,3.7200749999999942,0
+w.p. putrajaya,primary,female,2021,2022,80.0,historical_state_stage_sex_mean_baseline,104.9,96.645,8.25500000000001,8.25500000000001,0
+w.p. putrajaya,primary,male,2021,2022,73.9,historical_state_stage_sex_mean_baseline,101.1,92.975,8.125,8.125,0
+w.p. putrajaya,secondary_lower,female,2021,2022,97.2,historical_state_stage_sex_mean_baseline,105.9,103.236175,2.6638250000000028,2.6638250000000028,0
+w.p. putrajaya,secondary_lower,male,2021,2022,97.8,historical_state_stage_sex_mean_baseline,100.9,99.3682,1.531800000000004,1.531800000000004,0
+w.p. putrajaya,secondary_upper,female,2021,2022,94.5,historical_state_stage_sex_mean_baseline,99.1,96.03595,3.0640499999999946,3.0640499999999946,0
+w.p. putrajaya,secondary_upper,male,2021,2022,92.9,historical_state_stage_sex_mean_baseline,104.0,96.795175,7.204825,7.204825,0
+johor,primary,female,2021,2022,99.7,stage_sex_mean_baseline,99.3,98.7940625,0.5059375000000017,0.5059375000000017,0
+johor,primary,male,2021,2022,91.8,stage_sex_mean_baseline,98.7,96.630625,2.069375000000008,2.069375000000008,0
+johor,secondary_lower,female,2021,2022,98.4,stage_sex_mean_baseline,97.6,98.8791046875,-1.2791046875000092,1.2791046875000092,0
+johor,secondary_lower,male,2021,2022,97.4,stage_sex_mean_baseline,102.5,96.73139375,5.768606250000005,5.768606250000005,0
+johor,secondary_upper,female,2021,2022,97.2,stage_sex_mean_baseline,98.5,96.7730453125,1.7269546874999975,1.7269546874999975,0
+johor,secondary_upper,male,2021,2022,96.8,stage_sex_mean_baseline,97.8,95.3687515625,2.4312484375000025,2.4312484375000025,0
+kedah,primary,female,2021,2022,99.3,stage_sex_mean_baseline,102.4,98.7940625,3.6059375000000102,3.6059375000000102,0
+kedah,primary,male,2021,2022,95.3,stage_sex_mean_baseline,99.8,96.630625,3.1693750000000023,3.1693750000000023,0
+kedah,secondary_lower,female,2021,2022,100.9,stage_sex_mean_baseline,99.2,98.8791046875,0.32089531249999936,0.32089531249999936,0
+kedah,secondary_lower,male,2021,2022,99.7,stage_sex_mean_baseline,99.6,96.73139375,2.868606249999999,2.868606249999999,0
+kedah,secondary_upper,female,2021,2022,100.0,stage_sex_mean_baseline,99.6,96.7730453125,2.826954687499992,2.826954687499992,0
+kedah,secondary_upper,male,2021,2022,101.2,stage_sex_mean_baseline,98.7,95.3687515625,3.331248437500008,3.331248437500008,0
+kelantan,primary,female,2021,2022,101.8,stage_sex_mean_baseline,99.2,98.7940625,0.4059375000000074,0.4059375000000074,0
+kelantan,primary,male,2021,2022,98.7,stage_sex_mean_baseline,97.3,96.630625,0.6693750000000023,0.6693750000000023,0
+kelantan,secondary_lower,female,2021,2022,112.9,stage_sex_mean_baseline,98.7,98.8791046875,-0.17910468750000064,0.17910468750000064,0
+kelantan,secondary_lower,male,2021,2022,110.5,stage_sex_mean_baseline,99.4,96.73139375,2.6686062500000105,2.6686062500000105,0
+kelantan,secondary_upper,female,2021,2022,99.6,stage_sex_mean_baseline,98.8,96.7730453125,2.0269546874999946,2.0269546874999946,0
+kelantan,secondary_upper,male,2021,2022,101.1,stage_sex_mean_baseline,100.0,95.3687515625,4.631248437500005,4.631248437500005,0
+melaka,primary,female,2021,2022,96.8,stage_sex_mean_baseline,100.3,98.7940625,1.5059375000000017,1.5059375000000017,0
+melaka,primary,male,2021,2022,93.5,stage_sex_mean_baseline,98.7,96.630625,2.069375000000008,2.069375000000008,0
+melaka,secondary_lower,female,2021,2022,99.2,stage_sex_mean_baseline,99.3,98.8791046875,0.4208953124999937,0.4208953124999937,0
+melaka,secondary_lower,male,2021,2022,97.1,stage_sex_mean_baseline,98.6,96.73139375,1.8686062499999991,1.8686062499999991,0
+melaka,secondary_upper,female,2021,2022,98.0,stage_sex_mean_baseline,98.3,96.7730453125,1.5269546874999946,1.5269546874999946,0
+melaka,secondary_upper,male,2021,2022,98.5,stage_sex_mean_baseline,97.1,95.3687515625,1.7312484374999997,1.7312484374999997,0
+negeri sembilan,primary,female,2021,2022,102.9,stage_sex_mean_baseline,102.7,98.7940625,3.9059375000000074,3.9059375000000074,0
+negeri sembilan,primary,male,2021,2022,102.8,stage_sex_mean_baseline,100.6,96.630625,3.9693749999999994,3.9693749999999994,0
+negeri sembilan,secondary_lower,female,2021,2022,99.6,stage_sex_mean_baseline,99.8,98.8791046875,0.9208953124999937,0.9208953124999937,0
+negeri sembilan,secondary_lower,male,2021,2022,98.3,stage_sex_mean_baseline,99.9,96.73139375,3.1686062500000105,3.1686062500000105,0
+negeri sembilan,secondary_upper,female,2021,2022,98.6,stage_sex_mean_baseline,99.8,96.7730453125,3.0269546874999946,3.0269546874999946,0
+negeri sembilan,secondary_upper,male,2021,2022,98.6,stage_sex_mean_baseline,100.9,95.3687515625,5.531248437500011,5.531248437500011,0
+pahang,primary,female,2021,2022,97.9,stage_sex_mean_baseline,98.1,98.7940625,-0.6940625000000011,0.6940625000000011,0
+pahang,primary,male,2021,2022,96.8,stage_sex_mean_baseline,95.1,96.630625,-1.5306250000000006,1.5306250000000006,0
+pahang,secondary_lower,female,2021,2022,100.0,stage_sex_mean_baseline,98.8,98.8791046875,-0.07910468750000632,0.07910468750000632,0
+pahang,secondary_lower,male,2021,2022,98.2,stage_sex_mean_baseline,98.6,96.73139375,1.8686062499999991,1.8686062499999991,0
+pahang,secondary_upper,female,2021,2022,99.1,stage_sex_mean_baseline,99.5,96.7730453125,2.7269546874999975,2.7269546874999975,0
+pahang,secondary_upper,male,2021,2022,100.2,stage_sex_mean_baseline,100.6,95.3687515625,5.2312484375,5.2312484375,0
+perak,primary,female,2021,2022,99.7,stage_sex_mean_baseline,100.9,98.7940625,2.1059375000000102,2.1059375000000102,0
+perak,primary,male,2021,2022,98.0,stage_sex_mean_baseline,99.1,96.630625,2.4693749999999994,2.4693749999999994,0
+perak,secondary_lower,female,2021,2022,100.2,stage_sex_mean_baseline,99.4,98.8791046875,0.5208953125000022,0.5208953125000022,0
+perak,secondary_lower,male,2021,2022,98.6,stage_sex_mean_baseline,99.0,96.73139375,2.268606250000005,2.268606250000005,0
+perak,secondary_upper,female,2021,2022,99.2,stage_sex_mean_baseline,99.9,96.7730453125,3.126954687500003,3.126954687500003,0
+perak,secondary_upper,male,2021,2022,98.4,stage_sex_mean_baseline,100.7,95.3687515625,5.331248437500008,5.331248437500008,0
+perlis,primary,female,2021,2022,99.8,stage_sex_mean_baseline,107.2,98.7940625,8.405937500000007,8.405937500000007,0
+perlis,primary,male,2021,2022,94.4,stage_sex_mean_baseline,103.9,96.630625,7.269375000000011,7.269375000000011,0
+perlis,secondary_lower,female,2021,2022,98.6,stage_sex_mean_baseline,100.3,98.8791046875,1.4208953124999937,1.4208953124999937,0
+perlis,secondary_lower,male,2021,2022,97.1,stage_sex_mean_baseline,99.1,96.73139375,2.368606249999999,2.368606249999999,0
+perlis,secondary_upper,female,2021,2022,98.3,stage_sex_mean_baseline,98.2,96.7730453125,1.4269546875000003,1.4269546875000003,0
+perlis,secondary_upper,male,2021,2022,96.5,stage_sex_mean_baseline,97.6,95.3687515625,2.2312484374999997,2.2312484374999997,0
+pulau pinang,primary,female,2021,2022,96.8,stage_sex_mean_baseline,98.9,98.7940625,0.10593750000001023,0.10593750000001023,0
+pulau pinang,primary,male,2021,2022,91.6,stage_sex_mean_baseline,96.6,96.630625,-0.03062500000000057,0.03062500000000057,0
+pulau pinang,secondary_lower,female,2021,2022,97.9,stage_sex_mean_baseline,99.7,98.8791046875,0.8208953124999994,0.8208953124999994,0
+pulau pinang,secondary_lower,male,2021,2022,96.3,stage_sex_mean_baseline,99.7,96.73139375,2.9686062500000077,2.9686062500000077,0
+pulau pinang,secondary_upper,female,2021,2022,95.9,stage_sex_mean_baseline,101.0,96.7730453125,4.2269546874999975,4.2269546874999975,0
+pulau pinang,secondary_upper,male,2021,2022,95.1,stage_sex_mean_baseline,100.0,95.3687515625,4.631248437500005,4.631248437500005,0
+sabah,primary,female,2021,2022,98.1,stage_sex_mean_baseline,100.8,98.7940625,2.0059375000000017,2.0059375000000017,0
+sabah,primary,male,2021,2022,97.3,stage_sex_mean_baseline,100.3,96.630625,3.6693750000000023,3.6693750000000023,0
+sabah,secondary_lower,female,2021,2022,98.7,stage_sex_mean_baseline,99.7,98.8791046875,0.8208953124999994,0.8208953124999994,0
+sabah,secondary_lower,male,2021,2022,97.1,stage_sex_mean_baseline,99.5,96.73139375,2.768606250000005,2.768606250000005,0
+sabah,secondary_upper,female,2021,2022,98.8,stage_sex_mean_baseline,99.5,96.7730453125,2.7269546874999975,2.7269546874999975,0
+sabah,secondary_upper,male,2021,2022,98.5,stage_sex_mean_baseline,99.7,95.3687515625,4.331248437500008,4.331248437500008,0
+sarawak,primary,female,2021,2022,100.7,stage_sex_mean_baseline,101.1,98.7940625,2.305937499999999,2.305937499999999,0
+sarawak,primary,male,2021,2022,99.6,stage_sex_mean_baseline,100.3,96.630625,3.6693750000000023,3.6693750000000023,0
+sarawak,secondary_lower,female,2021,2022,98.7,stage_sex_mean_baseline,99.6,98.8791046875,0.7208953124999908,0.7208953124999908,0
+sarawak,secondary_lower,male,2021,2022,96.4,stage_sex_mean_baseline,98.5,96.73139375,1.7686062500000048,1.7686062500000048,0
+sarawak,secondary_upper,female,2021,2022,97.9,stage_sex_mean_baseline,98.9,96.7730453125,2.126954687500003,2.126954687500003,0
+sarawak,secondary_upper,male,2021,2022,97.2,stage_sex_mean_baseline,98.8,95.3687515625,3.4312484375000025,3.4312484375000025,0
+selangor,primary,female,2021,2022,105.4,stage_sex_mean_baseline,99.1,98.7940625,0.30593749999999886,0.30593749999999886,0
+selangor,primary,male,2021,2022,103.6,stage_sex_mean_baseline,98.2,96.630625,1.569375000000008,1.569375000000008,0
+selangor,secondary_lower,female,2021,2022,101.5,stage_sex_mean_baseline,98.4,98.8791046875,-0.4791046874999978,0.4791046874999978,0
+selangor,secondary_lower,male,2021,2022,102.1,stage_sex_mean_baseline,97.7,96.73139375,0.9686062500000077,0.9686062500000077,0
+selangor,secondary_upper,female,2021,2022,96.1,stage_sex_mean_baseline,99.6,96.7730453125,2.826954687499992,2.826954687499992,0
+selangor,secondary_upper,male,2021,2022,95.0,stage_sex_mean_baseline,98.9,95.3687515625,3.531248437500011,3.531248437500011,0
+terengganu,primary,female,2021,2022,104.4,stage_sex_mean_baseline,104.6,98.7940625,5.805937499999999,5.805937499999999,0
+terengganu,primary,male,2021,2022,102.9,stage_sex_mean_baseline,103.1,96.630625,6.469374999999999,6.469374999999999,0
+terengganu,secondary_lower,female,2021,2022,99.0,stage_sex_mean_baseline,99.9,98.8791046875,1.0208953125000022,1.0208953125000022,0
+terengganu,secondary_lower,male,2021,2022,99.1,stage_sex_mean_baseline,99.6,96.73139375,2.868606249999999,2.868606249999999,0
+terengganu,secondary_upper,female,2021,2022,100.0,stage_sex_mean_baseline,99.1,96.7730453125,2.326954687499992,2.326954687499992,0
+terengganu,secondary_upper,male,2021,2022,100.9,stage_sex_mean_baseline,98.8,95.3687515625,3.4312484375000025,3.4312484375000025,0
+w.p. kuala lumpur,primary,female,2021,2022,96.8,stage_sex_mean_baseline,94.6,98.7940625,-4.194062500000001,4.194062500000001,0
+w.p. kuala lumpur,primary,male,2021,2022,92.4,stage_sex_mean_baseline,92.9,96.630625,-3.730624999999989,3.730624999999989,0
+w.p. kuala lumpur,secondary_lower,female,2021,2022,98.7,stage_sex_mean_baseline,96.4,98.8791046875,-2.479104687499998,2.479104687499998,0
+w.p. kuala lumpur,secondary_lower,male,2021,2022,97.2,stage_sex_mean_baseline,96.5,96.73139375,-0.23139374999999518,0.23139374999999518,0
+w.p. kuala lumpur,secondary_upper,female,2021,2022,94.9,stage_sex_mean_baseline,98.1,96.7730453125,1.3269546874999918,1.3269546874999918,0
+w.p. kuala lumpur,secondary_upper,male,2021,2022,94.5,stage_sex_mean_baseline,97.0,95.3687515625,1.6312484375000054,1.6312484375000054,0
+w.p. labuan,primary,female,2021,2022,93.2,stage_sex_mean_baseline,93.9,98.7940625,-4.89406249999999,4.89406249999999,0
+w.p. labuan,primary,male,2021,2022,89.5,stage_sex_mean_baseline,90.9,96.630625,-5.730624999999989,5.730624999999989,0
+w.p. labuan,secondary_lower,female,2021,2022,98.2,stage_sex_mean_baseline,103.2,98.8791046875,4.320895312499999,4.320895312499999,0
+w.p. labuan,secondary_lower,male,2021,2022,97.8,stage_sex_mean_baseline,102.5,96.73139375,5.768606250000005,5.768606250000005,0
+w.p. labuan,secondary_upper,female,2021,2022,95.0,stage_sex_mean_baseline,99.5,96.7730453125,2.7269546874999975,2.7269546874999975,0
+w.p. labuan,secondary_upper,male,2021,2022,97.0,stage_sex_mean_baseline,99.2,95.3687515625,3.831248437500008,3.831248437500008,0
+w.p. putrajaya,primary,female,2021,2022,80.0,stage_sex_mean_baseline,104.9,98.7940625,6.10593750000001,6.10593750000001,0
+w.p. putrajaya,primary,male,2021,2022,73.9,stage_sex_mean_baseline,101.1,96.630625,4.469374999999999,4.469374999999999,0
+w.p. putrajaya,secondary_lower,female,2021,2022,97.2,stage_sex_mean_baseline,105.9,98.8791046875,7.020895312500002,7.020895312500002,0
+w.p. putrajaya,secondary_lower,male,2021,2022,97.8,stage_sex_mean_baseline,100.9,96.73139375,4.1686062500000105,4.1686062500000105,0
+w.p. putrajaya,secondary_upper,female,2021,2022,94.5,stage_sex_mean_baseline,99.1,96.7730453125,2.326954687499992,2.326954687499992,0
+w.p. putrajaya,secondary_upper,male,2021,2022,92.9,stage_sex_mean_baseline,104.0,95.3687515625,8.631248437500005,8.631248437500005,0
+johor,primary,female,2021,2022,99.7,rolling2_completion_mean_baseline,99.3,99.30000000000001,-1.4210854715202004e-14,1.4210854715202004e-14,0
+johor,primary,male,2021,2022,91.8,rolling2_completion_mean_baseline,98.7,94.69999999999999,4.000000000000014,4.000000000000014,0
+johor,secondary_lower,female,2021,2022,98.4,rolling2_completion_mean_baseline,97.6,98.35,-0.75,0.75,0
+johor,secondary_lower,male,2021,2022,97.4,rolling2_completion_mean_baseline,102.5,96.5,6.0,6.0,0
+johor,secondary_upper,female,2021,2022,97.2,rolling2_completion_mean_baseline,98.5,93.65,4.849999999999994,4.849999999999994,0
+johor,secondary_upper,male,2021,2022,96.8,rolling2_completion_mean_baseline,97.8,92.55,5.25,5.25,0
+kedah,primary,female,2021,2022,99.3,rolling2_completion_mean_baseline,102.4,100.1,2.3000000000000114,2.3000000000000114,0
+kedah,primary,male,2021,2022,95.3,rolling2_completion_mean_baseline,99.8,97.3,2.5,2.5,0
+kedah,secondary_lower,female,2021,2022,100.9,rolling2_completion_mean_baseline,99.2,99.75,-0.5499999999999972,0.5499999999999972,0
+kedah,secondary_lower,male,2021,2022,99.7,rolling2_completion_mean_baseline,99.6,97.35,2.25,2.25,0
+kedah,secondary_upper,female,2021,2022,100.0,rolling2_completion_mean_baseline,99.6,98.95,0.6499999999999915,0.6499999999999915,0
+kedah,secondary_upper,male,2021,2022,101.2,rolling2_completion_mean_baseline,98.7,98.35,0.3500000000000085,0.3500000000000085,0
+kelantan,primary,female,2021,2022,101.8,rolling2_completion_mean_baseline,99.2,101.65,-2.450000000000003,2.450000000000003,0
+kelantan,primary,male,2021,2022,98.7,rolling2_completion_mean_baseline,97.3,98.15,-0.8500000000000085,0.8500000000000085,0
+kelantan,secondary_lower,female,2021,2022,112.9,rolling2_completion_mean_baseline,98.7,112.9,-14.200000000000003,14.200000000000003,0
+kelantan,secondary_lower,male,2021,2022,110.5,rolling2_completion_mean_baseline,99.4,108.75,-9.349999999999994,9.349999999999994,0
+kelantan,secondary_upper,female,2021,2022,99.6,rolling2_completion_mean_baseline,98.8,99.1,-0.29999999999999716,0.29999999999999716,0
+kelantan,secondary_upper,male,2021,2022,101.1,rolling2_completion_mean_baseline,100.0,98.94999999999999,1.0500000000000114,1.0500000000000114,0
+melaka,primary,female,2021,2022,96.8,rolling2_completion_mean_baseline,100.3,98.0,2.299999999999997,2.299999999999997,0
+melaka,primary,male,2021,2022,93.5,rolling2_completion_mean_baseline,98.7,95.6,3.1000000000000085,3.1000000000000085,0
+melaka,secondary_lower,female,2021,2022,99.2,rolling2_completion_mean_baseline,99.3,98.9,0.3999999999999915,0.3999999999999915,0
+melaka,secondary_lower,male,2021,2022,97.1,rolling2_completion_mean_baseline,98.6,97.0,1.5999999999999943,1.5999999999999943,0
+melaka,secondary_upper,female,2021,2022,98.0,rolling2_completion_mean_baseline,98.3,96.55,1.75,1.75,0
+melaka,secondary_upper,male,2021,2022,98.5,rolling2_completion_mean_baseline,97.1,95.75,1.3499999999999943,1.3499999999999943,0
+negeri sembilan,primary,female,2021,2022,102.9,rolling2_completion_mean_baseline,102.7,101.7,1.0,1.0,0
+negeri sembilan,primary,male,2021,2022,102.8,rolling2_completion_mean_baseline,100.6,101.25,-0.6500000000000057,0.6500000000000057,0
+negeri sembilan,secondary_lower,female,2021,2022,99.6,rolling2_completion_mean_baseline,99.8,99.69999999999999,0.10000000000000853,0.10000000000000853,0
+negeri sembilan,secondary_lower,male,2021,2022,98.3,rolling2_completion_mean_baseline,99.9,97.5,2.4000000000000057,2.4000000000000057,0
+negeri sembilan,secondary_upper,female,2021,2022,98.6,rolling2_completion_mean_baseline,99.8,96.15,3.6499999999999915,3.6499999999999915,0
+negeri sembilan,secondary_upper,male,2021,2022,98.6,rolling2_completion_mean_baseline,100.9,95.8,5.1000000000000085,5.1000000000000085,0
+pahang,primary,female,2021,2022,97.9,rolling2_completion_mean_baseline,98.1,97.9,0.19999999999998863,0.19999999999998863,0
+pahang,primary,male,2021,2022,96.8,rolling2_completion_mean_baseline,95.1,96.5,-1.4000000000000057,1.4000000000000057,0
+pahang,secondary_lower,female,2021,2022,100.0,rolling2_completion_mean_baseline,98.8,98.65,0.14999999999999147,0.14999999999999147,0
+pahang,secondary_lower,male,2021,2022,98.2,rolling2_completion_mean_baseline,98.6,96.5,2.0999999999999943,2.0999999999999943,0
+pahang,secondary_upper,female,2021,2022,99.1,rolling2_completion_mean_baseline,99.5,98.0,1.5,1.5,0
+pahang,secondary_upper,male,2021,2022,100.2,rolling2_completion_mean_baseline,100.6,99.2,1.3999999999999915,1.3999999999999915,0
+perak,primary,female,2021,2022,99.7,rolling2_completion_mean_baseline,100.9,99.75,1.1500000000000057,1.1500000000000057,0
+perak,primary,male,2021,2022,98.0,rolling2_completion_mean_baseline,99.1,98.2,0.8999999999999915,0.8999999999999915,0
+perak,secondary_lower,female,2021,2022,100.2,rolling2_completion_mean_baseline,99.4,99.5,-0.09999999999999432,0.09999999999999432,0
+perak,secondary_lower,male,2021,2022,98.6,rolling2_completion_mean_baseline,99.0,97.05,1.9500000000000028,1.9500000000000028,0
+perak,secondary_upper,female,2021,2022,99.2,rolling2_completion_mean_baseline,99.9,96.2,3.700000000000003,3.700000000000003,0
+perak,secondary_upper,male,2021,2022,98.4,rolling2_completion_mean_baseline,100.7,94.95,5.75,5.75,0
+perlis,primary,female,2021,2022,99.8,rolling2_completion_mean_baseline,107.2,99.9,7.299999999999997,7.299999999999997,0
+perlis,primary,male,2021,2022,94.4,rolling2_completion_mean_baseline,103.9,96.05000000000001,7.849999999999994,7.849999999999994,0
+perlis,secondary_lower,female,2021,2022,98.6,rolling2_completion_mean_baseline,100.3,97.19999999999999,3.1000000000000085,3.1000000000000085,0
+perlis,secondary_lower,male,2021,2022,97.1,rolling2_completion_mean_baseline,99.1,95.1,4.0,4.0,0
+perlis,secondary_upper,female,2021,2022,98.3,rolling2_completion_mean_baseline,98.2,96.65,1.5499999999999972,1.5499999999999972,0
+perlis,secondary_upper,male,2021,2022,96.5,rolling2_completion_mean_baseline,97.6,94.0,3.5999999999999943,3.5999999999999943,0
+pulau pinang,primary,female,2021,2022,96.8,rolling2_completion_mean_baseline,98.9,97.3,1.6000000000000085,1.6000000000000085,0
+pulau pinang,primary,male,2021,2022,91.6,rolling2_completion_mean_baseline,96.6,93.85,2.75,2.75,0
+pulau pinang,secondary_lower,female,2021,2022,97.9,rolling2_completion_mean_baseline,99.7,98.5,1.2000000000000028,1.2000000000000028,0
+pulau pinang,secondary_lower,male,2021,2022,96.3,rolling2_completion_mean_baseline,99.7,96.55,3.1500000000000057,3.1500000000000057,0
+pulau pinang,secondary_upper,female,2021,2022,95.9,rolling2_completion_mean_baseline,101.0,94.25,6.75,6.75,0
+pulau pinang,secondary_upper,male,2021,2022,95.1,rolling2_completion_mean_baseline,100.0,93.3,6.700000000000003,6.700000000000003,0
+sabah,primary,female,2021,2022,98.1,rolling2_completion_mean_baseline,100.8,99.55,1.25,1.25,0
+sabah,primary,male,2021,2022,97.3,rolling2_completion_mean_baseline,100.3,98.55,1.75,1.75,0
+sabah,secondary_lower,female,2021,2022,98.7,rolling2_completion_mean_baseline,99.7,98.1,1.6000000000000085,1.6000000000000085,0
+sabah,secondary_lower,male,2021,2022,97.1,rolling2_completion_mean_baseline,99.5,95.5,4.0,4.0,0
+sabah,secondary_upper,female,2021,2022,98.8,rolling2_completion_mean_baseline,99.5,97.1,2.4000000000000057,2.4000000000000057,0
+sabah,secondary_upper,male,2021,2022,98.5,rolling2_completion_mean_baseline,99.7,95.7,4.0,4.0,0
+sarawak,primary,female,2021,2022,100.7,rolling2_completion_mean_baseline,101.1,100.4,0.6999999999999886,0.6999999999999886,0
+sarawak,primary,male,2021,2022,99.6,rolling2_completion_mean_baseline,100.3,99.6,0.7000000000000028,0.7000000000000028,0
+sarawak,secondary_lower,female,2021,2022,98.7,rolling2_completion_mean_baseline,99.6,98.2,1.3999999999999915,1.3999999999999915,0
+sarawak,secondary_lower,male,2021,2022,96.4,rolling2_completion_mean_baseline,98.5,95.4,3.0999999999999943,3.0999999999999943,0
+sarawak,secondary_upper,female,2021,2022,97.9,rolling2_completion_mean_baseline,98.9,95.4,3.5,3.5,0
+sarawak,secondary_upper,male,2021,2022,97.2,rolling2_completion_mean_baseline,98.8,93.9,4.8999999999999915,4.8999999999999915,0
+selangor,primary,female,2021,2022,105.4,rolling2_completion_mean_baseline,99.1,101.75,-2.6500000000000057,2.6500000000000057,0
+selangor,primary,male,2021,2022,103.6,rolling2_completion_mean_baseline,98.2,100.0,-1.7999999999999972,1.7999999999999972,0
+selangor,secondary_lower,female,2021,2022,101.5,rolling2_completion_mean_baseline,98.4,99.85,-1.4499999999999886,1.4499999999999886,0
+selangor,secondary_lower,male,2021,2022,102.1,rolling2_completion_mean_baseline,97.7,99.0,-1.2999999999999972,1.2999999999999972,0
+selangor,secondary_upper,female,2021,2022,96.1,rolling2_completion_mean_baseline,99.6,94.8,4.799999999999997,4.799999999999997,0
+selangor,secondary_upper,male,2021,2022,95.0,rolling2_completion_mean_baseline,98.9,93.7,5.200000000000003,5.200000000000003,0
+terengganu,primary,female,2021,2022,104.4,rolling2_completion_mean_baseline,104.6,103.15,1.4499999999999886,1.4499999999999886,0
+terengganu,primary,male,2021,2022,102.9,rolling2_completion_mean_baseline,103.1,100.95,2.1499999999999915,2.1499999999999915,0
+terengganu,secondary_lower,female,2021,2022,99.0,rolling2_completion_mean_baseline,99.9,99.45,0.45000000000000284,0.45000000000000284,0
+terengganu,secondary_lower,male,2021,2022,99.1,rolling2_completion_mean_baseline,99.6,99.15,0.44999999999998863,0.44999999999998863,0
+terengganu,secondary_upper,female,2021,2022,100.0,rolling2_completion_mean_baseline,99.1,98.65,0.44999999999998863,0.44999999999998863,0
+terengganu,secondary_upper,male,2021,2022,100.9,rolling2_completion_mean_baseline,98.8,97.9,0.8999999999999915,0.8999999999999915,0
+w.p. kuala lumpur,primary,female,2021,2022,96.8,rolling2_completion_mean_baseline,94.6,94.94999999999999,-0.3499999999999943,0.3499999999999943,0
+w.p. kuala lumpur,primary,male,2021,2022,92.4,rolling2_completion_mean_baseline,92.9,92.0,0.9000000000000057,0.9000000000000057,0
+w.p. kuala lumpur,secondary_lower,female,2021,2022,98.7,rolling2_completion_mean_baseline,96.4,98.35,-1.9499999999999886,1.9499999999999886,0
+w.p. kuala lumpur,secondary_lower,male,2021,2022,97.2,rolling2_completion_mean_baseline,96.5,96.05000000000001,0.44999999999998863,0.44999999999998863,0
+w.p. kuala lumpur,secondary_upper,female,2021,2022,94.9,rolling2_completion_mean_baseline,98.1,87.80000000000001,10.299999999999983,10.299999999999983,0
+w.p. kuala lumpur,secondary_upper,male,2021,2022,94.5,rolling2_completion_mean_baseline,97.0,87.7,9.299999999999997,9.299999999999997,0
+w.p. labuan,primary,female,2021,2022,93.2,rolling2_completion_mean_baseline,93.9,95.0,-1.0999999999999943,1.0999999999999943,0
+w.p. labuan,primary,male,2021,2022,89.5,rolling2_completion_mean_baseline,90.9,90.55,0.3500000000000085,0.3500000000000085,0
+w.p. labuan,secondary_lower,female,2021,2022,98.2,rolling2_completion_mean_baseline,103.2,101.45,1.75,1.75,0
+w.p. labuan,secondary_lower,male,2021,2022,97.8,rolling2_completion_mean_baseline,102.5,100.5,2.0,2.0,0
+w.p. labuan,secondary_upper,female,2021,2022,95.0,rolling2_completion_mean_baseline,99.5,95.15,4.349999999999994,4.349999999999994,0
+w.p. labuan,secondary_upper,male,2021,2022,97.0,rolling2_completion_mean_baseline,99.2,96.7,2.5,2.5,0
+w.p. putrajaya,primary,female,2021,2022,80.0,rolling2_completion_mean_baseline,104.9,92.15,12.75,12.75,0
+w.p. putrajaya,primary,male,2021,2022,73.9,rolling2_completion_mean_baseline,101.1,86.30000000000001,14.799999999999983,14.799999999999983,0
+w.p. putrajaya,secondary_lower,female,2021,2022,97.2,rolling2_completion_mean_baseline,105.9,102.75,3.1500000000000057,3.1500000000000057,0
+w.p. putrajaya,secondary_lower,male,2021,2022,97.8,rolling2_completion_mean_baseline,100.9,100.69999999999999,0.20000000000001705,0.20000000000001705,0
+w.p. putrajaya,secondary_upper,female,2021,2022,94.5,rolling2_completion_mean_baseline,99.1,94.05,5.049999999999997,5.049999999999997,0
+w.p. putrajaya,secondary_upper,male,2021,2022,92.9,rolling2_completion_mean_baseline,104.0,93.15,10.849999999999994,10.849999999999994,0
+johor,primary,female,2021,2022,99.7,previous_year_trend_baseline,99.3,100.5,-1.2000000000000028,1.2000000000000028,0
+johor,primary,male,2021,2022,91.8,previous_year_trend_baseline,98.7,86.0,12.700000000000003,12.700000000000003,0
+johor,secondary_lower,female,2021,2022,98.4,previous_year_trend_baseline,97.6,98.50000000000001,-0.9000000000000199,0.9000000000000199,0
+johor,secondary_lower,male,2021,2022,97.4,previous_year_trend_baseline,102.5,99.20000000000002,3.299999999999983,3.299999999999983,0
+johor,secondary_upper,female,2021,2022,97.2,previous_year_trend_baseline,98.5,104.30000000000001,-5.800000000000011,5.800000000000011,0
+johor,secondary_upper,male,2021,2022,96.8,previous_year_trend_baseline,97.8,105.3,-7.5,7.5,0
+kedah,primary,female,2021,2022,99.3,previous_year_trend_baseline,102.4,97.69999999999999,4.700000000000017,4.700000000000017,0
+kedah,primary,male,2021,2022,95.3,previous_year_trend_baseline,99.8,91.3,8.5,8.5,0
+kedah,secondary_lower,female,2021,2022,100.9,previous_year_trend_baseline,99.2,103.20000000000002,-4.000000000000014,4.000000000000014,0
+kedah,secondary_lower,male,2021,2022,99.7,previous_year_trend_baseline,99.6,104.4,-4.800000000000011,4.800000000000011,0
+kedah,secondary_upper,female,2021,2022,100.0,previous_year_trend_baseline,99.6,102.1,-2.5,2.5,0
+kedah,secondary_upper,male,2021,2022,101.2,previous_year_trend_baseline,98.7,106.9,-8.200000000000003,8.200000000000003,0
+kelantan,primary,female,2021,2022,101.8,previous_year_trend_baseline,99.2,102.1,-2.8999999999999915,2.8999999999999915,0
+kelantan,primary,male,2021,2022,98.7,previous_year_trend_baseline,97.3,99.80000000000001,-2.500000000000014,2.500000000000014,0
+kelantan,secondary_lower,female,2021,2022,112.9,previous_year_trend_baseline,98.7,112.9,-14.200000000000003,14.200000000000003,0
+kelantan,secondary_lower,male,2021,2022,110.5,previous_year_trend_baseline,99.4,114.0,-14.599999999999994,14.599999999999994,0
+kelantan,secondary_upper,female,2021,2022,99.6,previous_year_trend_baseline,98.8,100.6,-1.7999999999999972,1.7999999999999972,0
+kelantan,secondary_upper,male,2021,2022,101.1,previous_year_trend_baseline,100.0,105.39999999999999,-5.3999999999999915,5.3999999999999915,0
+melaka,primary,female,2021,2022,96.8,previous_year_trend_baseline,100.3,94.39999999999999,5.900000000000006,5.900000000000006,0
+melaka,primary,male,2021,2022,93.5,previous_year_trend_baseline,98.7,89.3,9.400000000000006,9.400000000000006,0
+melaka,secondary_lower,female,2021,2022,99.2,previous_year_trend_baseline,99.3,99.80000000000001,-0.5000000000000142,0.5000000000000142,0
+melaka,secondary_lower,male,2021,2022,97.1,previous_year_trend_baseline,98.6,97.29999999999998,1.3000000000000114,1.3000000000000114,0
+melaka,secondary_upper,female,2021,2022,98.0,previous_year_trend_baseline,98.3,100.9,-2.6000000000000085,2.6000000000000085,0
+melaka,secondary_upper,male,2021,2022,98.5,previous_year_trend_baseline,97.1,104.0,-6.900000000000006,6.900000000000006,0
+negeri sembilan,primary,female,2021,2022,102.9,previous_year_trend_baseline,102.7,105.30000000000001,-2.6000000000000085,2.6000000000000085,0
+negeri sembilan,primary,male,2021,2022,102.8,previous_year_trend_baseline,100.6,105.89999999999999,-5.299999999999997,5.299999999999997,0
+negeri sembilan,secondary_lower,female,2021,2022,99.6,previous_year_trend_baseline,99.8,99.39999999999999,0.4000000000000057,0.4000000000000057,0
+negeri sembilan,secondary_lower,male,2021,2022,98.3,previous_year_trend_baseline,99.9,99.89999999999999,1.4210854715202004e-14,1.4210854715202004e-14,0
+negeri sembilan,secondary_upper,female,2021,2022,98.6,previous_year_trend_baseline,99.8,103.49999999999999,-3.6999999999999886,3.6999999999999886,0
+negeri sembilan,secondary_upper,male,2021,2022,98.6,previous_year_trend_baseline,100.9,104.19999999999999,-3.299999999999983,3.299999999999983,0
+pahang,primary,female,2021,2022,97.9,previous_year_trend_baseline,98.1,97.9,0.19999999999998863,0.19999999999998863,0
+pahang,primary,male,2021,2022,96.8,previous_year_trend_baseline,95.1,97.39999999999999,-2.299999999999997,2.299999999999997,0
+pahang,secondary_lower,female,2021,2022,100.0,previous_year_trend_baseline,98.8,102.7,-3.9000000000000057,3.9000000000000057,0
+pahang,secondary_lower,male,2021,2022,98.2,previous_year_trend_baseline,98.6,101.60000000000001,-3.000000000000014,3.000000000000014,0
+pahang,secondary_upper,female,2021,2022,99.1,previous_year_trend_baseline,99.5,101.29999999999998,-1.799999999999983,1.799999999999983,0
+pahang,secondary_upper,male,2021,2022,100.2,previous_year_trend_baseline,100.6,102.2,-1.6000000000000085,1.6000000000000085,0
+perak,primary,female,2021,2022,99.7,previous_year_trend_baseline,100.9,99.60000000000001,1.2999999999999972,1.2999999999999972,0
+perak,primary,male,2021,2022,98.0,previous_year_trend_baseline,99.1,97.6,1.5,1.5,0
+perak,secondary_lower,female,2021,2022,100.2,previous_year_trend_baseline,99.4,101.60000000000001,-2.200000000000003,2.200000000000003,0
+perak,secondary_lower,male,2021,2022,98.6,previous_year_trend_baseline,99.0,101.69999999999999,-2.6999999999999886,2.6999999999999886,0
+perak,secondary_upper,female,2021,2022,99.2,previous_year_trend_baseline,99.9,105.2,-5.299999999999997,5.299999999999997,0
+perak,secondary_upper,male,2021,2022,98.4,previous_year_trend_baseline,100.7,105.30000000000001,-4.6000000000000085,4.6000000000000085,0
+perlis,primary,female,2021,2022,99.8,previous_year_trend_baseline,107.2,99.6,7.6000000000000085,7.6000000000000085,0
+perlis,primary,male,2021,2022,94.4,previous_year_trend_baseline,103.9,91.10000000000001,12.799999999999997,12.799999999999997,0
+perlis,secondary_lower,female,2021,2022,98.6,previous_year_trend_baseline,100.3,101.39999999999999,-1.0999999999999943,1.0999999999999943,0
+perlis,secondary_lower,male,2021,2022,97.1,previous_year_trend_baseline,99.1,101.1,-2.0,2.0,0
+perlis,secondary_upper,female,2021,2022,98.3,previous_year_trend_baseline,98.2,101.6,-3.3999999999999915,3.3999999999999915,0
+perlis,secondary_upper,male,2021,2022,96.5,previous_year_trend_baseline,97.6,101.5,-3.9000000000000057,3.9000000000000057,0
+pulau pinang,primary,female,2021,2022,96.8,previous_year_trend_baseline,98.9,95.8,3.1000000000000085,3.1000000000000085,0
+pulau pinang,primary,male,2021,2022,91.6,previous_year_trend_baseline,96.6,87.1,9.5,9.5,0
+pulau pinang,secondary_lower,female,2021,2022,97.9,previous_year_trend_baseline,99.7,96.70000000000002,2.999999999999986,2.999999999999986,0
+pulau pinang,secondary_lower,male,2021,2022,96.3,previous_year_trend_baseline,99.7,95.8,3.9000000000000057,3.9000000000000057,0
+pulau pinang,secondary_upper,female,2021,2022,95.9,previous_year_trend_baseline,101.0,99.20000000000002,1.799999999999983,1.799999999999983,0
+pulau pinang,secondary_upper,male,2021,2022,95.1,previous_year_trend_baseline,100.0,98.69999999999999,1.3000000000000114,1.3000000000000114,0
+sabah,primary,female,2021,2022,98.1,previous_year_trend_baseline,100.8,95.19999999999999,5.6000000000000085,5.6000000000000085,0
+sabah,primary,male,2021,2022,97.3,previous_year_trend_baseline,100.3,94.8,5.5,5.5,0
+sabah,secondary_lower,female,2021,2022,98.7,previous_year_trend_baseline,99.7,99.9,-0.20000000000000284,0.20000000000000284,0
+sabah,secondary_lower,male,2021,2022,97.1,previous_year_trend_baseline,99.5,100.29999999999998,-0.799999999999983,0.799999999999983,0
+sabah,secondary_upper,female,2021,2022,98.8,previous_year_trend_baseline,99.5,102.19999999999999,-2.6999999999999886,2.6999999999999886,0
+sabah,secondary_upper,male,2021,2022,98.5,previous_year_trend_baseline,99.7,104.1,-4.3999999999999915,4.3999999999999915,0
+sarawak,primary,female,2021,2022,100.7,previous_year_trend_baseline,101.1,101.30000000000001,-0.20000000000001705,0.20000000000001705,0
+sarawak,primary,male,2021,2022,99.6,previous_year_trend_baseline,100.3,99.6,0.7000000000000028,0.7000000000000028,0
+sarawak,secondary_lower,female,2021,2022,98.7,previous_year_trend_baseline,99.6,99.7,-0.10000000000000853,0.10000000000000853,0
+sarawak,secondary_lower,male,2021,2022,96.4,previous_year_trend_baseline,98.5,98.4,0.09999999999999432,0.09999999999999432,0
+sarawak,secondary_upper,female,2021,2022,97.9,previous_year_trend_baseline,98.9,102.9,-4.0,4.0,0
+sarawak,secondary_upper,male,2021,2022,97.2,previous_year_trend_baseline,98.8,103.80000000000001,-5.000000000000014,5.000000000000014,0
+selangor,primary,female,2021,2022,105.4,previous_year_trend_baseline,99.1,112.70000000000002,-13.600000000000023,13.600000000000023,0
+selangor,primary,male,2021,2022,103.6,previous_year_trend_baseline,98.2,110.79999999999998,-12.59999999999998,12.59999999999998,0
+selangor,secondary_lower,female,2021,2022,101.5,previous_year_trend_baseline,98.4,104.8,-6.3999999999999915,6.3999999999999915,0
+selangor,secondary_lower,male,2021,2022,102.1,previous_year_trend_baseline,97.7,108.29999999999998,-10.59999999999998,10.59999999999998,0
+selangor,secondary_upper,female,2021,2022,96.1,previous_year_trend_baseline,99.6,98.69999999999999,0.9000000000000057,0.9000000000000057,0
+selangor,secondary_upper,male,2021,2022,95.0,previous_year_trend_baseline,98.9,97.6,1.3000000000000114,1.3000000000000114,0
+terengganu,primary,female,2021,2022,104.4,previous_year_trend_baseline,104.6,106.9,-2.3000000000000114,2.3000000000000114,0
+terengganu,primary,male,2021,2022,102.9,previous_year_trend_baseline,103.1,106.80000000000001,-3.700000000000017,3.700000000000017,0
+terengganu,secondary_lower,female,2021,2022,99.0,previous_year_trend_baseline,99.9,98.1,1.8000000000000114,1.8000000000000114,0
+terengganu,secondary_lower,male,2021,2022,99.1,previous_year_trend_baseline,99.6,98.99999999999999,0.6000000000000085,0.6000000000000085,0
+terengganu,secondary_upper,female,2021,2022,100.0,previous_year_trend_baseline,99.1,102.7,-3.6000000000000085,3.6000000000000085,0
+terengganu,secondary_upper,male,2021,2022,100.9,previous_year_trend_baseline,98.8,106.9,-8.100000000000009,8.100000000000009,0
+w.p. kuala lumpur,primary,female,2021,2022,96.8,previous_year_trend_baseline,94.6,100.5,-5.900000000000006,5.900000000000006,0
+w.p. kuala lumpur,primary,male,2021,2022,92.4,previous_year_trend_baseline,92.9,93.20000000000002,-0.30000000000001137,0.30000000000001137,0
+w.p. kuala lumpur,secondary_lower,female,2021,2022,98.7,previous_year_trend_baseline,96.4,99.4,-3.0,3.0,0
+w.p. kuala lumpur,secondary_lower,male,2021,2022,97.2,previous_year_trend_baseline,96.5,99.5,-3.0,3.0,0
+w.p. kuala lumpur,secondary_upper,female,2021,2022,94.9,previous_year_trend_baseline,98.1,109.10000000000001,-11.000000000000014,11.000000000000014,0
+w.p. kuala lumpur,secondary_upper,male,2021,2022,94.5,previous_year_trend_baseline,97.0,108.1,-11.099999999999994,11.099999999999994,0
+w.p. labuan,primary,female,2021,2022,93.2,previous_year_trend_baseline,93.9,89.60000000000001,4.299999999999997,4.299999999999997,0
+w.p. labuan,primary,male,2021,2022,89.5,previous_year_trend_baseline,90.9,87.4,3.5,3.5,0
+w.p. labuan,secondary_lower,female,2021,2022,98.2,previous_year_trend_baseline,103.2,91.7,11.5,11.5,0
+w.p. labuan,secondary_lower,male,2021,2022,97.8,previous_year_trend_baseline,102.5,92.39999999999999,10.100000000000009,10.100000000000009,0
+w.p. labuan,secondary_upper,female,2021,2022,95.0,previous_year_trend_baseline,99.5,94.7,4.799999999999997,4.799999999999997,0
+w.p. labuan,secondary_upper,male,2021,2022,97.0,previous_year_trend_baseline,99.2,97.6,1.6000000000000085,1.6000000000000085,0
+w.p. putrajaya,primary,female,2021,2022,80.0,previous_year_trend_baseline,104.9,55.7,49.2,49.2,0
+w.p. putrajaya,primary,male,2021,2022,73.9,previous_year_trend_baseline,101.1,49.10000000000001,51.999999999999986,51.999999999999986,0
+w.p. putrajaya,secondary_lower,female,2021,2022,97.2,previous_year_trend_baseline,105.9,86.10000000000001,19.799999999999997,19.799999999999997,0
+w.p. putrajaya,secondary_lower,male,2021,2022,97.8,previous_year_trend_baseline,100.9,92.0,8.900000000000006,8.900000000000006,0
+w.p. putrajaya,secondary_upper,female,2021,2022,94.5,previous_year_trend_baseline,99.1,95.4,3.6999999999999886,3.6999999999999886,0
+w.p. putrajaya,secondary_upper,male,2021,2022,92.9,previous_year_trend_baseline,104.0,92.4,11.599999999999994,11.599999999999994,0

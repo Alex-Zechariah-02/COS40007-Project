@@ -1,0 +1,360 @@
+state,year,tfr
+johor,2001,2.78
+johor,2002,2.66
+johor,2003,2.55
+johor,2004,2.47
+johor,2005,2.39
+johor,2006,2.36
+johor,2007,2.35
+johor,2008,2.3
+johor,2009,2.25
+johor,2010,2.13
+johor,2011,2.17
+johor,2012,2.23
+johor,2013,2.11
+johor,2014,2.16
+johor,2015,2.14
+johor,2016,2.09
+johor,2017,2.12
+johor,2018,2.09
+johor,2019,2.05
+johor,2020,1.94
+johor,2021,1.66
+johor,2022,1.59
+johor,2023,1.82
+kedah,2001,3.14
+kedah,2002,2.97
+kedah,2003,2.82
+kedah,2004,2.75
+kedah,2005,2.65
+kedah,2006,2.58
+kedah,2007,2.56
+kedah,2008,2.63
+kedah,2009,2.66
+kedah,2010,2.58
+kedah,2011,2.61
+kedah,2012,2.6
+kedah,2013,2.42
+kedah,2014,2.47
+kedah,2015,2.41
+kedah,2016,2.31
+kedah,2017,2.31
+kedah,2018,2.2
+kedah,2019,2.09
+kedah,2020,2.03
+kedah,2021,2.03
+kedah,2022,1.83
+kedah,2023,1.98
+kelantan,2001,4.87
+kelantan,2002,4.59
+kelantan,2003,4.24
+kelantan,2004,4.04
+kelantan,2005,3.8
+kelantan,2006,3.64
+kelantan,2007,3.57
+kelantan,2008,3.61
+kelantan,2009,3.66
+kelantan,2010,3.68
+kelantan,2011,3.77
+kelantan,2012,3.6
+kelantan,2013,3.44
+kelantan,2014,3.57
+kelantan,2015,3.42
+kelantan,2016,3.23
+kelantan,2017,3.16
+kelantan,2018,3.0
+kelantan,2019,2.77
+kelantan,2020,2.66
+kelantan,2021,2.83
+kelantan,2022,2.65
+kelantan,2023,2.72
+melaka,2001,2.94
+melaka,2002,2.77
+melaka,2003,2.72
+melaka,2004,2.6
+melaka,2005,2.5
+melaka,2006,2.36
+melaka,2007,2.4
+melaka,2008,2.36
+melaka,2009,2.26
+melaka,2010,2.12
+melaka,2011,2.23
+melaka,2012,2.23
+melaka,2013,2.06
+melaka,2014,2.13
+melaka,2015,2.05
+melaka,2016,1.96
+melaka,2017,1.9
+melaka,2018,1.85
+melaka,2019,1.78
+melaka,2020,1.73
+melaka,2021,1.67
+melaka,2022,1.66
+melaka,2023,1.67
+negeri sembilan,2001,2.8
+negeri sembilan,2002,2.76
+negeri sembilan,2003,2.65
+negeri sembilan,2004,2.58
+negeri sembilan,2005,2.49
+negeri sembilan,2006,2.41
+negeri sembilan,2007,2.44
+negeri sembilan,2008,2.42
+negeri sembilan,2009,2.38
+negeri sembilan,2010,2.27
+negeri sembilan,2011,2.3
+negeri sembilan,2012,2.29
+negeri sembilan,2013,2.2
+negeri sembilan,2014,2.31
+negeri sembilan,2015,2.25
+negeri sembilan,2016,2.17
+negeri sembilan,2017,2.13
+negeri sembilan,2018,2.12
+negeri sembilan,2019,2.0
+negeri sembilan,2020,1.96
+negeri sembilan,2021,1.8
+negeri sembilan,2022,1.72
+negeri sembilan,2023,1.76
+pahang,2001,3.14
+pahang,2002,3.0
+pahang,2003,2.88
+pahang,2004,2.8
+pahang,2005,2.72
+pahang,2006,2.56
+pahang,2007,2.52
+pahang,2008,2.53
+pahang,2009,2.51
+pahang,2010,2.47
+pahang,2011,2.5
+pahang,2012,2.48
+pahang,2013,2.38
+pahang,2014,2.49
+pahang,2015,2.39
+pahang,2016,2.29
+pahang,2017,2.24
+pahang,2018,2.15
+pahang,2019,2.01
+pahang,2020,1.94
+pahang,2021,2.18
+pahang,2022,2.1
+pahang,2023,2.14
+perak,2001,3.13
+perak,2002,3.0
+perak,2003,2.79
+perak,2004,2.7
+perak,2005,2.56
+perak,2006,2.49
+perak,2007,2.44
+perak,2008,2.45
+perak,2009,2.44
+perak,2010,2.34
+perak,2011,2.39
+perak,2012,2.35
+perak,2013,2.16
+perak,2014,2.19
+perak,2015,2.13
+perak,2016,2.04
+perak,2017,1.95
+perak,2018,1.85
+perak,2019,1.76
+perak,2020,1.66
+perak,2021,1.81
+perak,2022,1.72
+perak,2023,1.76
+perlis,2001,3.2
+perlis,2002,3.08
+perlis,2003,2.92
+perlis,2004,2.81
+perlis,2005,2.74
+perlis,2006,2.67
+perlis,2007,2.64
+perlis,2008,2.74
+perlis,2009,2.73
+perlis,2010,2.6
+perlis,2011,2.56
+perlis,2012,2.48
+perlis,2013,2.35
+perlis,2014,2.54
+perlis,2015,2.35
+perlis,2016,2.28
+perlis,2017,2.26
+perlis,2018,2.17
+perlis,2019,1.98
+perlis,2020,1.96
+perlis,2021,1.92
+perlis,2022,1.68
+perlis,2023,1.68
+pulau pinang,2001,2.06
+pulau pinang,2002,2.04
+pulau pinang,2003,1.92
+pulau pinang,2004,1.86
+pulau pinang,2005,1.8
+pulau pinang,2006,1.74
+pulau pinang,2007,1.75
+pulau pinang,2008,1.76
+pulau pinang,2009,1.71
+pulau pinang,2010,1.56
+pulau pinang,2011,1.62
+pulau pinang,2012,1.7
+pulau pinang,2013,1.48
+pulau pinang,2014,1.56
+pulau pinang,2015,1.49
+pulau pinang,2016,1.44
+pulau pinang,2017,1.39
+pulau pinang,2018,1.32
+pulau pinang,2019,1.28
+pulau pinang,2020,1.25
+pulau pinang,2021,1.23
+pulau pinang,2022,1.17
+pulau pinang,2023,1.27
+sabah,2001,2.33
+sabah,2002,2.14
+sabah,2003,2.0
+sabah,2004,2.02
+sabah,2005,1.99
+sabah,2006,1.87
+sabah,2007,1.82
+sabah,2008,1.87
+sabah,2009,1.87
+sabah,2010,1.84
+sabah,2011,1.81
+sabah,2012,1.84
+sabah,2013,1.68
+sabah,2014,1.66
+sabah,2015,1.55
+sabah,2016,1.44
+sabah,2017,1.43
+sabah,2018,1.43
+sabah,2019,1.41
+sabah,2020,1.33
+sabah,2021,1.39
+sabah,2022,1.44
+sabah,2023,1.46
+sarawak,2001,2.76
+sarawak,2002,2.67
+sarawak,2003,2.59
+sarawak,2004,2.53
+sarawak,2005,2.48
+sarawak,2006,2.43
+sarawak,2007,2.37
+sarawak,2008,2.37
+sarawak,2009,2.35
+sarawak,2010,2.18
+sarawak,2011,2.23
+sarawak,2012,2.16
+sarawak,2013,1.95
+sarawak,2014,1.96
+sarawak,2015,1.86
+sarawak,2016,1.74
+sarawak,2017,1.69
+sarawak,2018,1.62
+sarawak,2019,1.59
+sarawak,2020,1.53
+sarawak,2021,1.59
+sarawak,2022,1.56
+sarawak,2023,1.69
+selangor,2001,2.24
+selangor,2002,2.25
+selangor,2003,2.22
+selangor,2004,2.24
+selangor,2005,2.16
+selangor,2006,2.15
+selangor,2007,2.12
+selangor,2008,2.1
+selangor,2009,2.06
+selangor,2010,1.91
+selangor,2011,1.96
+selangor,2012,2.0
+selangor,2013,1.82
+selangor,2014,1.86
+selangor,2015,1.81
+selangor,2016,1.73
+selangor,2017,1.7
+selangor,2018,1.67
+selangor,2019,1.57
+selangor,2020,1.57
+selangor,2021,1.54
+selangor,2022,1.46
+selangor,2023,1.59
+terengganu,2001,4.16
+terengganu,2002,3.93
+terengganu,2003,3.68
+terengganu,2004,3.64
+terengganu,2005,3.46
+terengganu,2006,3.38
+terengganu,2007,3.38
+terengganu,2008,3.44
+terengganu,2009,3.46
+terengganu,2010,3.48
+terengganu,2011,3.46
+terengganu,2012,3.49
+terengganu,2013,3.32
+terengganu,2014,3.38
+terengganu,2015,3.36
+terengganu,2016,3.24
+terengganu,2017,3.16
+terengganu,2018,3.11
+terengganu,2019,2.9
+terengganu,2020,2.86
+terengganu,2021,3.04
+terengganu,2022,2.88
+terengganu,2023,2.91
+w.p. kuala lumpur,2001,1.99
+w.p. kuala lumpur,2002,1.87
+w.p. kuala lumpur,2003,1.8
+w.p. kuala lumpur,2004,1.77
+w.p. kuala lumpur,2005,1.65
+w.p. kuala lumpur,2006,1.67
+w.p. kuala lumpur,2007,1.7
+w.p. kuala lumpur,2008,1.68
+w.p. kuala lumpur,2009,1.68
+w.p. kuala lumpur,2010,1.55
+w.p. kuala lumpur,2011,1.58
+w.p. kuala lumpur,2012,1.65
+w.p. kuala lumpur,2013,1.52
+w.p. kuala lumpur,2014,1.6
+w.p. kuala lumpur,2015,1.5
+w.p. kuala lumpur,2016,1.51
+w.p. kuala lumpur,2017,1.46
+w.p. kuala lumpur,2018,1.47
+w.p. kuala lumpur,2019,1.68
+w.p. kuala lumpur,2020,1.49
+w.p. kuala lumpur,2021,1.21
+w.p. kuala lumpur,2022,1.19
+w.p. kuala lumpur,2023,1.31
+w.p. labuan,2001,2.3
+w.p. labuan,2002,2.26
+w.p. labuan,2003,2.4
+w.p. labuan,2004,2.26
+w.p. labuan,2005,2.18
+w.p. labuan,2006,2.24
+w.p. labuan,2007,2.13
+w.p. labuan,2008,2.21
+w.p. labuan,2009,2.09
+w.p. labuan,2010,1.98
+w.p. labuan,2011,2.05
+w.p. labuan,2012,2.04
+w.p. labuan,2013,2.0
+w.p. labuan,2014,2.05
+w.p. labuan,2015,2.13
+w.p. labuan,2016,1.89
+w.p. labuan,2017,1.82
+w.p. labuan,2018,1.8
+w.p. labuan,2019,1.8
+w.p. labuan,2020,1.88
+w.p. labuan,2021,1.79
+w.p. labuan,2022,1.6
+w.p. labuan,2023,1.61
+w.p. putrajaya,2010,2.4
+w.p. putrajaya,2011,2.65
+w.p. putrajaya,2012,2.87
+w.p. putrajaya,2013,2.64
+w.p. putrajaya,2014,2.85
+w.p. putrajaya,2015,2.72
+w.p. putrajaya,2016,2.56
+w.p. putrajaya,2017,2.56
+w.p. putrajaya,2018,2.63
+w.p. putrajaya,2019,3.26
+w.p. putrajaya,2020,2.78
+w.p. putrajaya,2021,1.86
+w.p. putrajaya,2022,1.76
+w.p. putrajaya,2023,1.79

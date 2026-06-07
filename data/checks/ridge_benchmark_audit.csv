@@ -1,0 +1,8 @@
+Check,Value,Status
+Ridge candidate count,50,Pass
+Ridge validation result row count,150,Pass
+Validation fold count,3,Pass
+Held-out test year used for Ridge selection,False,Pass
+Forecast-candidate year used for Ridge selection,False,Pass
+Ridge benchmark trained as main assigned model,False,Pass
+Ridge benchmark purpose,Simple regularised linear benchmark for SVR comparison,Pass

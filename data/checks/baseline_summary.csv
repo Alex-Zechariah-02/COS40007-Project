@@ -1,0 +1,6 @@
+Summary Item,Value
+Training target mean,97.19616380208333
+Test row count,96
+Validation fold count,3
+Persistence baseline definition,Predict next-year completion rate using current-year completion_rate
+Minimum comparison standard,Later SVR results must be compared against these baselines

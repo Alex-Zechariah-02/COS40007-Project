@@ -1,0 +1,11 @@
+Check,Value,Status
+Table output directory exists,True,Pass
+Check output directory exists,True,Pass
+Figure output directory exists,True,Pass
+Model output directory exists,True,Pass
+Artifact output directory exists,True,Pass
+Core required missing file count,0,Pass
+Registered figure count,82,Pass
+Saved PNG figure count,82,Pass
+Saved final model file exists,True,Pass
+Best-parameter JSON exists,True,Pass

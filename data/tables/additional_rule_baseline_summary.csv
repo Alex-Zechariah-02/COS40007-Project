@@ -1,0 +1,5 @@
+Baseline Name,Baseline Type,Definition,Fallback Prediction Count,MAE,RMSE,R2,Median_AE
+historical_state_stage_sex_mean_baseline,Historical group mean,"Predict using the training-period mean target for the same state, stage, and sex.",0,2.6012575520833328,3.2999924892305237,-0.8968801101490174,1.9412499999999966
+stage_sex_mean_baseline,Historical group mean,Predict using the training-period mean target for the same stage and sex.,0,2.807619628906252,3.393252243617668,-1.0056089995823263,2.4742398437499986
+rolling2_completion_mean_baseline,Recent-history rule,Predict using the rolling two-year mean of current and lagged completion rate.,0,2.9723958333333322,4.269779341488268,-2.175593052733878,1.9499999999999957
+previous_year_trend_baseline,Recent-trend rule,Predict using current completion plus the latest one-year completion-rate change.,0,5.638541666666669,9.529772426453844,-14.819000481393761,3.6499999999999986

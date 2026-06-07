@@ -1,0 +1,11 @@
+Audit Item,Value
+Row count,672
+State count,16
+Stage count,3
+Sex count,2
+Year coverage,"2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Duplicate key count,0
+Supervised-row count,576
+Forecast-candidate-row count,96
+Missing feature counts,"{""lag1_completion_rate"": 96, ""lag1_completion_gap_from_malaysia"": 96, ""completion_rate_change_1y"": 96, ""gap_change_1y"": 96, ""rolling2_completion_mean"": 0, ""rolling2_gap_mean"": 0}"
+Leakage-safety note,"Lag, change, and rolling features use only current-year and earlier rows within state-stage-sex groups."

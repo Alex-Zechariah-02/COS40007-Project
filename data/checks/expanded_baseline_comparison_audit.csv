@@ -1,0 +1,8 @@
+Check,Value,Status
+Core baselines included,2,Pass
+Additional rule baselines included,4,Pass
+Ridge benchmark included,1,Pass
+Final SVR included,1,Pass
+Classification metrics used,False,Pass
+Final SVR predictions changed in this cell,False,Pass
+Held-out test year used for model selection in this cell,False,Pass

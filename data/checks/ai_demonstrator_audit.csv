@@ -1,0 +1,8 @@
+Check,Value,Status
+Source-table readiness,True,Pass
+Representative-row rule,"Absolute Error closest to held-out median Absolute Error, with state-stage-sex-input-year tie-breakers",Pass
+Held-out prediction row count,96,Pass
+Final demonstrator row count,1,Pass
+Model refit performed in this cell,False,Pass
+Metric values changed in this cell,False,Pass
+Forecast-candidate handling,Preview only; no metrics calculated for missing next-year actual target,Pass

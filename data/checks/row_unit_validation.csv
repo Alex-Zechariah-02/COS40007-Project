@@ -1,0 +1,13 @@
+Check,Value,Status
+Selected row unit,state-stage-sex-year using male and female rows,Pass
+Main sex values,"female, male",Pass
+Excluded aggregate sex value,both,Pass
+Main panel row count,672,Pass
+Supervised row count,576,Pass
+Both-only row count,336,Recorded separately
+Forecast-candidate row count,96,Pass
+Duplicate key count,0,Pass
+Supervised year coverage,"2016, 2017, 2018, 2019, 2020, 2021",Pass
+State count,16,Pass
+Stage count,3,Pass
+Sex count,2,Pass

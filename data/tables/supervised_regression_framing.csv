@@ -1,0 +1,11 @@
+Framing Item,Locked Scope
+Learning task,Supervised regression
+Target type,Numeric school completion-rate prediction
+Main target,next_year_completion_rate
+Secondary policy context,next_year_completion_gap_from_malaysia
+Residual target used later for sensitivity,target_delta
+Model method,Support Vector Regression
+Kernel direction,RBF SVR as the main nonlinear regression direction
+Row-unit direction,"State, school stage, sex, and input year"
+Validation direction,Use training-period validation before held-out test evaluation
+Evaluation direction,"Use regression metrics only: MAE, RMSE, R2, and Median_AE"

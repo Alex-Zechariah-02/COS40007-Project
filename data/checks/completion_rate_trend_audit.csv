@@ -1,0 +1,10 @@
+Check,Value,Status
+Source-table readiness,True,Pass
+Required-column availability,True,Pass
+Male/female row-unit use,"['female', 'male']",Pass
+Aggregate both-row exclusion from main trend source,True,Pass
+Target-side column exclusion from plotted values,True,Pass
+Year coverage,"2016, 2017, 2018, 2019, 2020, 2021, 2022",Recorded
+Stage coverage,"primary, secondary_lower, secondary_upper",Recorded
+Saved figure exists,True,Pass
+"Modelling, refitting, tuning, prediction, or metric calculation performed",False,Pass

@@ -1,0 +1,11 @@
+Context Item,Notebook Evidence
+Theme,Smart Government
+Public-sector data source type,Malaysia public-sector open datasets
+Analytical objective,Predict state-level school completion outcomes for planning support
+Supervised learning task,Regression
+Main prediction target,next_year_completion_rate
+Secondary policy context,next_year_completion_gap_from_malaysia
+Row-unit direction,"State, school stage, sex, and input year"
+Model family,Support Vector Regression
+Evaluation direction,Lower MAE/RMSE/Median_AE and higher R2 indicate better predictive fit
+Policy relevance,Identify completion-rate pressure patterns for education planning review

@@ -1,0 +1,2 @@
+Selected SVR Model,Selected Feature Set,Selected Candidate Name,Calibration Method,Calibration Intercept,SVR MAE,SVR RMSE,SVR R2,SVR Median_AE,Beats Training Mean on MAE and RMSE,Beats Persistence on MAE and RMSE,Positive R2,Result Status,Result Note
+selected_svr,full_without_economic,rbf_standard_C1.0_eps0.1_gamma0.01,mean_residual,0.6659344803565374,2.023946549144871,2.73260976914434,-0.3006762586745686,1.5768237097878242,True,True,False,Acceptable result,"SVR beats both baselines on MAE and RMSE, but R2 is not positive."

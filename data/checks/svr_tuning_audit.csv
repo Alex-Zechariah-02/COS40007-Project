@@ -1,0 +1,17 @@
+Audit Item,Value
+Raw validation prediction rows,105120
+Model-selection prediction rows,210240
+Uncalibrated validation result rows,1095
+Calibrated validation result rows,1095
+Combined validation result rows,2190
+Combined validation summary rows,730
+Feature-set count,5
+Candidate count,73
+Fold count,3
+Fitting error count,0
+Best candidate,rbf_standard_C1.0_eps0.1_gamma0.01
+Best feature set,full_without_economic
+Best calibration method,mean_residual
+Best calibration intercept,0.6659344803565374
+Training-period validation rows only,True
+Held-out test metrics calculated in this cell,False

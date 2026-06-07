@@ -1,0 +1,2 @@
+Selected Ridge Candidate,Selected Feature Set,Scaler,Alpha,Numeric Feature Count,Categorical Feature Count,Total Feature Count,Selected By
+ridge_autoregressive_plus_categorical_standard_alpha100.0,autoregressive_plus_categorical,standard,100.0,8,3,11,"Mean validation MAE, then RMSE, then R2"

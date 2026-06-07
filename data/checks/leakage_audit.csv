@@ -1,0 +1,14 @@
+Checked Item,Status,Audit Note
+Current-year completion rate,Allowed,Uses input-year observed completion only
+Current-year completion gap,Allowed,Uses input-year Malaysia benchmark only
+Lagged completion features,Allowed,Uses previous rows within state-stage-sex groups
+Rolling current/prior-year features,Allowed,Uses current and previous input years only
+State/stage/sex categories,Allowed,Identifier categories known at input year
+As-of economic features,Allowed,Uses latest source year less than or equal to input year
+next_year_completion_rate,Forbidden,Excluded from final features
+next_year_completion_gap_from_malaysia,Forbidden,Excluded from final features
+target_delta,Forbidden,Excluded from final features
+target-year values as predictors,Forbidden,Target year excluded from final features
+Future values,Forbidden,Economic source-year check prevents future-year use
+Aggregate both rows,Forbidden,Main panel contains male/female rows only
+Raw district rows duplicated against state targets,Forbidden,Education features use prepared state-level feature table

@@ -1,0 +1,10 @@
+Summary Item,Value
+Notebook status,Complete output check passed
+Final SVR MAE,2.023946549144871
+Final SVR RMSE,2.73260976914434
+Final SVR R2,-0.3006762586745686
+Final SVR Median_AE,1.5768237097878242
+Selected feature set,full_without_economic
+Selected candidate name,rbf_standard_C1.0_eps0.1_gamma0.01
+Expected/manifest output file rows,234
+Missing output file count,0

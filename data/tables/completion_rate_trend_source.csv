@@ -1,0 +1,673 @@
+state,stage,sex,year,completion_rate,malaysia_completion_rate,completion_gap_from_malaysia
+johor,primary,female,2016,99.48,99.14,0.3400000000000034
+johor,primary,female,2017,99.71,98.83,0.8799999999999955
+johor,primary,female,2018,98.2,98.52,-0.3199999999999932
+johor,primary,female,2019,98.2,98.7,-0.5
+johor,primary,female,2020,98.9,99.3,-0.3999999999999915
+johor,primary,female,2021,99.7,100.5,-0.7999999999999972
+johor,primary,female,2022,99.3,100.1,-0.7999999999999972
+kedah,primary,female,2016,100.85,99.14,1.7099999999999937
+kedah,primary,female,2017,100.84,98.83,2.010000000000005
+kedah,primary,female,2018,101.4,98.52,2.8800000000000097
+kedah,primary,female,2019,100.8,98.7,2.0999999999999943
+kedah,primary,female,2020,100.9,99.3,1.6000000000000085
+kedah,primary,female,2021,99.3,100.5,-1.2000000000000028
+kedah,primary,female,2022,102.4,100.1,2.3000000000000114
+kelantan,primary,female,2016,101.49,99.14,2.3499999999999943
+kelantan,primary,female,2017,101.41,98.83,2.5799999999999983
+kelantan,primary,female,2018,100.59,98.52,2.0700000000000074
+kelantan,primary,female,2019,101.1,98.7,2.3999999999999915
+kelantan,primary,female,2020,101.5,99.3,2.200000000000003
+kelantan,primary,female,2021,101.8,100.5,1.2999999999999972
+kelantan,primary,female,2022,99.2,100.1,-0.8999999999999915
+melaka,primary,female,2016,100.17,99.14,1.0300000000000011
+melaka,primary,female,2017,99.92,98.83,1.0900000000000034
+melaka,primary,female,2018,99.17,98.52,0.6500000000000057
+melaka,primary,female,2019,100.3,98.7,1.5999999999999943
+melaka,primary,female,2020,99.2,99.3,-0.09999999999999432
+melaka,primary,female,2021,96.8,100.5,-3.700000000000003
+melaka,primary,female,2022,100.3,100.1,0.20000000000000284
+negeri sembilan,primary,female,2016,99.96,99.14,0.8199999999999932
+negeri sembilan,primary,female,2017,99.49,98.83,0.6599999999999966
+negeri sembilan,primary,female,2018,100.67,98.52,2.1500000000000057
+negeri sembilan,primary,female,2019,99.2,98.7,0.5
+negeri sembilan,primary,female,2020,100.5,99.3,1.2000000000000028
+negeri sembilan,primary,female,2021,102.9,100.5,2.4000000000000057
+negeri sembilan,primary,female,2022,102.7,100.1,2.6000000000000085
+pahang,primary,female,2016,98.72,99.14,-0.4200000000000017
+pahang,primary,female,2017,98.85,98.83,0.01999999999999602
+pahang,primary,female,2018,97.65,98.52,-0.8699999999999903
+pahang,primary,female,2019,97.5,98.7,-1.2000000000000028
+pahang,primary,female,2020,97.9,99.3,-1.3999999999999915
+pahang,primary,female,2021,97.9,100.5,-2.5999999999999943
+pahang,primary,female,2022,98.1,100.1,-2.0
+perak,primary,female,2016,99.28,99.14,0.14000000000000057
+perak,primary,female,2017,99.37,98.83,0.5400000000000063
+perak,primary,female,2018,98.51,98.52,-0.009999999999990905
+perak,primary,female,2019,99.3,98.7,0.5999999999999943
+perak,primary,female,2020,99.8,99.3,0.5
+perak,primary,female,2021,99.7,100.5,-0.7999999999999972
+perak,primary,female,2022,100.9,100.1,0.8000000000000114
+perlis,primary,female,2016,100.66,99.14,1.519999999999996
+perlis,primary,female,2017,100.44,98.83,1.6099999999999994
+perlis,primary,female,2018,100.11,98.52,1.5900000000000034
+perlis,primary,female,2019,101.2,98.7,2.5
+perlis,primary,female,2020,100.0,99.3,0.7000000000000028
+perlis,primary,female,2021,99.8,100.5,-0.7000000000000028
+perlis,primary,female,2022,107.2,100.1,7.1000000000000085
+pulau pinang,primary,female,2016,97.2,99.14,-1.9399999999999977
+pulau pinang,primary,female,2017,98.16,98.83,-0.6700000000000017
+pulau pinang,primary,female,2018,97.2,98.52,-1.3199999999999932
+pulau pinang,primary,female,2019,97.1,98.7,-1.6000000000000085
+pulau pinang,primary,female,2020,97.8,99.3,-1.5
+pulau pinang,primary,female,2021,96.8,100.5,-3.700000000000003
+pulau pinang,primary,female,2022,98.9,100.1,-1.1999999999999886
+sabah,primary,female,2016,100.24,99.14,1.0999999999999943
+sabah,primary,female,2017,99.59,98.83,0.7600000000000051
+sabah,primary,female,2018,100.16,98.52,1.6400000000000006
+sabah,primary,female,2019,101.2,98.7,2.5
+sabah,primary,female,2020,101.0,99.3,1.7000000000000028
+sabah,primary,female,2021,98.1,100.5,-2.4000000000000057
+sabah,primary,female,2022,100.8,100.1,0.7000000000000028
+sarawak,primary,female,2016,100.02,99.14,0.8799999999999955
+sarawak,primary,female,2017,99.98,98.83,1.1500000000000057
+sarawak,primary,female,2018,99.57,98.52,1.0499999999999972
+sarawak,primary,female,2019,100.0,98.7,1.2999999999999972
+sarawak,primary,female,2020,100.1,99.3,0.7999999999999972
+sarawak,primary,female,2021,100.7,100.5,0.20000000000000284
+sarawak,primary,female,2022,101.1,100.1,1.0
+selangor,primary,female,2016,97.59,99.14,-1.5499999999999972
+selangor,primary,female,2017,96.6,98.83,-2.230000000000004
+selangor,primary,female,2018,96.51,98.52,-2.009999999999991
+selangor,primary,female,2019,96.9,98.7,-1.7999999999999972
+selangor,primary,female,2020,98.1,99.3,-1.2000000000000028
+selangor,primary,female,2021,105.4,100.5,4.900000000000006
+selangor,primary,female,2022,99.1,100.1,-1.0
+terengganu,primary,female,2016,101.43,99.14,2.2900000000000063
+terengganu,primary,female,2017,101.45,98.83,2.6200000000000045
+terengganu,primary,female,2018,101.81,98.52,3.2900000000000063
+terengganu,primary,female,2019,101.5,98.7,2.799999999999997
+terengganu,primary,female,2020,101.9,99.3,2.6000000000000085
+terengganu,primary,female,2021,104.4,100.5,3.9000000000000057
+terengganu,primary,female,2022,104.6,100.1,4.5
+w.p. kuala lumpur,primary,female,2016,93.13,99.14,-6.010000000000005
+w.p. kuala lumpur,primary,female,2017,91.38,98.83,-7.450000000000003
+w.p. kuala lumpur,primary,female,2018,92.1,98.52,-6.420000000000002
+w.p. kuala lumpur,primary,female,2019,92.5,98.7,-6.200000000000003
+w.p. kuala lumpur,primary,female,2020,93.1,99.3,-6.200000000000003
+w.p. kuala lumpur,primary,female,2021,96.8,100.5,-3.700000000000003
+w.p. kuala lumpur,primary,female,2022,94.6,100.1,-5.5
+w.p. labuan,primary,female,2016,97.96,99.14,-1.1800000000000068
+w.p. labuan,primary,female,2017,90.31,98.83,-8.519999999999996
+w.p. labuan,primary,female,2018,94.99,98.52,-3.530000000000001
+w.p. labuan,primary,female,2019,90.0,98.7,-8.700000000000003
+w.p. labuan,primary,female,2020,96.8,99.3,-2.5
+w.p. labuan,primary,female,2021,93.2,100.5,-7.299999999999997
+w.p. labuan,primary,female,2022,93.9,100.1,-6.199999999999989
+w.p. putrajaya,primary,female,2016,104.8,99.14,5.659999999999997
+w.p. putrajaya,primary,female,2017,103.56,98.83,4.730000000000004
+w.p. putrajaya,primary,female,2018,102.78,98.52,4.260000000000005
+w.p. putrajaya,primary,female,2019,99.5,98.7,0.7999999999999972
+w.p. putrajaya,primary,female,2020,104.3,99.3,5.0
+w.p. putrajaya,primary,female,2021,80.0,100.5,-20.5
+w.p. putrajaya,primary,female,2022,104.9,100.1,4.800000000000011
+johor,primary,male,2016,98.67,97.64,1.0300000000000011
+johor,primary,male,2017,98.59,97.34,1.25
+johor,primary,male,2018,96.97,96.86,0.10999999999999943
+johor,primary,male,2019,97.2,97.2,0.0
+johor,primary,male,2020,97.6,97.6,0.0
+johor,primary,male,2021,91.8,97.5,-5.700000000000003
+johor,primary,male,2022,98.7,98.7,0.0
+kedah,primary,male,2016,99.11,97.64,1.4699999999999989
+kedah,primary,male,2017,99.43,97.34,2.0900000000000034
+kedah,primary,male,2018,99.33,96.86,2.469999999999999
+kedah,primary,male,2019,99.6,97.2,2.3999999999999915
+kedah,primary,male,2020,99.3,97.6,1.7000000000000028
+kedah,primary,male,2021,95.3,97.5,-2.200000000000003
+kedah,primary,male,2022,99.8,98.7,1.0999999999999943
+kelantan,primary,male,2016,99.2,97.64,1.5600000000000023
+kelantan,primary,male,2017,99.0,97.34,1.6599999999999966
+kelantan,primary,male,2018,98.12,96.86,1.2600000000000051
+kelantan,primary,male,2019,98.7,97.2,1.5
+kelantan,primary,male,2020,97.6,97.6,0.0
+kelantan,primary,male,2021,98.7,97.5,1.2000000000000028
+kelantan,primary,male,2022,97.3,98.7,-1.4000000000000057
+melaka,primary,male,2016,97.73,97.64,0.09000000000000341
+melaka,primary,male,2017,97.87,97.34,0.5300000000000011
+melaka,primary,male,2018,98.67,96.86,1.8100000000000023
+melaka,primary,male,2019,97.2,97.2,0.0
+melaka,primary,male,2020,97.7,97.6,0.10000000000000853
+melaka,primary,male,2021,93.5,97.5,-4.0
+melaka,primary,male,2022,98.7,98.7,0.0
+negeri sembilan,primary,male,2016,96.74,97.64,-0.9000000000000057
+negeri sembilan,primary,male,2017,98.44,97.34,1.0999999999999943
+negeri sembilan,primary,male,2018,97.9,96.86,1.0400000000000063
+negeri sembilan,primary,male,2019,98.7,97.2,1.5
+negeri sembilan,primary,male,2020,99.7,97.6,2.1000000000000085
+negeri sembilan,primary,male,2021,102.8,97.5,5.299999999999997
+negeri sembilan,primary,male,2022,100.6,98.7,1.8999999999999915
+pahang,primary,male,2016,96.81,97.64,-0.8299999999999983
+pahang,primary,male,2017,96.34,97.34,-1.0
+pahang,primary,male,2018,96.63,96.86,-0.23000000000000398
+pahang,primary,male,2019,95.2,97.2,-2.0
+pahang,primary,male,2020,96.2,97.6,-1.3999999999999915
+pahang,primary,male,2021,96.8,97.5,-0.7000000000000028
+pahang,primary,male,2022,95.1,98.7,-3.6000000000000085
+perak,primary,male,2016,98.39,97.64,0.75
+perak,primary,male,2017,98.44,97.34,1.0999999999999943
+perak,primary,male,2018,97.69,96.86,0.8299999999999983
+perak,primary,male,2019,98.0,97.2,0.7999999999999972
+perak,primary,male,2020,98.4,97.6,0.8000000000000114
+perak,primary,male,2021,98.0,97.5,0.5
+perak,primary,male,2022,99.1,98.7,0.3999999999999915
+perlis,primary,male,2016,102.63,97.64,4.989999999999995
+perlis,primary,male,2017,98.05,97.34,0.7099999999999937
+perlis,primary,male,2018,99.13,96.86,2.269999999999996
+perlis,primary,male,2019,97.0,97.2,-0.20000000000000284
+perlis,primary,male,2020,97.7,97.6,0.10000000000000853
+perlis,primary,male,2021,94.4,97.5,-3.0999999999999943
+perlis,primary,male,2022,103.9,98.7,5.200000000000003
+pulau pinang,primary,male,2016,95.93,97.64,-1.7099999999999937
+pulau pinang,primary,male,2017,95.35,97.34,-1.990000000000009
+pulau pinang,primary,male,2018,95.9,96.86,-0.9599999999999937
+pulau pinang,primary,male,2019,95.0,97.2,-2.200000000000003
+pulau pinang,primary,male,2020,96.1,97.6,-1.5
+pulau pinang,primary,male,2021,91.6,97.5,-5.900000000000006
+pulau pinang,primary,male,2022,96.6,98.7,-2.1000000000000085
+sabah,primary,male,2016,99.29,97.64,1.6500000000000057
+sabah,primary,male,2017,98.51,97.34,1.1700000000000017
+sabah,primary,male,2018,98.14,96.86,1.2800000000000011
+sabah,primary,male,2019,99.4,97.2,2.200000000000003
+sabah,primary,male,2020,99.8,97.6,2.200000000000003
+sabah,primary,male,2021,97.3,97.5,-0.20000000000000284
+sabah,primary,male,2022,100.3,98.7,1.5999999999999943
+sarawak,primary,male,2016,98.82,97.64,1.1799999999999926
+sarawak,primary,male,2017,99.13,97.34,1.789999999999992
+sarawak,primary,male,2018,98.91,96.86,2.049999999999997
+sarawak,primary,male,2019,99.7,97.2,2.5
+sarawak,primary,male,2020,99.6,97.6,2.0
+sarawak,primary,male,2021,99.6,97.5,2.0999999999999943
+sarawak,primary,male,2022,100.3,98.7,1.5999999999999943
+selangor,primary,male,2016,96.17,97.64,-1.4699999999999989
+selangor,primary,male,2017,95.48,97.34,-1.8599999999999994
+selangor,primary,male,2018,94.68,96.86,-2.1799999999999926
+selangor,primary,male,2019,95.4,97.2,-1.7999999999999972
+selangor,primary,male,2020,96.4,97.6,-1.1999999999999886
+selangor,primary,male,2021,103.6,97.5,6.099999999999994
+selangor,primary,male,2022,98.2,98.7,-0.5
+terengganu,primary,male,2016,99.51,97.64,1.8700000000000045
+terengganu,primary,male,2017,98.7,97.34,1.3599999999999994
+terengganu,primary,male,2018,97.99,96.86,1.1299999999999955
+terengganu,primary,male,2019,100.0,97.2,2.799999999999997
+terengganu,primary,male,2020,99.0,97.6,1.4000000000000057
+terengganu,primary,male,2021,102.9,97.5,5.400000000000006
+terengganu,primary,male,2022,103.1,98.7,4.3999999999999915
+w.p. kuala lumpur,primary,male,2016,90.8,97.64,-6.840000000000003
+w.p. kuala lumpur,primary,male,2017,89.4,97.34,-7.939999999999998
+w.p. kuala lumpur,primary,male,2018,90.31,96.86,-6.549999999999997
+w.p. kuala lumpur,primary,male,2019,90.7,97.2,-6.5
+w.p. kuala lumpur,primary,male,2020,91.6,97.6,-6.0
+w.p. kuala lumpur,primary,male,2021,92.4,97.5,-5.099999999999994
+w.p. kuala lumpur,primary,male,2022,92.9,98.7,-5.799999999999997
+w.p. labuan,primary,male,2016,92.4,97.64,-5.239999999999995
+w.p. labuan,primary,male,2017,92.24,97.34,-5.1000000000000085
+w.p. labuan,primary,male,2018,94.09,96.86,-2.769999999999996
+w.p. labuan,primary,male,2019,89.7,97.2,-7.5
+w.p. labuan,primary,male,2020,91.6,97.6,-6.0
+w.p. labuan,primary,male,2021,89.5,97.5,-8.0
+w.p. labuan,primary,male,2022,90.9,98.7,-7.799999999999997
+w.p. putrajaya,primary,male,2016,102.23,97.64,4.590000000000003
+w.p. putrajaya,primary,male,2017,103.56,97.34,6.219999999999999
+w.p. putrajaya,primary,male,2018,99.7,96.86,2.8400000000000034
+w.p. putrajaya,primary,male,2019,99.6,97.2,2.3999999999999915
+w.p. putrajaya,primary,male,2020,98.7,97.6,1.1000000000000085
+w.p. putrajaya,primary,male,2021,73.9,97.5,-23.599999999999994
+w.p. putrajaya,primary,male,2022,101.1,98.7,2.3999999999999915
+johor,secondary_lower,female,2016,96.7463,97.0444,-0.29809999999999093
+johor,secondary_lower,female,2017,100.5709,98.6532,1.9176999999999964
+johor,secondary_lower,female,2018,99.4141,97.6811,1.733000000000004
+johor,secondary_lower,female,2019,96.8,98.0,-1.2000000000000028
+johor,secondary_lower,female,2020,98.3,99.3,-1.0
+johor,secondary_lower,female,2021,98.4,100.4,-2.0
+johor,secondary_lower,female,2022,97.6,98.9,-1.3000000000000114
+kedah,secondary_lower,female,2016,97.6341,97.0444,0.5897000000000077
+kedah,secondary_lower,female,2017,97.6467,98.6532,-1.0065000000000026
+kedah,secondary_lower,female,2018,97.7081,97.6811,0.027000000000001023
+kedah,secondary_lower,female,2019,98.1,98.0,0.09999999999999432
+kedah,secondary_lower,female,2020,98.6,99.3,-0.7000000000000028
+kedah,secondary_lower,female,2021,100.9,100.4,0.5
+kedah,secondary_lower,female,2022,99.2,98.9,0.29999999999999716
+kelantan,secondary_lower,female,2016,96.6945,97.0444,-0.349899999999991
+kelantan,secondary_lower,female,2017,96.9235,98.6532,-1.729699999999994
+kelantan,secondary_lower,female,2018,86.3164,97.6811,-11.3647
+kelantan,secondary_lower,female,2019,98.8,98.0,0.7999999999999972
+kelantan,secondary_lower,female,2020,112.9,99.3,13.600000000000009
+kelantan,secondary_lower,female,2021,112.9,100.4,12.5
+kelantan,secondary_lower,female,2022,98.7,98.9,-0.20000000000000284
+melaka,secondary_lower,female,2016,99.9568,97.0444,2.912400000000005
+melaka,secondary_lower,female,2017,99.2662,98.6532,0.6129999999999995
+melaka,secondary_lower,female,2018,100.0305,97.6811,2.349400000000003
+melaka,secondary_lower,female,2019,98.5,98.0,0.5
+melaka,secondary_lower,female,2020,98.6,99.3,-0.7000000000000028
+melaka,secondary_lower,female,2021,99.2,100.4,-1.2000000000000028
+melaka,secondary_lower,female,2022,99.3,98.9,0.3999999999999915
+negeri sembilan,secondary_lower,female,2016,98.235,97.0444,1.1906000000000034
+negeri sembilan,secondary_lower,female,2017,100.411,98.6532,1.7578000000000031
+negeri sembilan,secondary_lower,female,2018,98.2037,97.6811,0.5225999999999971
+negeri sembilan,secondary_lower,female,2019,97.2,98.0,-0.7999999999999972
+negeri sembilan,secondary_lower,female,2020,99.8,99.3,0.5
+negeri sembilan,secondary_lower,female,2021,99.6,100.4,-0.8000000000000114
+negeri sembilan,secondary_lower,female,2022,99.8,98.9,0.8999999999999915
+pahang,secondary_lower,female,2016,96.6483,97.0444,-0.3960999999999899
+pahang,secondary_lower,female,2017,98.1296,98.6532,-0.5236000000000018
+pahang,secondary_lower,female,2018,97.0508,97.6811,-0.6303000000000054
+pahang,secondary_lower,female,2019,97.5,98.0,-0.5
+pahang,secondary_lower,female,2020,97.3,99.3,-2.0
+pahang,secondary_lower,female,2021,100.0,100.4,-0.4000000000000057
+pahang,secondary_lower,female,2022,98.8,98.9,-0.10000000000000853
+perak,secondary_lower,female,2016,97.142,97.0444,0.09759999999999991
+perak,secondary_lower,female,2017,98.1378,98.6532,-0.5153999999999996
+perak,secondary_lower,female,2018,97.178,97.6811,-0.5031000000000034
+perak,secondary_lower,female,2019,97.7,98.0,-0.29999999999999716
+perak,secondary_lower,female,2020,98.8,99.3,-0.5
+perak,secondary_lower,female,2021,100.2,100.4,-0.20000000000000284
+perak,secondary_lower,female,2022,99.4,98.9,0.5
+perlis,secondary_lower,female,2016,95.152,97.0444,-1.892399999999995
+perlis,secondary_lower,female,2017,96.6188,98.6532,-2.034400000000005
+perlis,secondary_lower,female,2018,98.2229,97.6811,0.541799999999995
+perlis,secondary_lower,female,2019,95.9,98.0,-2.0999999999999943
+perlis,secondary_lower,female,2020,95.8,99.3,-3.5
+perlis,secondary_lower,female,2021,98.6,100.4,-1.8000000000000114
+perlis,secondary_lower,female,2022,100.3,98.9,1.3999999999999915
+pulau pinang,secondary_lower,female,2016,96.7884,97.0444,-0.2560000000000002
+pulau pinang,secondary_lower,female,2017,97.4851,98.6532,-1.1680999999999955
+pulau pinang,secondary_lower,female,2018,96.6006,97.6811,-1.0805000000000007
+pulau pinang,secondary_lower,female,2019,98.9,98.0,0.9000000000000057
+pulau pinang,secondary_lower,female,2020,99.1,99.3,-0.20000000000000284
+pulau pinang,secondary_lower,female,2021,97.9,100.4,-2.5
+pulau pinang,secondary_lower,female,2022,99.7,98.9,0.7999999999999972
+sabah,secondary_lower,female,2016,92.4599,97.0444,-4.584499999999991
+sabah,secondary_lower,female,2017,96.8362,98.6532,-1.816999999999993
+sabah,secondary_lower,female,2018,96.9419,97.6811,-0.7391999999999967
+sabah,secondary_lower,female,2019,96.4,98.0,-1.5999999999999943
+sabah,secondary_lower,female,2020,97.5,99.3,-1.7999999999999972
+sabah,secondary_lower,female,2021,98.7,100.4,-1.7000000000000028
+sabah,secondary_lower,female,2022,99.7,98.9,0.7999999999999972
+sarawak,secondary_lower,female,2016,96.4445,97.0444,-0.599899999999991
+sarawak,secondary_lower,female,2017,97.5599,98.6532,-1.0932999999999993
+sarawak,secondary_lower,female,2018,97.2874,97.6811,-0.3936999999999955
+sarawak,secondary_lower,female,2019,97.1,98.0,-0.9000000000000057
+sarawak,secondary_lower,female,2020,97.7,99.3,-1.5999999999999943
+sarawak,secondary_lower,female,2021,98.7,100.4,-1.7000000000000028
+sarawak,secondary_lower,female,2022,99.6,98.9,0.6999999999999886
+selangor,secondary_lower,female,2016,98.6911,97.0444,1.6467000000000098
+selangor,secondary_lower,female,2017,100.2461,98.6532,1.5929000000000002
+selangor,secondary_lower,female,2018,101.8743,97.6811,4.1932000000000045
+selangor,secondary_lower,female,2019,99.1,98.0,1.0999999999999943
+selangor,secondary_lower,female,2020,98.2,99.3,-1.0999999999999943
+selangor,secondary_lower,female,2021,101.5,100.4,1.0999999999999943
+selangor,secondary_lower,female,2022,98.4,98.9,-0.5
+terengganu,secondary_lower,female,2016,97.9727,97.0444,0.9283000000000072
+terengganu,secondary_lower,female,2017,99.5636,98.6532,0.9103999999999957
+terengganu,secondary_lower,female,2018,100.3665,97.6811,2.6854000000000013
+terengganu,secondary_lower,female,2019,101.7,98.0,3.700000000000003
+terengganu,secondary_lower,female,2020,99.9,99.3,0.6000000000000085
+terengganu,secondary_lower,female,2021,99.0,100.4,-1.4000000000000057
+terengganu,secondary_lower,female,2022,99.9,98.9,1.0
+w.p. kuala lumpur,secondary_lower,female,2016,99.2771,97.0444,2.2327000000000083
+w.p. kuala lumpur,secondary_lower,female,2017,97.4007,98.6532,-1.2524999999999977
+w.p. kuala lumpur,secondary_lower,female,2018,95.4319,97.6811,-2.249200000000002
+w.p. kuala lumpur,secondary_lower,female,2019,98.0,98.0,0.0
+w.p. kuala lumpur,secondary_lower,female,2020,98.0,99.3,-1.2999999999999972
+w.p. kuala lumpur,secondary_lower,female,2021,98.7,100.4,-1.7000000000000028
+w.p. kuala lumpur,secondary_lower,female,2022,96.4,98.9,-2.5
+w.p. labuan,secondary_lower,female,2016,80.4911,97.0444,-16.553299999999993
+w.p. labuan,secondary_lower,female,2017,99.5,98.6532,0.8468000000000018
+w.p. labuan,secondary_lower,female,2018,89.0909,97.6811,-8.590199999999996
+w.p. labuan,secondary_lower,female,2019,94.2,98.0,-3.799999999999997
+w.p. labuan,secondary_lower,female,2020,104.7,99.3,5.400000000000006
+w.p. labuan,secondary_lower,female,2021,98.2,100.4,-2.200000000000003
+w.p. labuan,secondary_lower,female,2022,103.2,98.9,4.299999999999997
+w.p. putrajaya,secondary_lower,female,2016,111.7188,97.0444,14.674400000000006
+w.p. putrajaya,secondary_lower,female,2017,109.7004,98.6532,11.047200000000004
+w.p. putrajaya,secondary_lower,female,2018,98.8447,97.6811,1.1636000000000024
+w.p. putrajaya,secondary_lower,female,2019,108.6,98.0,10.599999999999994
+w.p. putrajaya,secondary_lower,female,2020,108.3,99.3,9.0
+w.p. putrajaya,secondary_lower,female,2021,97.2,100.4,-3.200000000000003
+w.p. putrajaya,secondary_lower,female,2022,105.9,98.9,7.0
+johor,secondary_lower,male,2016,92.884,94.1613,-1.2772999999999968
+johor,secondary_lower,male,2017,98.5141,96.813,1.7010999999999967
+johor,secondary_lower,male,2018,99.9562,95.6254,4.330799999999996
+johor,secondary_lower,male,2019,93.5,95.4,-1.9000000000000057
+johor,secondary_lower,male,2020,95.6,96.4,-0.8000000000000114
+johor,secondary_lower,male,2021,97.4,99.2,-1.7999999999999972
+johor,secondary_lower,male,2022,102.5,99.2,3.299999999999997
+kedah,secondary_lower,male,2016,94.3062,94.1613,0.1449000000000069
+kedah,secondary_lower,male,2017,96.9697,96.813,0.15670000000000073
+kedah,secondary_lower,male,2018,95.0751,95.6254,-0.5502999999999929
+kedah,secondary_lower,male,2019,94.1,95.4,-1.3000000000000114
+kedah,secondary_lower,male,2020,95.0,96.4,-1.4000000000000057
+kedah,secondary_lower,male,2021,99.7,99.2,0.5
+kedah,secondary_lower,male,2022,99.6,99.2,0.3999999999999915
+kelantan,secondary_lower,male,2016,95.7847,94.1613,1.6234000000000037
+kelantan,secondary_lower,male,2017,92.3972,96.813,-4.415800000000004
+kelantan,secondary_lower,male,2018,85.6336,95.6254,-9.991799999999998
+kelantan,secondary_lower,male,2019,97.1,95.4,1.6999999999999886
+kelantan,secondary_lower,male,2020,107.0,96.4,10.599999999999994
+kelantan,secondary_lower,male,2021,110.5,99.2,11.299999999999997
+kelantan,secondary_lower,male,2022,99.4,99.2,0.20000000000000284
+melaka,secondary_lower,male,2016,98.1113,94.1613,3.950000000000003
+melaka,secondary_lower,male,2017,97.8447,96.813,1.0317000000000007
+melaka,secondary_lower,male,2018,99.8065,95.6254,4.181100000000001
+melaka,secondary_lower,male,2019,98.9,95.4,3.5
+melaka,secondary_lower,male,2020,96.9,96.4,0.5
+melaka,secondary_lower,male,2021,97.1,99.2,-2.1000000000000085
+melaka,secondary_lower,male,2022,98.6,99.2,-0.6000000000000085
+negeri sembilan,secondary_lower,male,2016,96.4068,94.1613,2.245500000000007
+negeri sembilan,secondary_lower,male,2017,98.7444,96.813,1.9313999999999965
+negeri sembilan,secondary_lower,male,2018,96.0503,95.6254,0.42489999999999384
+negeri sembilan,secondary_lower,male,2019,96.6,95.4,1.1999999999999886
+negeri sembilan,secondary_lower,male,2020,96.7,96.4,0.29999999999999716
+negeri sembilan,secondary_lower,male,2021,98.3,99.2,-0.9000000000000057
+negeri sembilan,secondary_lower,male,2022,99.9,99.2,0.7000000000000028
+pahang,secondary_lower,male,2016,96.1076,94.1613,1.946300000000008
+pahang,secondary_lower,male,2017,97.1421,96.813,0.32909999999999684
+pahang,secondary_lower,male,2018,92.8984,95.6254,-2.727000000000004
+pahang,secondary_lower,male,2019,95.3,95.4,-0.10000000000000853
+pahang,secondary_lower,male,2020,94.8,96.4,-1.6000000000000085
+pahang,secondary_lower,male,2021,98.2,99.2,-1.0
+pahang,secondary_lower,male,2022,98.6,99.2,-0.6000000000000085
+perak,secondary_lower,male,2016,92.8087,94.1613,-1.3525999999999954
+perak,secondary_lower,male,2017,95.3946,96.813,-1.4184000000000054
+perak,secondary_lower,male,2018,94.8274,95.6254,-0.7980000000000018
+perak,secondary_lower,male,2019,96.2,95.4,0.7999999999999972
+perak,secondary_lower,male,2020,95.5,96.4,-0.9000000000000057
+perak,secondary_lower,male,2021,98.6,99.2,-0.6000000000000085
+perak,secondary_lower,male,2022,99.0,99.2,-0.20000000000000284
+perlis,secondary_lower,male,2016,92.1393,94.1613,-2.0219999999999914
+perlis,secondary_lower,male,2017,96.2909,96.813,-0.5221000000000089
+perlis,secondary_lower,male,2018,94.895,95.6254,-0.730400000000003
+perlis,secondary_lower,male,2019,90.3,95.4,-5.1000000000000085
+perlis,secondary_lower,male,2020,93.1,96.4,-3.3000000000000114
+perlis,secondary_lower,male,2021,97.1,99.2,-2.1000000000000085
+perlis,secondary_lower,male,2022,99.1,99.2,-0.10000000000000853
+pulau pinang,secondary_lower,male,2016,92.7462,94.1613,-1.4150999999999954
+pulau pinang,secondary_lower,male,2017,97.2984,96.813,0.4853999999999985
+pulau pinang,secondary_lower,male,2018,94.3396,95.6254,-1.2857999999999947
+pulau pinang,secondary_lower,male,2019,96.6,95.4,1.1999999999999886
+pulau pinang,secondary_lower,male,2020,96.8,96.4,0.3999999999999915
+pulau pinang,secondary_lower,male,2021,96.3,99.2,-2.9000000000000057
+pulau pinang,secondary_lower,male,2022,99.7,99.2,0.5
+sabah,secondary_lower,male,2016,87.8606,94.1613,-6.300699999999992
+sabah,secondary_lower,male,2017,93.3594,96.813,-3.4536000000000087
+sabah,secondary_lower,male,2018,92.4622,95.6254,-3.1632000000000033
+sabah,secondary_lower,male,2019,92.4,95.4,-3.0
+sabah,secondary_lower,male,2020,93.9,96.4,-2.5
+sabah,secondary_lower,male,2021,97.1,99.2,-2.1000000000000085
+sabah,secondary_lower,male,2022,99.5,99.2,0.29999999999999716
+sarawak,secondary_lower,male,2016,92.2721,94.1613,-1.8892000000000024
+sarawak,secondary_lower,male,2017,94.0587,96.813,-2.7543000000000006
+sarawak,secondary_lower,male,2018,93.5813,95.6254,-2.0441000000000003
+sarawak,secondary_lower,male,2019,93.5,95.4,-1.9000000000000057
+sarawak,secondary_lower,male,2020,94.4,96.4,-2.0
+sarawak,secondary_lower,male,2021,96.4,99.2,-2.799999999999997
+sarawak,secondary_lower,male,2022,98.5,99.2,-0.7000000000000028
+selangor,secondary_lower,male,2016,97.4134,94.1613,3.2520999999999987
+selangor,secondary_lower,male,2017,100.0173,96.813,3.2043000000000035
+selangor,secondary_lower,male,2018,102.2325,95.6254,6.607100000000003
+selangor,secondary_lower,male,2019,96.1,95.4,0.6999999999999886
+selangor,secondary_lower,male,2020,95.9,96.4,-0.5
+selangor,secondary_lower,male,2021,102.1,99.2,2.8999999999999915
+selangor,secondary_lower,male,2022,97.7,99.2,-1.5
+terengganu,secondary_lower,male,2016,95.7021,94.1613,1.5408000000000044
+terengganu,secondary_lower,male,2017,98.3104,96.813,1.497399999999999
+terengganu,secondary_lower,male,2018,100.4405,95.6254,4.815100000000001
+terengganu,secondary_lower,male,2019,101.7,95.4,6.299999999999997
+terengganu,secondary_lower,male,2020,99.2,96.4,2.799999999999997
+terengganu,secondary_lower,male,2021,99.1,99.2,-0.10000000000000853
+terengganu,secondary_lower,male,2022,99.6,99.2,0.3999999999999915
+w.p. kuala lumpur,secondary_lower,male,2016,96.8634,94.1613,2.7021000000000015
+w.p. kuala lumpur,secondary_lower,male,2017,96.1827,96.813,-0.6303000000000054
+w.p. kuala lumpur,secondary_lower,male,2018,92.6775,95.6254,-2.947900000000004
+w.p. kuala lumpur,secondary_lower,male,2019,97.2,95.4,1.7999999999999972
+w.p. kuala lumpur,secondary_lower,male,2020,94.9,96.4,-1.5
+w.p. kuala lumpur,secondary_lower,male,2021,97.2,99.2,-2.0
+w.p. kuala lumpur,secondary_lower,male,2022,96.5,99.2,-2.700000000000003
+w.p. labuan,secondary_lower,male,2016,76.2581,94.1613,-17.9032
+w.p. labuan,secondary_lower,male,2017,99.3631,96.813,2.5501000000000005
+w.p. labuan,secondary_lower,male,2018,89.1603,95.6254,-6.4650999999999925
+w.p. labuan,secondary_lower,male,2019,94.0,95.4,-1.4000000000000057
+w.p. labuan,secondary_lower,male,2020,103.2,96.4,6.799999999999997
+w.p. labuan,secondary_lower,male,2021,97.8,99.2,-1.4000000000000057
+w.p. labuan,secondary_lower,male,2022,102.5,99.2,3.299999999999997
+w.p. putrajaya,secondary_lower,male,2016,109.2857,94.1613,15.124400000000009
+w.p. putrajaya,secondary_lower,male,2017,105.889,96.813,9.075999999999993
+w.p. putrajaya,secondary_lower,male,2018,96.9728,95.6254,1.3474000000000075
+w.p. putrajaya,secondary_lower,male,2019,99.1,95.4,3.6999999999999886
+w.p. putrajaya,secondary_lower,male,2020,103.6,96.4,7.199999999999989
+w.p. putrajaya,secondary_lower,male,2021,97.8,99.2,-1.4000000000000057
+w.p. putrajaya,secondary_lower,male,2022,100.9,99.2,1.7000000000000028
+johor,secondary_upper,female,2016,99.9629,99.4922,0.4707000000000079
+johor,secondary_upper,female,2017,100.545,97.492,3.0529999999999973
+johor,secondary_upper,female,2018,94.899,96.5132,-1.6141999999999967
+johor,secondary_upper,female,2019,98.6,98.9,-0.30000000000001137
+johor,secondary_upper,female,2020,90.1,93.6,-3.5
+johor,secondary_upper,female,2021,97.2,97.9,-0.7000000000000028
+johor,secondary_upper,female,2022,98.5,99.3,-0.7999999999999972
+kedah,secondary_upper,female,2016,98.8679,99.4922,-0.624299999999991
+kedah,secondary_upper,female,2017,98.573,97.492,1.0809999999999889
+kedah,secondary_upper,female,2018,97.5336,96.5132,1.0204000000000093
+kedah,secondary_upper,female,2019,97.9,98.9,-1.0
+kedah,secondary_upper,female,2020,97.9,93.6,4.300000000000011
+kedah,secondary_upper,female,2021,100.0,97.9,2.0999999999999943
+kedah,secondary_upper,female,2022,99.6,99.3,0.29999999999999716
+kelantan,secondary_upper,female,2016,97.9233,99.4922,-1.5688999999999993
+kelantan,secondary_upper,female,2017,98.8592,97.492,1.3671999999999969
+kelantan,secondary_upper,female,2018,87.4555,96.5132,-9.057699999999997
+kelantan,secondary_upper,female,2019,111.7,98.9,12.799999999999997
+kelantan,secondary_upper,female,2020,98.6,93.6,5.0
+kelantan,secondary_upper,female,2021,99.6,97.9,1.6999999999999886
+kelantan,secondary_upper,female,2022,98.8,99.3,-0.5
+melaka,secondary_upper,female,2016,99.762,99.4922,0.2698000000000036
+melaka,secondary_upper,female,2017,98.7135,97.492,1.2214999999999918
+melaka,secondary_upper,female,2018,98.5104,96.5132,1.9972000000000065
+melaka,secondary_upper,female,2019,98.4,98.9,-0.5
+melaka,secondary_upper,female,2020,95.1,93.6,1.5
+melaka,secondary_upper,female,2021,98.0,97.9,0.09999999999999432
+melaka,secondary_upper,female,2022,98.3,99.3,-1.0
+negeri sembilan,secondary_upper,female,2016,100.3412,99.4922,0.8490000000000038
+negeri sembilan,secondary_upper,female,2017,97.8202,97.492,0.3281999999999954
+negeri sembilan,secondary_upper,female,2018,97.5787,96.5132,1.0655000000000001
+negeri sembilan,secondary_upper,female,2019,98.3,98.9,-0.6000000000000085
+negeri sembilan,secondary_upper,female,2020,93.7,93.6,0.10000000000000853
+negeri sembilan,secondary_upper,female,2021,98.6,97.9,0.6999999999999886
+negeri sembilan,secondary_upper,female,2022,99.8,99.3,0.5
+pahang,secondary_upper,female,2016,99.5629,99.4922,0.0707000000000022
+pahang,secondary_upper,female,2017,91.9756,97.492,-5.516400000000004
+pahang,secondary_upper,female,2018,96.9521,96.5132,0.43890000000000384
+pahang,secondary_upper,female,2019,96.5,98.9,-2.4000000000000057
+pahang,secondary_upper,female,2020,96.9,93.6,3.3000000000000114
+pahang,secondary_upper,female,2021,99.1,97.9,1.1999999999999886
+pahang,secondary_upper,female,2022,99.5,99.3,0.20000000000000284
+perak,secondary_upper,female,2016,99.1742,99.4922,-0.31799999999999784
+perak,secondary_upper,female,2017,95.7164,97.492,-1.7756000000000114
+perak,secondary_upper,female,2018,98.4112,96.5132,1.8979999999999961
+perak,secondary_upper,female,2019,99.5,98.9,0.5999999999999943
+perak,secondary_upper,female,2020,93.2,93.6,-0.3999999999999915
+perak,secondary_upper,female,2021,99.2,97.9,1.2999999999999972
+perak,secondary_upper,female,2022,99.9,99.3,0.6000000000000085
+perlis,secondary_upper,female,2016,93.1364,99.4922,-6.355800000000002
+perlis,secondary_upper,female,2017,95.4263,97.492,-2.0657000000000068
+perlis,secondary_upper,female,2018,96.6413,96.5132,0.12810000000000343
+perlis,secondary_upper,female,2019,96.9,98.9,-2.0
+perlis,secondary_upper,female,2020,95.0,93.6,1.4000000000000057
+perlis,secondary_upper,female,2021,98.3,97.9,0.3999999999999915
+perlis,secondary_upper,female,2022,98.2,99.3,-1.0999999999999943
+pulau pinang,secondary_upper,female,2016,100.3956,99.4922,0.9034000000000049
+pulau pinang,secondary_upper,female,2017,96.4923,97.492,-0.9997000000000043
+pulau pinang,secondary_upper,female,2018,96.6369,96.5132,0.12369999999999948
+pulau pinang,secondary_upper,female,2019,98.1,98.9,-0.8000000000000114
+pulau pinang,secondary_upper,female,2020,92.6,93.6,-1.0
+pulau pinang,secondary_upper,female,2021,95.9,97.9,-2.0
+pulau pinang,secondary_upper,female,2022,101.0,99.3,1.7000000000000028
+sabah,secondary_upper,female,2016,98.1709,99.4922,-1.3212999999999937
+sabah,secondary_upper,female,2017,97.5322,97.492,0.04019999999999868
+sabah,secondary_upper,female,2018,96.7491,96.5132,0.2359000000000009
+sabah,secondary_upper,female,2019,96.6,98.9,-2.3000000000000114
+sabah,secondary_upper,female,2020,95.4,93.6,1.8000000000000114
+sabah,secondary_upper,female,2021,98.8,97.9,0.8999999999999915
+sabah,secondary_upper,female,2022,99.5,99.3,0.20000000000000284
+sarawak,secondary_upper,female,2016,98.4458,99.4922,-1.0463999999999913
+sarawak,secondary_upper,female,2017,97.2364,97.492,-0.25560000000000116
+sarawak,secondary_upper,female,2018,97.283,96.5132,0.7698000000000036
+sarawak,secondary_upper,female,2019,97.2,98.9,-1.7000000000000028
+sarawak,secondary_upper,female,2020,92.9,93.6,-0.6999999999999886
+sarawak,secondary_upper,female,2021,97.9,97.9,0.0
+sarawak,secondary_upper,female,2022,98.9,99.3,-0.3999999999999915
+selangor,secondary_upper,female,2016,100.6855,99.4922,1.1933000000000078
+selangor,secondary_upper,female,2017,98.2312,97.492,0.7391999999999967
+selangor,secondary_upper,female,2018,98.9636,96.5132,2.450400000000002
+selangor,secondary_upper,female,2019,96.9,98.9,-2.0
+selangor,secondary_upper,female,2020,93.5,93.6,-0.09999999999999432
+selangor,secondary_upper,female,2021,96.1,97.9,-1.8000000000000114
+selangor,secondary_upper,female,2022,99.6,99.3,0.29999999999999716
+terengganu,secondary_upper,female,2016,99.4789,99.4922,-0.013300000000000978
+terengganu,secondary_upper,female,2017,98.8052,97.492,1.3131999999999948
+terengganu,secondary_upper,female,2018,98.4996,96.5132,1.9864000000000033
+terengganu,secondary_upper,female,2019,100.8,98.9,1.8999999999999915
+terengganu,secondary_upper,female,2020,97.3,93.6,3.700000000000003
+terengganu,secondary_upper,female,2021,100.0,97.9,2.0999999999999943
+terengganu,secondary_upper,female,2022,99.1,99.3,-0.20000000000000284
+w.p. kuala lumpur,secondary_upper,female,2016,101.1574,99.4922,1.6651999999999987
+w.p. kuala lumpur,secondary_upper,female,2017,92.2339,97.492,-5.258099999999999
+w.p. kuala lumpur,secondary_upper,female,2018,93.8397,96.5132,-2.673500000000004
+w.p. kuala lumpur,secondary_upper,female,2019,100.6,98.9,1.6999999999999886
+w.p. kuala lumpur,secondary_upper,female,2020,80.7,93.6,-12.899999999999991
+w.p. kuala lumpur,secondary_upper,female,2021,94.9,97.9,-3.0
+w.p. kuala lumpur,secondary_upper,female,2022,98.1,99.3,-1.2000000000000028
+w.p. labuan,secondary_upper,female,2016,100.1721,99.4922,0.6799000000000035
+w.p. labuan,secondary_upper,female,2017,98.7138,97.492,1.2218000000000018
+w.p. labuan,secondary_upper,female,2018,91.0774,96.5132,-5.4358
+w.p. labuan,secondary_upper,female,2019,103.5,98.9,4.599999999999994
+w.p. labuan,secondary_upper,female,2020,95.3,93.6,1.7000000000000028
+w.p. labuan,secondary_upper,female,2021,95.0,97.9,-2.9000000000000057
+w.p. labuan,secondary_upper,female,2022,99.5,99.3,0.20000000000000284
+w.p. putrajaya,secondary_upper,female,2016,110.9515,99.4922,11.459299999999999
+w.p. putrajaya,secondary_upper,female,2017,95.2872,97.492,-2.204800000000006
+w.p. putrajaya,secondary_upper,female,2018,94.8438,96.5132,-1.669399999999996
+w.p. putrajaya,secondary_upper,female,2019,101.2,98.9,2.299999999999997
+w.p. putrajaya,secondary_upper,female,2020,93.6,93.6,0.0
+w.p. putrajaya,secondary_upper,female,2021,94.5,97.9,-3.4000000000000057
+w.p. putrajaya,secondary_upper,female,2022,99.1,99.3,-0.20000000000000284
+johor,secondary_upper,male,2016,99.0459,98.9922,0.0537000000000063
+johor,secondary_upper,male,2017,97.966,95.2126,2.753399999999999
+johor,secondary_upper,male,2018,92.5617,94.7178,-2.156099999999995
+johor,secondary_upper,male,2019,97.4,96.1,1.3000000000000114
+johor,secondary_upper,male,2020,88.3,92.0,-3.700000000000003
+johor,secondary_upper,male,2021,96.8,97.6,-0.7999999999999972
+johor,secondary_upper,male,2022,97.8,99.1,-1.2999999999999972
+kedah,secondary_upper,male,2016,99.3418,98.9922,0.34960000000000946
+kedah,secondary_upper,male,2017,96.2206,95.2126,1.0080000000000098
+kedah,secondary_upper,male,2018,93.9202,94.7178,-0.7976000000000028
+kedah,secondary_upper,male,2019,95.3,96.1,-0.7999999999999972
+kedah,secondary_upper,male,2020,95.5,92.0,3.5
+kedah,secondary_upper,male,2021,101.2,97.6,3.6000000000000085
+kedah,secondary_upper,male,2022,98.7,99.1,-0.3999999999999915
+kelantan,secondary_upper,male,2016,98.9638,98.9922,-0.028399999999990655
+kelantan,secondary_upper,male,2017,94.7214,95.2126,-0.4911999999999921
+kelantan,secondary_upper,male,2018,89.4737,94.7178,-5.244100000000003
+kelantan,secondary_upper,male,2019,106.7,96.1,10.600000000000009
+kelantan,secondary_upper,male,2020,96.8,92.0,4.799999999999997
+kelantan,secondary_upper,male,2021,101.1,97.6,3.5
+kelantan,secondary_upper,male,2022,100.0,99.1,0.9000000000000057
+melaka,secondary_upper,male,2016,98.7998,98.9922,-0.19239999999999213
+melaka,secondary_upper,male,2017,96.8979,95.2126,1.6853000000000122
+melaka,secondary_upper,male,2018,97.9713,94.7178,3.2535000000000025
+melaka,secondary_upper,male,2019,95.5,96.1,-0.5999999999999943
+melaka,secondary_upper,male,2020,93.0,92.0,1.0
+melaka,secondary_upper,male,2021,98.5,97.6,0.9000000000000057
+melaka,secondary_upper,male,2022,97.1,99.1,-2.0
+negeri sembilan,secondary_upper,male,2016,99.9323,98.9922,0.940100000000001
+negeri sembilan,secondary_upper,male,2017,95.5919,95.2126,0.37930000000000064
+negeri sembilan,secondary_upper,male,2018,95.9152,94.7178,1.1974000000000018
+negeri sembilan,secondary_upper,male,2019,95.5,96.1,-0.5999999999999943
+negeri sembilan,secondary_upper,male,2020,93.0,92.0,1.0
+negeri sembilan,secondary_upper,male,2021,98.6,97.6,1.0
+negeri sembilan,secondary_upper,male,2022,100.9,99.1,1.8000000000000114
+pahang,secondary_upper,male,2016,99.8058,98.9922,0.8136000000000081
+pahang,secondary_upper,male,2017,89.6342,95.2126,-5.578399999999988
+pahang,secondary_upper,male,2018,101.3786,94.7178,6.660800000000009
+pahang,secondary_upper,male,2019,89.3,96.1,-6.799999999999997
+pahang,secondary_upper,male,2020,98.2,92.0,6.200000000000003
+pahang,secondary_upper,male,2021,100.2,97.6,2.6000000000000085
+pahang,secondary_upper,male,2022,100.6,99.1,1.5
+perak,secondary_upper,male,2016,99.0226,98.9922,0.030400000000000205
+perak,secondary_upper,male,2017,93.1089,95.2126,-2.1036999999999892
+perak,secondary_upper,male,2018,96.4462,94.7178,1.7284000000000077
+perak,secondary_upper,male,2019,96.2,96.1,0.10000000000000853
+perak,secondary_upper,male,2020,91.5,92.0,-0.5
+perak,secondary_upper,male,2021,98.4,97.6,0.8000000000000114
+perak,secondary_upper,male,2022,100.7,99.1,1.6000000000000085
+perlis,secondary_upper,male,2016,89.2025,98.9922,-9.789699999999996
+perlis,secondary_upper,male,2017,93.618,95.2126,-1.5945999999999998
+perlis,secondary_upper,male,2018,92.6738,94.7178,-2.043999999999997
+perlis,secondary_upper,male,2019,92.2,96.1,-3.8999999999999915
+perlis,secondary_upper,male,2020,91.5,92.0,-0.5
+perlis,secondary_upper,male,2021,96.5,97.6,-1.0999999999999943
+perlis,secondary_upper,male,2022,97.6,99.1,-1.5
+pulau pinang,secondary_upper,male,2016,99.9818,98.9922,0.98960000000001
+pulau pinang,secondary_upper,male,2017,94.3466,95.2126,-0.8659999999999997
+pulau pinang,secondary_upper,male,2018,93.2466,94.7178,-1.471199999999996
+pulau pinang,secondary_upper,male,2019,95.6,96.1,-0.5
+pulau pinang,secondary_upper,male,2020,91.5,92.0,-0.5
+pulau pinang,secondary_upper,male,2021,95.1,97.6,-2.5
+pulau pinang,secondary_upper,male,2022,100.0,99.1,0.9000000000000057
+sabah,secondary_upper,male,2016,96.9636,98.9922,-2.0285999999999973
+sabah,secondary_upper,male,2017,95.0459,95.2126,-0.16669999999999163
+sabah,secondary_upper,male,2018,93.9898,94.7178,-0.7279999999999944
+sabah,secondary_upper,male,2019,93.9,96.1,-2.1999999999999886
+sabah,secondary_upper,male,2020,92.9,92.0,0.9000000000000057
+sabah,secondary_upper,male,2021,98.5,97.6,0.9000000000000057
+sabah,secondary_upper,male,2022,99.7,99.1,0.6000000000000085
+sarawak,secondary_upper,male,2016,97.0583,98.9922,-1.9338999999999942
+sarawak,secondary_upper,male,2017,94.4892,95.2126,-0.723399999999998
+sarawak,secondary_upper,male,2018,95.1596,94.7178,0.44180000000000064
+sarawak,secondary_upper,male,2019,94.8,96.1,-1.2999999999999972
+sarawak,secondary_upper,male,2020,90.6,92.0,-1.4000000000000057
+sarawak,secondary_upper,male,2021,97.2,97.6,-0.3999999999999915
+sarawak,secondary_upper,male,2022,98.8,99.1,-0.29999999999999716
+selangor,secondary_upper,male,2016,99.9505,98.9922,0.9583000000000084
+selangor,secondary_upper,male,2017,96.4688,95.2126,1.2562000000000069
+selangor,secondary_upper,male,2018,96.2022,94.7178,1.484400000000008
+selangor,secondary_upper,male,2019,94.6,96.1,-1.5
+selangor,secondary_upper,male,2020,92.4,92.0,0.4000000000000057
+selangor,secondary_upper,male,2021,95.0,97.6,-2.5999999999999943
+selangor,secondary_upper,male,2022,98.9,99.1,-0.19999999999998863
+terengganu,secondary_upper,male,2016,99.7217,98.9922,0.7295000000000016
+terengganu,secondary_upper,male,2017,97.3145,95.2126,2.1019000000000005
+terengganu,secondary_upper,male,2018,97.8014,94.7178,3.083600000000004
+terengganu,secondary_upper,male,2019,99.0,96.1,2.9000000000000057
+terengganu,secondary_upper,male,2020,94.9,92.0,2.9000000000000057
+terengganu,secondary_upper,male,2021,100.9,97.6,3.3000000000000114
+terengganu,secondary_upper,male,2022,98.8,99.1,-0.29999999999999716
+w.p. kuala lumpur,secondary_upper,male,2016,99.9075,98.9922,0.915300000000002
+w.p. kuala lumpur,secondary_upper,male,2017,92.3269,95.2126,-2.8857
+w.p. kuala lumpur,secondary_upper,male,2018,90.1594,94.7178,-4.558399999999992
+w.p. kuala lumpur,secondary_upper,male,2019,98.1,96.1,2.0
+w.p. kuala lumpur,secondary_upper,male,2020,80.9,92.0,-11.099999999999994
+w.p. kuala lumpur,secondary_upper,male,2021,94.5,97.6,-3.0999999999999943
+w.p. kuala lumpur,secondary_upper,male,2022,97.0,99.1,-2.0999999999999943
+w.p. labuan,secondary_upper,male,2016,103.8596,98.9922,4.8674000000000035
+w.p. labuan,secondary_upper,male,2017,95.315,95.2126,0.10240000000000293
+w.p. labuan,secondary_upper,male,2018,91.8197,94.7178,-2.8980999999999995
+w.p. labuan,secondary_upper,male,2019,96.7,96.1,0.6000000000000085
+w.p. labuan,secondary_upper,male,2020,96.4,92.0,4.400000000000006
+w.p. labuan,secondary_upper,male,2021,97.0,97.6,-0.5999999999999943
+w.p. labuan,secondary_upper,male,2022,99.2,99.1,0.10000000000000853
+w.p. putrajaya,secondary_upper,male,2016,108.3671,98.9922,9.374899999999997
+w.p. putrajaya,secondary_upper,male,2017,98.4394,95.2126,3.2268000000000114
+w.p. putrajaya,secondary_upper,male,2018,95.1807,94.7178,0.46290000000000475
+w.p. putrajaya,secondary_upper,male,2019,105.7,96.1,9.600000000000009
+w.p. putrajaya,secondary_upper,male,2020,93.4,92.0,1.4000000000000057
+w.p. putrajaya,secondary_upper,male,2021,92.9,97.6,-4.699999999999989
+w.p. putrajaya,secondary_upper,male,2022,104.0,99.1,4.900000000000006

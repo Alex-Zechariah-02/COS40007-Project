@@ -1,0 +1,6 @@
+Figure Name,Figure Filename,Full Saved Path,Source Table,Purpose
+SVR Held-Out Error Summary,svr_metric_card_summary.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/svr_metric_card_summary.png,svr_metric_card_summary.csv,Summarises held-out SVR error metrics in percentage-point terms.
+SVR Practical Error Tolerance Coverage,svr_tolerance_coverage.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/svr_tolerance_coverage.png,svr_tolerance_summary.csv,Shows how often SVR predictions fall within practical percentage-point bands.
+SVR Absolute Error Distribution,svr_absolute_error_distribution.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/svr_absolute_error_distribution.png,test_predictions_df,Shows the spread of held-out SVR absolute errors.
+Tolerance Coverage by Model,model_tolerance_coverage_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/model_tolerance_coverage_comparison.png,expanded_error_diagnostics_by_model.csv,"Compares practical prediction tolerance across SVR, baselines, and Ridge."
+SVR Underprediction and Overprediction Balance,underprediction_overprediction_bar.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/underprediction_overprediction_bar.png,svr_residual_direction_summary.csv,Shows the direction of SVR prediction bias.

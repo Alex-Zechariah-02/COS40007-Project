@@ -1,0 +1,4 @@
+Model Name,Model Type,Selected Feature Set,Selected Candidate Name,Scaler,C,epsilon,gamma,Calibration Method,Calibration Intercept,Train Row Count,Test Row Count,Test Year,MAE,RMSE,R2,Median_AE,Selected SVR Beats Training Mean on MAE,Selected SVR Beats Training Mean on RMSE,Selected SVR Beats Persistence on MAE,Selected SVR Beats Persistence on RMSE
+training_mean_baseline,Baseline,,,,,,,,,384,96,2021,2.7124119900173604,3.304518311952839,-0.9020866856819207,2.3038361979166666,True,True,True,True
+persistence_baseline,Baseline,,,,,,,,,384,96,2021,3.0437500000000006,5.232610088028089,-3.7692570262793357,1.7000000000000028,True,True,True,True
+selected_svr,SVR,full_without_economic,rbf_standard_C1.0_eps0.1_gamma0.01,standard,1.0,0.1,0.01,mean_residual,0.6659344803565374,384,96,2021,2.023946549144871,2.73260976914434,-0.3006762586745686,1.5768237097878242,True,True,True,True

@@ -1,0 +1,10 @@
+Filename,Full Path,File Exists
+completion_school_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/completion_school_state.csv,True
+schools_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data/schools_district.csv,True
+enrolment_school_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data/enrolment_school_district.csv,True
+teachers_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data/teachers_district.csv,True
+fertility_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/fertility_state.csv,True
+population_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/population_state.csv,True
+hh_lq_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/hh_lq_state.csv,True
+hh_income_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/hh_income_state.csv,True
+hh_poverty_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/hh_poverty_state.csv,True

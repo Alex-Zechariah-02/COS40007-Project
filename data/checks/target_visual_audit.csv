@@ -1,0 +1,5 @@
+Visual Evidence,Figure Filename,Source Table,Status
+Target distribution,target_distribution_histogram.png,completion_target_panel_df filtered to male/female rows,Created
+Completion gap distribution,state_gap_from_malaysia_distribution.png,completion_target_panel_df,Created
+Target by stage,target_by_stage_boxplot.png,completion_target_panel_df filtered to male/female rows,Created
+Target by sex,target_by_sex_boxplot.png,completion_target_panel_df filtered to male/female rows,Created

@@ -1,0 +1,10 @@
+Filename,DataFrame Key,Row Count,Column Count,File Size KB,Original Columns
+completion_school_state.csv,completion_school_state,1071,5,47.97,"state, stage, sex, date, completion"
+schools_district.csv,schools_district,2993,6,171.83,"state, district, stage, type, date, schools"
+enrolment_school_district.csv,enrolment_school_district,8465,6,416.29,"state, district, stage, sex, date, students"
+teachers_district.csv,teachers_district,5917,6,277.74,"state, district, stage, sex, date, teachers"
+fertility_state.csv,fertility_state,2872,4,88.57,"state, date, age_group, fertility_rate"
+population_state.csv,population_state,263679,6,11977.3,"state, date, sex, age, ethnicity, population"
+hh_lq_state.csv,hh_lq_state,297,4,10.02,"state, date, households, living_quarters"
+hh_income_state.csv,hh_income_state,303,4,8.84,"state, date, income_mean, income_median"
+hh_poverty_state.csv,hh_poverty_state,294,5,9.27,"state, date, poverty_absolute, poverty_hardcore, poverty_relative"

@@ -1,0 +1,4 @@
+Dataset Key,Prepared Row Count,Year Coverage,State Count,Stage Count,Sex Count,Missing Value Count,Preparation Decision
+schools_district,576,"2017, 2018, 2019, 2020, 2021, 2022",16,3,2,0,Used official All Districts aggregate rows
+enrolment_school_district,576,"2017, 2018, 2019, 2020, 2021, 2022",16,3,2,0,Used official All Districts aggregate rows
+teachers_district,576,"2017, 2018, 2019, 2020, 2021, 2022",16,3,2,0,Used official All Districts aggregate rows

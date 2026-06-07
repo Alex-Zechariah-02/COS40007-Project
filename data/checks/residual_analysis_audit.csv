@@ -1,0 +1,10 @@
+Check,Value,Status
+Prediction row count,96,Pass
+Required-column availability,True,Pass
+Residual sign convention,actual minus predicted; positive means underprediction,Pass
+Grouped state error table created,True,Pass
+Grouped stage error table created,True,Pass
+Grouped sex error table created,True,Pass
+Grouped state-stage-sex error table created,True,Pass
+Model refit performed in this cell,False,Pass
+Prediction values changed in this cell,False,Pass

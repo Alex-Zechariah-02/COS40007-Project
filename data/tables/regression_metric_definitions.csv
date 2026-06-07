@@ -1,0 +1,5 @@
+Metric,Practical Meaning,Preferred Direction
+MAE,Mean absolute prediction error in completion-rate percentage points,Lower is better
+RMSE,Root mean squared prediction error in completion-rate percentage points; penalises larger errors,Lower is better
+R2,Share of target variation explained by the model on the evaluated data,Higher is better
+Median_AE,Median absolute prediction error in completion-rate percentage points; robust to extreme errors,Lower is better

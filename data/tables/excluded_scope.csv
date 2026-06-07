@@ -1,0 +1,5 @@
+Excluded Item,Reason
+Classification targets,Excluded because the target is numeric completion-rate prediction
+Classification metrics,"Excluded because Accuracy, Precision, Recall, and F1 apply to classification"
+Clustering targets,Excluded because clustering labels are not the target in this SVR notebook
+Non-SVR model families,Excluded from this notebook; model comparison can be handled separately

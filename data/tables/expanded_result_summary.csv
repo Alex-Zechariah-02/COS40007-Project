@@ -1,0 +1,2 @@
+Selected SVR Model,Compared Model Count,SVR Beats All Compared Models on MAE,SVR Beats All Compared Models on RMSE,SVR R2 Positive,Expanded Result Status,Interpretation Note
+selected_svr,7,True,True,False,Acceptable result,"SVR is strongest only if it beats simple rules and Ridge on MAE/RMSE and has positive R2. If R2 remains negative, the notebook should still describe the model as a limited planning-support prototype."

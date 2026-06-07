@@ -1,0 +1,8 @@
+Figure Name,Figure Filename,Full Saved Path,Source Table,Purpose
+Expanded Model Metric Heatmap,expanded_model_metric_heatmap.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/expanded_model_metric_heatmap.png,expanded_model_comparison_metrics_df,"Shows all major regression metrics for SVR, baselines, and Ridge in one visual."
+Expanded MAE Comparison,expanded_mae_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/expanded_mae_comparison.png,expanded_model_comparison_metrics_df,Compares MAE across all evaluated methods.
+Expanded RMSE Comparison,expanded_rmse_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/expanded_rmse_comparison.png,expanded_model_comparison_metrics_df,Compares RMSE across all evaluated methods.
+Expanded Median Absolute Error Comparison,expanded_median_ae_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/expanded_median_ae_comparison.png,expanded_model_comparison_metrics_df,Compares Median_AE across all evaluated methods.
+Expanded R² Comparison,expanded_r2_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/expanded_r2_comparison.png,expanded_model_comparison_metrics_df,Compares R2 across all evaluated methods.
+SVR Improvement over Compared Methods,svr_improvement_over_baselines.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/svr_improvement_over_baselines.png,expanded_baseline_vs_svr_delta_df,Shows how much SVR improves over each baseline and Ridge benchmark.
+Model Rank by Metric,model_rank_by_metric.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/model_rank_by_metric.png,expanded_model_comparison_metrics_df,Shows rank consistency across core comparison metrics.

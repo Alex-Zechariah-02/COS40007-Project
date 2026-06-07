@@ -1,0 +1,10 @@
+Filename,Full Path,Parent Folder,File Exists
+completion_school_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/completion_school_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+schools_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data/schools_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+enrolment_school_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data/enrolment_school_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+teachers_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data/teachers_district.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+fertility_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/fertility_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+population_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/population_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+hh_lq_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/hh_lq_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+hh_income_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/hh_income_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True
+hh_poverty_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data/hh_poverty_state.csv,/content/drive/MyDrive/COS40007_Project/raw_data,True

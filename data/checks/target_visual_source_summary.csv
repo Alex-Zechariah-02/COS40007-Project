@@ -1,0 +1,4 @@
+Source,Rows,Columns,Unique States,Unique Stages,Unique Sex Values,Year Minimum,Year Maximum
+completion_target_panel_df,1008,11,16,3,3,2016,2022
+target_visual_main_panel_df,672,11,16,3,2,2016,2022
+plot_target_df,576,11,16,3,2,2016,2021

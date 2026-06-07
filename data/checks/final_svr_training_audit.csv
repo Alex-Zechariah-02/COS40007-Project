@@ -1,0 +1,10 @@
+Audit Item,Value
+Train row count,384
+Train year coverage,"2017, 2018, 2019, 2020"
+Selected feature count,33
+Calibration method,mean_residual
+Calibration intercept,0.6659344803565374
+Test year excluded status,True
+Forecast-candidate year excluded status,True
+Validation fold count checked,3
+Final training status,Base SVR fitted on full training period only

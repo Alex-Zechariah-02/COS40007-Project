@@ -1,0 +1,10 @@
+Fold,Year,Role
+fold_1,2017,train
+fold_1,2018,validate
+fold_2,2017,train
+fold_2,2018,train
+fold_2,2019,validate
+fold_3,2017,train
+fold_3,2018,train
+fold_3,2019,train
+fold_3,2020,validate

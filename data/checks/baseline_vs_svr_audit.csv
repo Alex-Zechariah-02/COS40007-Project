@@ -1,0 +1,10 @@
+Check,Value,Status
+Baseline metrics available,True,Pass
+Final SVR metrics available,True,Pass
+Required baselines available,"training_mean_baseline, persistence_baseline",Pass
+Calibration-aware comparison,True,Pass
+Classification metrics used,False,Pass
+Model refit performed in this cell,False,Pass
+Predictions changed in this cell,False,Pass
+Metrics recalculated from changed predictions,False,Pass
+Comparison output created,True,Pass

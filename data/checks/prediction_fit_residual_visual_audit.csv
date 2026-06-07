@@ -1,0 +1,5 @@
+Figure Name,Figure Filename,Full Saved Path,Source Table,Purpose
+Actual versus Predicted with ±2pp Error Band,actual_vs_predicted_with_error_bands.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/actual_vs_predicted_with_error_bands.png,test_predictions_df,Shows prediction fit and a practical ±2 percentage-point error band.
+Held-Out Actual and Predicted Distribution,test_prediction_distribution.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/test_prediction_distribution.png,test_predictions_df,Compares actual and predicted target distributions on the held-out test set.
+Top Held-Out Prediction Errors,prediction_error_lollipop_top_errors.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/prediction_error_lollipop_top_errors.png,test_predictions_df,Shows the largest held-out prediction errors in a readable ranked plot.
+Mean Residual by Actual Completion Band,residuals_by_actual_completion_band.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/residuals_by_actual_completion_band.png,residuals_by_actual_completion_band.csv,Shows whether residual bias changes across actual completion-rate bands.

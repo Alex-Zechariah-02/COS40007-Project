@@ -1,0 +1,7 @@
+Finding,Status,Evidence Note
+Target-source readiness,Pass,"Target source includes required columns, years, male/female rows, and expected stage values."
+Observed target stages,Pass,"primary, secondary_lower, secondary_upper"
+Duplicate-row presence,Review later,Duplicate rows recorded in: enrolment_school_district
+Missing economic values,Review later,Income missing cells: 11; poverty missing cells: 134.
+District-level aggregation requirement,Required later,"District feature sources need aggregation before modelling: schools_district, enrolment_school_district, teachers_district."
+Year-coverage suitability,Pass,Target source supports 2017-2021 input years and next-year targets through 2022.

@@ -1,0 +1,12 @@
+Figure Name,Figure Filename,Full Saved Path,Source Table,Purpose
+State-Level MAE Ranking,state_mae_ranked_bar.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/state_mae_ranked_bar.png,error_by_state_df,Shows state-level MAE differences.
+State-Level RMSE Ranking,state_rmse_ranked_bar.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/state_rmse_ranked_bar.png,error_by_state_df,Shows state-level RMSE differences.
+State-Level Within ±2pp Coverage,state_within_2pp_rate_bar.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/state_within_2pp_rate_bar.png,error_by_state_df,Shows state-level Within 2 Percentage Points differences.
+Stage-Level MAE and RMSE,stage_mae_rmse_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/stage_mae_rmse_comparison.png,error_by_stage_df,Compares errors across education stages.
+Sex-Level MAE and RMSE,sex_mae_rmse_comparison.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/sex_mae_rmse_comparison.png,error_by_sex_df,Compares errors across male and female rows.
+Absolute Error Distribution by Stage,stage_error_distribution_boxplot.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/stage_error_distribution_boxplot.png,test_predictions_df,Shows the spread of row-level errors by education stage.
+Absolute Error Distribution by Sex,sex_error_distribution_boxplot.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/sex_error_distribution_boxplot.png,test_predictions_df,Shows the spread of row-level errors by sex.
+State-Stage MAE Heatmap,state_stage_mae_heatmap.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/state_stage_mae_heatmap.png,error_by_state_stage_sex_df,Shows grouped prediction error at the row-unit level.
+State-Stage RMSE Heatmap,state_stage_rmse_heatmap.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/state_stage_rmse_heatmap.png,error_by_state_stage_sex_df,Shows grouped prediction error at the row-unit level.
+Sex-Stage MAE Heatmap,sex_stage_mae_heatmap.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/sex_stage_mae_heatmap.png,error_by_state_stage_sex_df,Shows grouped prediction error at the row-unit level.
+State-Sex MAE Heatmap,state_sex_mae_heatmap.png,/content/drive/MyDrive/COS40007_Project/alex/outputs/figures/state_sex_mae_heatmap.png,error_by_state_stage_sex_df,Shows grouped prediction error at the row-unit level.

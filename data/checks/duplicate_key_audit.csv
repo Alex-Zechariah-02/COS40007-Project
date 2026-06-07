@@ -1,0 +1,10 @@
+DataFrame Key,Row Count,Full-Row Duplicate Count,Duplicate Percentage,Duplicates Exist
+completion_school_state,1071,0,0.0,False
+schools_district,2993,0,0.0,False
+enrolment_school_district,8465,2,0.02,True
+teachers_district,5917,0,0.0,False
+fertility_state,2872,0,0.0,False
+population_state,263679,0,0.0,False
+hh_lq_state,297,0,0.0,False
+hh_income_state,303,0,0.0,False
+hh_poverty_state,294,0,0.0,False

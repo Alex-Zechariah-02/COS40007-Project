@@ -1,0 +1,13 @@
+Fold Name,Baseline Name,Fallback Prediction Count,Validation Row Count
+fold_1,historical_state_stage_sex_mean_baseline,0,96
+fold_1,stage_sex_mean_baseline,0,96
+fold_1,rolling2_completion_mean_baseline,0,96
+fold_1,previous_year_trend_baseline,0,96
+fold_2,historical_state_stage_sex_mean_baseline,0,96
+fold_2,stage_sex_mean_baseline,0,96
+fold_2,rolling2_completion_mean_baseline,0,96
+fold_2,previous_year_trend_baseline,0,96
+fold_3,historical_state_stage_sex_mean_baseline,0,96
+fold_3,stage_sex_mean_baseline,0,96
+fold_3,rolling2_completion_mean_baseline,0,96
+fold_3,previous_year_trend_baseline,0,96

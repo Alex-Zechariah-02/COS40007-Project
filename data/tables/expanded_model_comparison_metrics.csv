@@ -1,0 +1,9 @@
+Model Name,Model Type,Selected Feature Set,Selected Candidate Name,Scaler,Alpha,Calibration Method,Calibration Intercept,MAE,RMSE,R2,Median_AE,MAE Rank,RMSE Rank,R2 Rank
+selected_svr,Final SVR,full_without_economic,rbf_standard_C1.0_eps0.1_gamma0.01,standard,,mean_residual,0.6659344803565374,2.023946549144871,2.73260976914434,-0.3006762586745686,1.5768237097878242,1,1,1
+historical_state_stage_sex_mean_baseline,Additional rule baseline,,,,,,,2.6012575520833328,3.2999924892305237,-0.8968801101490174,1.9412499999999966,2,2,2
+training_mean_baseline,Core baseline,,,,,,,2.7124119900173604,3.304518311952839,-0.9020866856819207,2.3038361979166666,3,3,3
+stage_sex_mean_baseline,Additional rule baseline,,,,,,,2.807619628906252,3.393252243617668,-1.0056089995823263,2.4742398437499986,4,4,4
+rolling2_completion_mean_baseline,Additional rule baseline,,,,,,,2.9723958333333322,4.269779341488268,-2.175593052733878,1.9499999999999957,5,6,6
+ridge_autoregressive_plus_categorical_standard_alpha100.0,Ridge benchmark,autoregressive_plus_categorical,,standard,100.0,,,3.0087263492289793,3.669697086012381,-1.345710511217813,2.6563421244432632,6,5,5
+persistence_baseline,Core baseline,,,,,,,3.0437500000000006,5.232610088028089,-3.7692570262793357,1.7000000000000028,7,7,7
+previous_year_trend_baseline,Additional rule baseline,,,,,,,5.638541666666669,9.529772426453844,-14.819000481393761,3.6499999999999986,8,8,8

@@ -1,0 +1,4 @@
+Fold Name,Train Years,Validation Year,Train Row Count,Validation Row Count,Fold Valid
+fold_1,2017,2018,96,96,True
+fold_2,"2017, 2018",2019,192,96,True
+fold_3,"2017, 2018, 2019",2020,288,96,True
