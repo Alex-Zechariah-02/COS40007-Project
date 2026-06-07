@@ -9,5 +9,5 @@ Main changes:
 - Explains how to read important tables and figures.
 - Keeps detailed evidence inside expanders.
 - Renames the SVR branch navigation from 0-9 to 1-10.
-- Keeps RandomForestRegressor pending until validated outputs exist.
-- Keeps comparison pending until SVR and RF use the same target, test rows, baselines, and metrics.
+- Integrates RandomForestRegressor after validated outputs exist.
+- Enables comparison when SVR and RF outputs use the same target and comparable held-out rows.

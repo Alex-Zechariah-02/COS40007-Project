@@ -1,0 +1,3 @@
+model_key,model_name,mean_residual,median_residual,underprediction_percentage,overprediction_percentage,bias_direction
+svr,Support Vector Regression,1.4923247530654258,1.332144248506104,77.08333333333334,22.916666666666664,Underprediction
+rf,RandomForestRegressor,2.7611743844487653,2.5736731648896765,84.375,15.625,Underprediction

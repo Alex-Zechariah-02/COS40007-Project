@@ -1,0 +1,3 @@
+model_key,source_columns,standardised
+svr,"Model Name, Selected Feature Set, Selected Candidate Name, Scaler, C, epsilon, gamma, Calibration Method, Calibration Intercept, Train Row Count, Test Row Count, Test Year, MAE, RMSE, R2, Median_AE",True
+rf,"Model Name, Model Type, Selected Feature Set, Selected Candidate Name, n_estimators, max_depth, min_samples_leaf, Train Row Count, Test Row Count, Test Year, MAE, RMSE, R2, Median_AE",True

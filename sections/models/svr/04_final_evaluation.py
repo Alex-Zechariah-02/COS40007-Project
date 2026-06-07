@@ -42,7 +42,7 @@ for fig, title, purpose, how, better, takeaway in [
     ("expanded_model_metric_heatmap.png", "Metric heatmap", "Compares models/baselines across several metrics.", "Use metric directions: lower error is better; higher R² is better.", "Depends on metric column.", "Shows mixed performance: error improves, R² remains weak."),
     ("svr_improvement_over_baselines.png", "Improvement over baselines", "Shows how much SVR improves over baseline errors.", "Positive values indicate improvement.", "Higher positive improvement is better.", "SVR adds value over simple baseline rules on MAE/RMSE."),
 ]:
-    guided_figure(figure_path(fig), title, purpose, how, better, takeaway, "This is held-out test evidence for SVR only; RF comparison is pending.")
+    guided_figure(figure_path(fig), title, purpose, how, better, takeaway, "This is held-out test evidence for SVR only. Open the comparison section for SVR versus RF evidence.")
 
 render_page_discussion("svr_final_eval")
 next_steps(["Open 5. Error Diagnostics to inspect bias, tolerance coverage, and grouped errors."])

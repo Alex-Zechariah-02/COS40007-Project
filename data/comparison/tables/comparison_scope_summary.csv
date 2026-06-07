@@ -1,0 +1,9 @@
+Item,Value
+Task,Supervised regression model comparison
+Model 1,Support Vector Regression
+Model 2,RandomForestRegressor
+Main target,next_year_completion_rate
+Held-out test,Input 2021 → Target 2022
+Retraining in this notebook,No
+Classification metrics,Excluded
+Clustering,Excluded

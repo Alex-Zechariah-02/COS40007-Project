@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 import pandas as pd
 import streamlit as st
-from .config import CHECKS_DIR, TABLES_DIR, ARTIFACTS_DIR, RAW_DATA_DIR, SVR_FIGURES_DIR, SVR_MODELS_DIR, DATA_DIR
+from .config import CHECKS_DIR, TABLES_DIR, ARTIFACTS_DIR, RAW_DATA_DIR, SVR_FIGURES_DIR, SVR_MODELS_DIR, DATA_DIR, RF_CHECKS_DIR, RF_TABLES_DIR, RF_ARTIFACTS_DIR, RF_FIGURES_DIR, RF_MODELS_DIR, COMPARISON_CHECKS_DIR, COMPARISON_TABLES_DIR, COMPARISON_ARTIFACTS_DIR, COMPARISON_FIGURES_DIR
 
 
 def _read_csv(path: Path) -> pd.DataFrame:
@@ -85,9 +85,40 @@ def list_files(directory: Path, suffix: str | None = None) -> list[Path]:
     return sorted(files, key=lambda p: p.name.lower())
 
 
+
+def rf_table_path(name: str) -> Path:
+    p = RF_TABLES_DIR / name
+    if p.exists():
+        return p
+    return RF_CHECKS_DIR / name
+
+
+def rf_artifact_path(name: str) -> Path:
+    return RF_ARTIFACTS_DIR / name
+
+
+def rf_figure_path(filename: str) -> Path:
+    return RF_FIGURES_DIR / filename
+
+
+def rf_model_path(filename: str) -> Path:
+    return RF_MODELS_DIR / filename
+
+
+def load_rf_table(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(rf_table_path(name)))
+
+
+def load_rf_check(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(RF_CHECKS_DIR / name))
+
+
+def load_rf_artifact_json(name: str) -> dict:
+    return load_json_cached(str(rf_artifact_path(name)))
+
 def folder_inventory() -> pd.DataFrame:
     rows = []
-    for label, directory in [("checks", CHECKS_DIR), ("tables", TABLES_DIR), ("artifacts", ARTIFACTS_DIR), ("raw", RAW_DATA_DIR), ("figures_svr", SVR_FIGURES_DIR), ("models_svr", SVR_MODELS_DIR)]:
+    for label, directory in [("checks", CHECKS_DIR), ("tables", TABLES_DIR), ("artifacts", ARTIFACTS_DIR), ("raw", RAW_DATA_DIR), ("figures_svr", SVR_FIGURES_DIR), ("figures_random_forest", RF_FIGURES_DIR), ("figures_comparison", COMPARISON_FIGURES_DIR), ("models_svr", SVR_MODELS_DIR), ("models_random_forest", RF_MODELS_DIR), ("rf_tables", RF_TABLES_DIR), ("rf_checks", RF_CHECKS_DIR), ("comparison_tables", COMPARISON_TABLES_DIR), ("comparison_checks", COMPARISON_CHECKS_DIR), ("comparison_artifacts", COMPARISON_ARTIFACTS_DIR)]:
         files = list_files(directory)
         rows.append({
             "folder": label,
@@ -97,3 +128,38 @@ def folder_inventory() -> pd.DataFrame:
             "exists": directory.exists(),
         })
     return pd.DataFrame(rows)
+
+
+def comparison_table_path(name: str) -> Path:
+    p = COMPARISON_TABLES_DIR / name
+    if p.exists():
+        return p
+    return COMPARISON_CHECKS_DIR / name
+
+
+def comparison_check_path(name: str) -> Path:
+    return COMPARISON_CHECKS_DIR / name
+
+
+def comparison_artifact_path(name: str) -> Path:
+    return COMPARISON_ARTIFACTS_DIR / name
+
+
+def comparison_figure_path(filename: str) -> Path:
+    return COMPARISON_FIGURES_DIR / filename
+
+
+def load_comparison_table(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(comparison_table_path(name)))
+
+
+def load_comparison_check(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(COMPARISON_CHECKS_DIR / name))
+
+
+def load_comparison_artifact_json(name: str) -> dict:
+    return load_json_cached(str(comparison_artifact_path(name)))
+
+
+def load_comparison_artifact_csv(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(COMPARISON_ARTIFACTS_DIR / name))

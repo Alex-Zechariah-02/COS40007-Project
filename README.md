@@ -6,8 +6,8 @@ Current status:
 
 - Shared supervised-regression workflow: complete
 - Support Vector Regression branch: complete
-- RandomForestRegressor branch: pending
-- Supervised model comparison: pending until RandomForestRegressor outputs are added
+- RandomForestRegressor branch: complete
+- Supervised model comparison: available
 
 Main task:
 
@@ -17,9 +17,10 @@ Main target:
 
 - `next_year_completion_rate`
 
-Current completed model branch:
+Completed model branches:
 
 - Support Vector Regression
+- RandomForestRegressor
 
 Main metrics:
 

@@ -1,0 +1,4 @@
+Inferred Feature Group,Feature_Count,Mean_Absolute_Importance,Total_Absolute_Importance
+education_capacity,9,0.010074466717470566,0.09067020045723509
+categorical,3,0.07893203074468165,0.23679609223404496
+completion_history,8,0.06639776629036657,0.5311821303229326

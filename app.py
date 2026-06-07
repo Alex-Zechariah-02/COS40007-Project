@@ -36,10 +36,25 @@ pages = {
         pg("sections/models/svr/10_limitations_reflection.py", "10. Limitations and Reflection", "svr-limitations-reflection"),
     ],
     "Random Forest Branch": [
-        pg("sections/models/random_forest/pending.py", "RandomForestRegressor Pending", "rf-pending"),
+        pg("sections/models/random_forest/01_overview.py", "1. Overview", "rf-overview"),
+        pg("sections/models/random_forest/02_model_design.py", "2. Model Design", "rf-model-design"),
+        pg("sections/models/random_forest/03_training_selection.py", "3. Training and Selection", "rf-training-selection"),
+        pg("sections/models/random_forest/04_final_evaluation.py", "4. Final Evaluation", "rf-final-evaluation"),
+        pg("sections/models/random_forest/05_error_diagnostics.py", "5. Error Diagnostics", "rf-error-diagnostics"),
+        pg("sections/models/random_forest/06_visual_evidence.py", "6. Visual Evidence", "rf-visual-evidence"),
+        pg("sections/models/random_forest/07_feature_influence.py", "7. Feature Influence", "rf-feature-influence"),
+        pg("sections/models/random_forest/08_ai_demonstrator.py", "8. AI Demonstrator", "rf-ai-demonstrator"),
+        pg("sections/models/random_forest/09_output_check.py", "9. Output Check", "rf-output-check"),
+        pg("sections/models/random_forest/10_limitations_reflection.py", "10. Limitations and Reflection", "rf-limitations-reflection"),
     ],
     "Supervised Model Comparison": [
-        pg("sections/comparison/supervised_comparison_pending.py", "Comparison Pending", "supervised-comparison-pending"),
+        pg("sections/comparison/01_overview.py", "1. Overview", "comparison-overview"),
+        pg("sections/comparison/02_metric_leaderboard.py", "2. Metric Leaderboard", "comparison-metrics"),
+        pg("sections/comparison/03_prediction_comparison.py", "3. Prediction Comparison", "comparison-predictions"),
+        pg("sections/comparison/04_error_comparison.py", "4. Error Comparison", "comparison-errors"),
+        pg("sections/comparison/05_feature_influence_comparison.py", "5. Feature Influence Comparison", "comparison-features"),
+        pg("sections/comparison/06_ai_demonstrator_comparison.py", "6. AI Demonstrator Comparison", "comparison-ai-demonstrator"),
+        pg("sections/comparison/07_forecast_preview_comparison.py", "7. Forecast Preview Comparison", "comparison-forecast-preview"),
     ],
 }
 

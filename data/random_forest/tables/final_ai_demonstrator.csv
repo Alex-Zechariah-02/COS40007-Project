@@ -1,0 +1,2 @@
+state,stage,sex,Input Year,Target Year,Current Completion Rate,Current Completion Gap,Predicted Next-Year Completion Rate,Actual Next-Year Completion Rate,Residual,Absolute Error,Prediction Outcome Label,Representative Row Rule,Selected Feature Set,Selected Candidate Name
+Negeri Sembilan,primary,female,2021,2022,102.9,3.9000000000000057,100.01198798402248,102.7,2.6880120159775203,2.6880120159775203,Underpredicted,Absolute Error closest to held-out median Absolute Error,autoregressive_categorical_education,rf_n100_dNone_leaf5

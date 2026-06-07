@@ -1,0 +1,2 @@
+state,stage,sex,input_year,target_year,actual_next_year_completion_rate,svr_prediction,rf_prediction,svr_absolute_error,rf_absolute_error,winner_for_row,selection_rule
+kelantan,secondary_lower,male,2021,2022,99.4,100.99386330671952,102.46948436027022,1.5938633067195127,3.0694843602702093,svr,SVR absolute error closest to SVR Median AE

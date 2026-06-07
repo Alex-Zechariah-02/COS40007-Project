@@ -1,0 +1,7 @@
+Coverage Item,Value
+Year values,"[2016, 2017, 2018, 2019, 2020, 2021, 2022]"
+State count,16
+Stage count,3
+Sex values,"['female', 'male']"
+Total row count,672
+Target missing rows,96

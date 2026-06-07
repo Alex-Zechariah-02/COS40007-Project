@@ -1,0 +1,7 @@
+Check,Value,Status
+Train row count,384,Pass
+Test row count,96,Pass
+Forecast-candidate row count,96,Pass
+Train year coverage,"[2017, 2018, 2019, 2020]",Pass
+Test year coverage,[2021],Pass
+Validation fold count,3,Pass

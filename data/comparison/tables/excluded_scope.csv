@@ -1,0 +1,6 @@
+Excluded item,Reason
+Retraining SVR,SVR branch notebook already trained and saved its outputs.
+Retraining RandomForestRegressor,RF branch notebook already trained and saved its outputs.
+Classification metrics,The target is numeric completion rate.
+Cluster labels,The supervised target is not a cluster label.
+Changing target or split,Comparison must preserve the branch outputs exactly.

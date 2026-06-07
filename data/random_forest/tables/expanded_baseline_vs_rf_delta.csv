@@ -1,0 +1,8 @@
+Compared Model,MAE Improvement,RMSE Improvement,R2 Difference,RF Beats Compared Model on MAE,RF Beats Compared Model on RMSE
+historical_state_stage_sex_mean_baseline,-0.5782117815253134,-0.5491939129308725,-0.6839051266990177,False,False
+training_mean_baseline,-0.4670573435912857,-0.5446680902085572,-0.6786985511661143,False,False
+stage_sex_mean_baseline,-0.3718497047023943,-0.455934158543728,-0.5751762372657088,False,False
+rolling2_completion_mean_baseline,-0.33103183360864685,-0.24909598084325024,-0.32321746040525756,False,False
+persistence_baseline,-0.13571933360864552,1.3834236858666928,2.1884717894313006,False,True
+ridge_benchmark,0.3304481841800828,0.6727755157241972,0.9810004227591049,True,True
+previous_year_trend_baseline,2.4590723330580224,5.680586024292448,13.238215244545726,True,True

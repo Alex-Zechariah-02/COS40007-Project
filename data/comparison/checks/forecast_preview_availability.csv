@@ -1,0 +1,3 @@
+model_key,forecast_file_exists,matched_path
+svr,True,/content/drive/MyDrive/COS40007_Project/supervised/svr/outputs/tables/forecast_candidate_predictions.csv
+rf,True,/content/drive/MyDrive/COS40007_Project/supervised/random_forest/outputs/tables/forecast_candidate_predictions.csv

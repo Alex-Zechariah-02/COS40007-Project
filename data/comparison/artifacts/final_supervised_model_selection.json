@@ -1,0 +1,14 @@
+{
+  "selected_model_key": "svr",
+  "selected_model_name": "Support Vector Regression",
+  "selected_mae": 2.023946549144871,
+  "selected_rmse": 2.73260976914434,
+  "selected_r2": -0.3006762586745686,
+  "selected_median_absolute_error": 1.5768237097878242,
+  "primary_selection_metric": "MAE",
+  "secondary_selection_checks": [
+    "RMSE",
+    "R²",
+    "Median AE"
+  ]
+}

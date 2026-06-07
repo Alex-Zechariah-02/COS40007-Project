@@ -1,0 +1,3 @@
+model_key,input_years,target_years,valid_test_year
+svr,[2021],[2022],True
+rf,[2021],[2022],True

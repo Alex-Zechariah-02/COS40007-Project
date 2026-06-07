@@ -1,0 +1,9 @@
+check,status,status_label
+input_files_available,True,Pass
+prediction_schema_valid,True,Pass
+test_rows_aligned,True,Pass
+actual_targets_match,True,Pass
+heldout_year_valid,True,Pass
+tolerance_values_available,True,Pass
+forecast_preview_available,True,Pass
+selected_model_available,True,Pass

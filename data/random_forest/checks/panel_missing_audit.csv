@@ -1,0 +1,19 @@
+Column,Missing Count,Missing Percentage
+next_year_completion_rate,96,14.29
+next_year_completion_gap_from_malaysia,96,14.29
+target_delta,96,14.29
+lag1_completion_rate,96,14.29
+lag1_completion_gap_from_malaysia,96,14.29
+completion_rate_change_1y,96,14.29
+gap_change_1y,96,14.29
+rolling2_completion_mean,192,28.57
+rolling2_gap_mean,192,28.57
+schools_total,480,71.43
+students_total,480,71.43
+teachers_total,480,71.43
+students_per_teacher,480,71.43
+students_per_school,480,71.43
+teachers_per_school,480,71.43
+schools_growth_1y,512,76.19
+students_growth_1y,512,76.19
+teachers_growth_1y,512,76.19

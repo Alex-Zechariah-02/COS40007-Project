@@ -1,0 +1,97 @@
+state,stage,sex,year,target_year,completion_rate,completion_gap_from_malaysia,Selected Feature Set,Selected Candidate Name,Predicted Next-Year Completion Rate,Evaluation Status
+Johor,primary,female,2022,2023,99.3,0.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.82527725789978,Non-evaluable forecast candidate; next-year target is missing
+Johor,primary,male,2022,2023,98.7,-0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.66295730806625,Non-evaluable forecast candidate; next-year target is missing
+Johor,secondary_lower,female,2022,2023,97.6,-1.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.67541809026807,Non-evaluable forecast candidate; next-year target is missing
+Johor,secondary_lower,male,2022,2023,102.5,3.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.72375000587472,Non-evaluable forecast candidate; next-year target is missing
+Johor,secondary_upper,female,2022,2023,98.5,-0.7000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.38213885398494,Non-evaluable forecast candidate; next-year target is missing
+Johor,secondary_upper,male,2022,2023,97.8,-1.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.23471014327761,Non-evaluable forecast candidate; next-year target is missing
+Kedah,primary,female,2022,2023,102.4,3.1000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,100.28996563975008,Non-evaluable forecast candidate; next-year target is missing
+Kedah,primary,male,2022,2023,99.8,0.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.68082145748413,Non-evaluable forecast candidate; next-year target is missing
+Kedah,secondary_lower,female,2022,2023,99.2,0.20000000000000284,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.38298966299533,Non-evaluable forecast candidate; next-year target is missing
+Kedah,secondary_lower,male,2022,2023,99.6,0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.57320144671584,Non-evaluable forecast candidate; next-year target is missing
+Kedah,secondary_upper,female,2022,2023,99.6,0.3999999999999915,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.49361251117315,Non-evaluable forecast candidate; next-year target is missing
+Kedah,secondary_upper,male,2022,2023,98.7,-0.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.8465987250279,Non-evaluable forecast candidate; next-year target is missing
+Kelantan,primary,female,2022,2023,99.2,-0.09999999999999432,autoregressive_categorical_education,rf_n100_dNone_leaf5,101.34834868657526,Non-evaluable forecast candidate; next-year target is missing
+Kelantan,primary,male,2022,2023,97.3,-2.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.21087872167703,Non-evaluable forecast candidate; next-year target is missing
+Kelantan,secondary_lower,female,2022,2023,98.7,-0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,100.93865459340836,Non-evaluable forecast candidate; next-year target is missing
+Kelantan,secondary_lower,male,2022,2023,99.4,0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,102.01066263089598,Non-evaluable forecast candidate; next-year target is missing
+Kelantan,secondary_upper,female,2022,2023,98.8,-0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.69242836612493,Non-evaluable forecast candidate; next-year target is missing
+Kelantan,secondary_upper,male,2022,2023,100.0,0.7999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.92721572089575,Non-evaluable forecast candidate; next-year target is missing
+Melaka,primary,female,2022,2023,100.3,1.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.34080170635104,Non-evaluable forecast candidate; next-year target is missing
+Melaka,primary,male,2022,2023,98.7,-0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.54246636103555,Non-evaluable forecast candidate; next-year target is missing
+Melaka,secondary_lower,female,2022,2023,99.3,0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.68005589583728,Non-evaluable forecast candidate; next-year target is missing
+Melaka,secondary_lower,male,2022,2023,98.6,-0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.63103416908713,Non-evaluable forecast candidate; next-year target is missing
+Melaka,secondary_upper,female,2022,2023,98.3,-0.9000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.42391553790128,Non-evaluable forecast candidate; next-year target is missing
+Melaka,secondary_upper,male,2022,2023,97.1,-2.1000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,94.60801857663857,Non-evaluable forecast candidate; next-year target is missing
+Negeri Sembilan,primary,female,2022,2023,102.7,3.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,101.37565317461413,Non-evaluable forecast candidate; next-year target is missing
+Negeri Sembilan,primary,male,2022,2023,100.6,1.2999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.82609140968823,Non-evaluable forecast candidate; next-year target is missing
+Negeri Sembilan,secondary_lower,female,2022,2023,99.8,0.7999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.93697904631294,Non-evaluable forecast candidate; next-year target is missing
+Negeri Sembilan,secondary_lower,male,2022,2023,99.9,0.9000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.22100000239803,Non-evaluable forecast candidate; next-year target is missing
+Negeri Sembilan,secondary_upper,female,2022,2023,99.8,0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.03529256507387,Non-evaluable forecast candidate; next-year target is missing
+Negeri Sembilan,secondary_upper,male,2022,2023,100.9,1.7000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.66311984285431,Non-evaluable forecast candidate; next-year target is missing
+Pahang,primary,female,2022,2023,98.1,-1.2000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.0921916397106,Non-evaluable forecast candidate; next-year target is missing
+Pahang,primary,male,2022,2023,95.1,-4.200000000000003,autoregressive_categorical_education,rf_n100_dNone_leaf5,94.97348059819912,Non-evaluable forecast candidate; next-year target is missing
+Pahang,secondary_lower,female,2022,2023,98.8,-0.20000000000000284,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.22662627122828,Non-evaluable forecast candidate; next-year target is missing
+Pahang,secondary_lower,male,2022,2023,98.6,-0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.62255540291282,Non-evaluable forecast candidate; next-year target is missing
+Pahang,secondary_upper,female,2022,2023,99.5,0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.34545637773127,Non-evaluable forecast candidate; next-year target is missing
+Pahang,secondary_upper,male,2022,2023,100.6,1.3999999999999915,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.51092564931001,Non-evaluable forecast candidate; next-year target is missing
+Perak,primary,female,2022,2023,100.9,1.6000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.92993942817766,Non-evaluable forecast candidate; next-year target is missing
+Perak,primary,male,2022,2023,99.1,-0.20000000000000284,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.19663525324734,Non-evaluable forecast candidate; next-year target is missing
+Perak,secondary_lower,female,2022,2023,99.4,0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.993787042056,Non-evaluable forecast candidate; next-year target is missing
+Perak,secondary_lower,male,2022,2023,99.0,0.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.07145047583182,Non-evaluable forecast candidate; next-year target is missing
+Perak,secondary_upper,female,2022,2023,99.9,0.7000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.87307804079204,Non-evaluable forecast candidate; next-year target is missing
+Perak,secondary_upper,male,2022,2023,100.7,1.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.67805150451986,Non-evaluable forecast candidate; next-year target is missing
+Perlis,primary,female,2022,2023,107.2,7.900000000000006,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.51371141177253,Non-evaluable forecast candidate; next-year target is missing
+Perlis,primary,male,2022,2023,103.9,4.6000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.78055002184698,Non-evaluable forecast candidate; next-year target is missing
+Perlis,secondary_lower,female,2022,2023,100.3,1.2999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.01676207599947,Non-evaluable forecast candidate; next-year target is missing
+Perlis,secondary_lower,male,2022,2023,99.1,0.09999999999999432,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.06991222959049,Non-evaluable forecast candidate; next-year target is missing
+Perlis,secondary_upper,female,2022,2023,98.2,-1.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.39732880136462,Non-evaluable forecast candidate; next-year target is missing
+Perlis,secondary_upper,male,2022,2023,97.6,-1.6000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,94.59087079837788,Non-evaluable forecast candidate; next-year target is missing
+Pulau Pinang,primary,female,2022,2023,98.9,-0.3999999999999915,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.48704759486431,Non-evaluable forecast candidate; next-year target is missing
+Pulau Pinang,primary,male,2022,2023,96.6,-2.700000000000003,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.26973359284293,Non-evaluable forecast candidate; next-year target is missing
+Pulau Pinang,secondary_lower,female,2022,2023,99.7,0.7000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.3868944047355,Non-evaluable forecast candidate; next-year target is missing
+Pulau Pinang,secondary_lower,male,2022,2023,99.7,0.7000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.12876277322998,Non-evaluable forecast candidate; next-year target is missing
+Pulau Pinang,secondary_upper,female,2022,2023,101.0,1.7999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,94.57482197069957,Non-evaluable forecast candidate; next-year target is missing
+Pulau Pinang,secondary_upper,male,2022,2023,100.0,0.7999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.07380176314877,Non-evaluable forecast candidate; next-year target is missing
+Sabah,primary,female,2022,2023,100.8,1.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.73523461943051,Non-evaluable forecast candidate; next-year target is missing
+Sabah,primary,male,2022,2023,100.3,1.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.20230903810214,Non-evaluable forecast candidate; next-year target is missing
+Sabah,secondary_lower,female,2022,2023,99.7,0.7000000000000028,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.61543107795482,Non-evaluable forecast candidate; next-year target is missing
+Sabah,secondary_lower,male,2022,2023,99.5,0.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.38394265724601,Non-evaluable forecast candidate; next-year target is missing
+Sabah,secondary_upper,female,2022,2023,99.5,0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.82749075486181,Non-evaluable forecast candidate; next-year target is missing
+Sabah,secondary_upper,male,2022,2023,99.7,0.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.02723562788884,Non-evaluable forecast candidate; next-year target is missing
+Sarawak,primary,female,2022,2023,101.1,1.7999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,100.19262668553321,Non-evaluable forecast candidate; next-year target is missing
+Sarawak,primary,male,2022,2023,100.3,1.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.48897947058803,Non-evaluable forecast candidate; next-year target is missing
+Sarawak,secondary_lower,female,2022,2023,99.6,0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.78062354572182,Non-evaluable forecast candidate; next-year target is missing
+Sarawak,secondary_lower,male,2022,2023,98.5,-0.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.22917612910852,Non-evaluable forecast candidate; next-year target is missing
+Sarawak,secondary_upper,female,2022,2023,98.9,-0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.15646829516929,Non-evaluable forecast candidate; next-year target is missing
+Sarawak,secondary_upper,male,2022,2023,98.8,-0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.70994461885343,Non-evaluable forecast candidate; next-year target is missing
+Selangor,primary,female,2022,2023,99.1,-0.20000000000000284,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.84578437335513,Non-evaluable forecast candidate; next-year target is missing
+Selangor,primary,male,2022,2023,98.2,-1.0999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.86475570127526,Non-evaluable forecast candidate; next-year target is missing
+Selangor,secondary_lower,female,2022,2023,98.4,-0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.89806334177109,Non-evaluable forecast candidate; next-year target is missing
+Selangor,secondary_lower,male,2022,2023,97.7,-1.2999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.5997067180906,Non-evaluable forecast candidate; next-year target is missing
+Selangor,secondary_upper,female,2022,2023,99.6,0.3999999999999915,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.12166549895937,Non-evaluable forecast candidate; next-year target is missing
+Selangor,secondary_upper,male,2022,2023,98.9,-0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.68125868883699,Non-evaluable forecast candidate; next-year target is missing
+Terengganu,primary,female,2022,2023,104.6,5.299999999999997,autoregressive_categorical_education,rf_n100_dNone_leaf5,102.15159886059962,Non-evaluable forecast candidate; next-year target is missing
+Terengganu,primary,male,2022,2023,103.1,3.799999999999997,autoregressive_categorical_education,rf_n100_dNone_leaf5,100.45995707509778,Non-evaluable forecast candidate; next-year target is missing
+Terengganu,secondary_lower,female,2022,2023,99.9,0.9000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.06656235918476,Non-evaluable forecast candidate; next-year target is missing
+Terengganu,secondary_lower,male,2022,2023,99.6,0.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,99.12372189404843,Non-evaluable forecast candidate; next-year target is missing
+Terengganu,secondary_upper,female,2022,2023,99.1,-0.10000000000000853,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.15866238656731,Non-evaluable forecast candidate; next-year target is missing
+Terengganu,secondary_upper,male,2022,2023,98.8,-0.4000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.05435284345077,Non-evaluable forecast candidate; next-year target is missing
+W.P. Kuala Lumpur,primary,female,2022,2023,94.6,-4.700000000000003,autoregressive_categorical_education,rf_n100_dNone_leaf5,94.56646575023531,Non-evaluable forecast candidate; next-year target is missing
+W.P. Kuala Lumpur,primary,male,2022,2023,92.9,-6.3999999999999915,autoregressive_categorical_education,rf_n100_dNone_leaf5,92.56132004931509,Non-evaluable forecast candidate; next-year target is missing
+W.P. Kuala Lumpur,secondary_lower,female,2022,2023,96.4,-2.5999999999999943,autoregressive_categorical_education,rf_n100_dNone_leaf5,97.43564757192057,Non-evaluable forecast candidate; next-year target is missing
+W.P. Kuala Lumpur,secondary_lower,male,2022,2023,96.5,-2.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.97196675404477,Non-evaluable forecast candidate; next-year target is missing
+W.P. Kuala Lumpur,secondary_upper,female,2022,2023,98.1,-1.1000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.71618955155128,Non-evaluable forecast candidate; next-year target is missing
+W.P. Kuala Lumpur,secondary_upper,male,2022,2023,97.0,-2.200000000000003,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.51086803694298,Non-evaluable forecast candidate; next-year target is missing
+W.P. Labuan,primary,female,2022,2023,93.9,-5.3999999999999915,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.99055373015418,Non-evaluable forecast candidate; next-year target is missing
+W.P. Labuan,primary,male,2022,2023,90.9,-8.399999999999991,autoregressive_categorical_education,rf_n100_dNone_leaf5,92.21724374420401,Non-evaluable forecast candidate; next-year target is missing
+W.P. Labuan,secondary_lower,female,2022,2023,103.2,4.200000000000003,autoregressive_categorical_education,rf_n100_dNone_leaf5,100.3477247524681,Non-evaluable forecast candidate; next-year target is missing
+W.P. Labuan,secondary_lower,male,2022,2023,102.5,3.5,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.64069218777732,Non-evaluable forecast candidate; next-year target is missing
+W.P. Labuan,secondary_upper,female,2022,2023,99.5,0.29999999999999716,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.54083519512433,Non-evaluable forecast candidate; next-year target is missing
+W.P. Labuan,secondary_upper,male,2022,2023,99.2,0.0,autoregressive_categorical_education,rf_n100_dNone_leaf5,96.138588425992,Non-evaluable forecast candidate; next-year target is missing
+W.P. Putrajaya,primary,female,2022,2023,104.9,5.6000000000000085,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.91810326828946,Non-evaluable forecast candidate; next-year target is missing
+W.P. Putrajaya,primary,male,2022,2023,101.1,1.7999999999999972,autoregressive_categorical_education,rf_n100_dNone_leaf5,95.54418439645295,Non-evaluable forecast candidate; next-year target is missing
+W.P. Putrajaya,secondary_lower,female,2022,2023,105.9,6.900000000000006,autoregressive_categorical_education,rf_n100_dNone_leaf5,101.26935958329688,Non-evaluable forecast candidate; next-year target is missing
+W.P. Putrajaya,secondary_lower,male,2022,2023,100.9,1.9000000000000057,autoregressive_categorical_education,rf_n100_dNone_leaf5,98.95992235563445,Non-evaluable forecast candidate; next-year target is missing
+W.P. Putrajaya,secondary_upper,female,2022,2023,99.1,-0.10000000000000853,autoregressive_categorical_education,rf_n100_dNone_leaf5,93.64324755568404,Non-evaluable forecast candidate; next-year target is missing
+W.P. Putrajaya,secondary_upper,male,2022,2023,104.0,4.799999999999997,autoregressive_categorical_education,rf_n100_dNone_leaf5,94.55484452385883,Non-evaluable forecast candidate; next-year target is missing

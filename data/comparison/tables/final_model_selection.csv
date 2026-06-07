@@ -1,0 +1,2 @@
+selected_model_key,selected_model_name,selected_mae,selected_rmse,selected_r2,selected_median_absolute_error,primary_selection_metric,secondary_selection_checks
+svr,Support Vector Regression,2.023946549144871,2.73260976914434,-0.3006762586745686,1.5768237097878242,MAE,"RMSE, R², Median AE"

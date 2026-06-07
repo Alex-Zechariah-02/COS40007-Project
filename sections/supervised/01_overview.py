@@ -4,20 +4,23 @@ from src.summary_builders import build_supervised_system_overview
 from src.data_loader import load_table
 from src.content_blocks import WHY_REGRESSION, NO_CLUSTERING
 
-page_header("Supervised Regression System: Overview", "Shared modelling scope for SVR and the future RandomForestRegressor branch.")
+page_header("Supervised Regression System: Overview", "Shared modelling scope for the completed SVR and RandomForestRegressor branches.")
 render_page_intro("supervised_overview")
 
 metric_cards({
     "Task type": "Regression",
     "Target": "next_year_completion_rate",
-    "Completed model": "SVR",
-    "Pending model": "RandomForestRegressor",
+    "Model 1": "SVR",
+    "Model 2": "RandomForestRegressor",
 }, columns=4, help_map={
     "Task type": "The target is numeric, so regression metrics are used.",
     "Target": "Next-year school completion-rate value.",
-    "Completed model": "Support Vector Regression branch is available.",
-    "Pending model": "RF branch will be added only after validated outputs exist.",
+    "Model 1": "Support Vector Regression branch is available.",
+    "Model 2": "RandomForestRegressor branch is available and comparable against SVR.",
 })
+
+st.markdown("### Official comparison result")
+st.info("The official comparison notebook validates both completed supervised-regression branches and selects Support Vector Regression as the stronger tested model on the current held-out outputs. The detailed evidence is available under Supervised Model Comparison.")
 
 st.markdown("### One-screen methodology overview")
 st.dataframe(build_supervised_system_overview(), width="stretch", hide_index=True)

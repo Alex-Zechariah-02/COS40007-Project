@@ -1,5 +1,5 @@
 SUPERVISED_OVERVIEW = """
-This application presents the supervised-regression workflow for State Completion Rate Prediction. The shared workflow covers the data, target, features, leakage checks, chronological split, and baselines. The completed model branch is Support Vector Regression, and the RandomForestRegressor branch is reserved until validated outputs are available.
+This application presents the supervised-regression workflow for State Completion Rate Prediction. The shared workflow covers the data, target, features, leakage checks, chronological split, and baselines. The completed model branches are Support Vector Regression and RandomForestRegressor, with an active comparison section built from their saved outputs.
 """
 
 WHY_REGRESSION = """
@@ -19,7 +19,7 @@ Leakage control prevents future target information from entering the feature mat
 """
 
 NO_CLUSTERING = """
-Clustering is excluded from this application. The focus is the supervised regression workflow: shared data preparation, the completed SVR branch, the reserved RandomForestRegressor branch, and the future supervised model comparison.
+Clustering is excluded from this application. The focus is the supervised regression workflow: shared data preparation, the completed SVR branch, the completed RandomForestRegressor branch, and the active supervised model comparison.
 """
 
 METRIC_GUIDE = """
@@ -36,5 +36,5 @@ SVR_BRANCH_TAKEAWAYS = [
     "SVR improved MAE and RMSE over the tested baselines on the held-out test set.",
     "R² is negative, so the result should be interpreted cautiously.",
     "The residual diagnostics show underprediction bias.",
-    "The branch is ready for later comparison with RandomForestRegressor once the RF outputs are validated.",
+    "The branch is compared with RandomForestRegressor in the supervised model comparison section.",
 ]

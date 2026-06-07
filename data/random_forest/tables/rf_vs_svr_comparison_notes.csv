@@ -1,0 +1,9 @@
+Comparison Item,Value
+Same target,next_year_completion_rate
+Same row unit,state-stage-sex-year (male and female)
+Same train years,"[2017, 2018, 2019, 2020]"
+Same test year,2021
+Same metric set,"MAE, RMSE, R2, Median_AE"
+Same baseline comparison,"training_mean, persistence, historical group means, rolling mean, trend, Ridge"
+Same validation design,Expanding chronological folds
+Difference,Random Forest uses ensemble trees; SVR uses kernel-based regression (RBF). RF provides native feature_importances_; SVR does not.

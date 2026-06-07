@@ -1,0 +1,2 @@
+selected_model_key,selected_model_name,selection_rule,selection_basis
+svr,Support Vector Regression,"Lowest MAE, then lowest RMSE, then higher R², then lower Median AE",Held-out chronological test metrics

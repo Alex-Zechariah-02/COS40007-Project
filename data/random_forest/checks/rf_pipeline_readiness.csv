@@ -1,0 +1,7 @@
+Item,Value
+Train rows,384
+Test rows,96
+Forecast rows,96
+Feature-set count,5
+RF candidate count,27
+Readiness status,Ready for chronological RF tuning

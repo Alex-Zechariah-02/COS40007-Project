@@ -1,0 +1,15 @@
+model_key,column,exists
+svr,state,True
+svr,stage,True
+svr,sex,True
+svr,input_year,True
+svr,target_year,True
+svr,actual_next_year_completion_rate,True
+svr,predicted_next_year_completion_rate,True
+rf,state,True
+rf,stage,True
+rf,sex,True
+rf,input_year,True
+rf,target_year,True
+rf,actual_next_year_completion_rate,True
+rf,predicted_next_year_completion_rate,True

@@ -37,7 +37,7 @@ for fig, title, purpose, how, better, takeaway in [
     ("all_baseline_mae_rmse_comparison.png", "Baseline MAE/RMSE comparison", "Compares simple baseline errors before SVR evaluation.", "Lower bars are better for MAE and RMSE.", "Lower is better.", "Baselines define the minimum performance standard."),
     ("all_baseline_r2_comparison.png", "Baseline R² comparison", "Compares baseline R² values.", "Higher values are better; negative values indicate weak held-out explanatory power.", "Higher is better.", "R² should be read with MAE/RMSE and not used alone."),
 ]:
-    guided_figure(figure_path(fig), title, purpose, how, better, takeaway, "Baseline visuals do not include RF yet because RF outputs are pending.")
+    guided_figure(figure_path(fig), title, purpose, how, better, takeaway, "Baseline visuals support the shared validation context. Open the comparison section for SVR versus RF evidence.")
 
 render_page_discussion("validation_baselines")
 next_steps(["Open SVR Branch → 1. Overview for the completed model branch."])

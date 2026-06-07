@@ -1,0 +1,7 @@
+model_key,model_name,stage,row_count,mae,rmse,median_absolute_error
+svr,Support Vector Regression,primary,32,2.102220321989489,2.954353879012752,1.6904119693854511
+svr,Support Vector Regression,secondary_lower,32,2.008128997270098,2.655098283832389,1.5482611624261509
+svr,Support Vector Regression,secondary_upper,32,1.961490328175025,2.5736578467274653,1.5084178787990083
+rf,RandomForestRegressor,secondary_upper,32,4.2850937556361455,4.708145513996326,4.4303625382558
+rf,RandomForestRegressor,primary,32,2.6711262517355,3.580419286502004,2.261069207754325
+rf,RandomForestRegressor,secondary_lower,32,2.582187993454293,3.076145547212181,2.5150533344562405
