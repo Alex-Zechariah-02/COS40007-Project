@@ -1,17 +1,32 @@
-# COS40007 Smart Government SVR Notebook System
+# COS40007 State Completion Rate Prediction
 
-This repository contains a Streamlit app that converts the completed Support Vector Regression notebook into an interactive notebook-as-system for COS40007 State Completion Rate Prediction.
+This repository contains a Streamlit application for the supervised-regression component of the COS40007 Smart Government project.
 
 Current status:
 
-- SVR branch: complete and loaded from saved notebook outputs.
-- RandomForestRegressor branch: pending.
-- Supervised comparison: pending until Random Forest outputs are added.
-- Clustering branch: intentionally excluded from this supervised-regression app.
+- Shared supervised-regression workflow: complete
+- Support Vector Regression branch: complete
+- RandomForestRegressor branch: pending
+- Supervised model comparison: pending until RandomForestRegressor outputs are added
 
-Main target: `next_year_completion_rate`.
+Main task:
 
-Main model: Support Vector Regression with RBF kernel.
+- Predict next-year Malaysian state school completion rate using supervised regression.
+
+Main target:
+
+- `next_year_completion_rate`
+
+Current completed model branch:
+
+- Support Vector Regression
+
+Main metrics:
+
+- MAE = Mean Absolute Error
+- RMSE = Root Mean Squared Error
+- R² = R-squared
+- Median AE = Median Absolute Error
 
 Run locally:
 
@@ -20,4 +35,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Deploy on Streamlit Community Cloud with main file path: `app.py`.
+Hosted Streamlit main file path:
+
+```text
+app.py
+```

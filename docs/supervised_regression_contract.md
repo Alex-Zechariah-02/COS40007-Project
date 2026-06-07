@@ -1,11 +1,7 @@
-# Supervised Regression Contract
+# Supervised regression contract
 
-The supervised-regression branch predicts numeric next-year school completion rate. SVR and future RandomForestRegressor outputs must share the same target, row unit, split, baselines, and metrics.
+Both SVR and RandomForestRegressor must use the same target, row unit, train/test split, baselines, and regression metrics before comparison.
 
-- Target: `next_year_completion_rate`
-- Row unit: state-stage-sex-year
-- Metrics: MAE, RMSE, R², Median Absolute Error
-- Baselines: training mean and persistence
-- Validation: chronological, not shuffled K-Fold
-- Classification metrics: not used
-- Cluster labels: not a supervised target
+Target: `next_year_completion_rate`
+Metrics: MAE, RMSE, R², median absolute error
+Classification metrics are not used.

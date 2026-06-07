@@ -1,0 +1,69 @@
+# Uploaded SVR Notebook Heading Outline
+
+- # COS40007 Artificial Intelligence for Engineering
+- ## Appendix A: Generative AI Use Declaration
+- ## Appendix B: Project Folder Summary
+- ## Prerequisites
+- #### Environment Setup and Library Imports
+- #### Google Drive Access and Project Folder Setup
+- #### Locked Constants and Reusable Helper Utilities
+- ### Raw Malaysian Public-Sector Dataset Inspection
+- #### Raw CSV Folder and File Setup
+- #### Raw CSV Loading and Initial File Count
+- #### Raw CSV Schema and Coverage Review
+- #### Raw Dataset Visual Audit
+- ## Objective
+- ## Step 1 - Project Scope and Supervised Regression Framing
+- ### Step 1.1 - Smart Government Education-Planning Context
+- ### Step 1.2 - Public-Sector Dataset Selection
+- ### Step 1.3 - Dataset Role Flow Visualisation
+- ### Step 1.4 - Regression Target and Excluded Scope
+- ### Step 1 Discussion
+- ## Step 2 - Raw Data Audit and Target Construction
+- ### Step 2.1 - Raw Data Quality and Coverage Audit
+- ### Step 2.2 - Completion Target, Malaysia Benchmark, and Gap Construction
+- ### Step 2.3 - Target Distribution and Benchmark Visual Evidence
+- ### Step 2.4 - Row Unit and Sex Handling
+- ### Step 2.5 - Row Unit Visual Evidence
+- ### Step 2.6 - Completion Rate Trend Visual Review
+- ### Step 2.7 - Completion Trend Detail Visuals
+- ### Step 2 Discussion
+- ## Step 3 - Feature Engineering and Leakage Control
+- ### Step 3.1 - Education, Demographic, Household, and Economic Features
+- ### Step 3.2 - Autoregressive and Trend Features
+- ### Step 3.3 - Supervised Panel Merge, Feature Registry, and Leakage Audit
+- ### Step 3.4 - Feature Source Visual Evidence
+- ### Step 3 Discussion
+- ## Step 4 - Chronological Validation and Baseline Models
+- ### Step 4.1 - Chronological Train, Validation, and Test Split
+- ### Step 4.2 - Mean and Persistence Baselines
+- ### Step 4.3 - Additional Rule-Based Baseline Models
+- ### Step 4.4 - Baseline Summary and Selection-Free Comparison
+- ### Step 4.5 - Validation and Baseline Visual Evidence
+- ### Step 4 Discussion
+- ## Step 5 - SVR Model Development and Linear Benchmark
+- ### Step 5.1 - SVR Pipeline and Hyperparameter Design
+- ### Step 5.2 - Ridge Regression Benchmark
+- ### Step 5.3 - Chronological SVR Tuning and Calibration
+- ### Step 5.4 - Final SVR Selection and Model Saving
+- ### Step 5.5 - SVR Validation Visual Evidence
+- ### Step 5 Discussion
+- ## Step 6 - Held-Out Evaluation and Model Comparison
+- ### Step 6.1 - Held-Out Test Prediction and Regression Metrics
+- ### Step 6.2 - Expanded Metric and Practical Error Diagnostics
+- ### Step 6.3 - Baseline Versus SVR Comparison
+- ### Step 6.4 - Expanded Baseline Versus SVR Comparison
+- ### Step 6.5 - Expanded Model Comparison Visual Evidence
+- ### Step 6.6 - Error Analysis by State, Stage, and Sex
+- ### Step 6.7 - Prediction Fit and Residual Visual Evidence
+- ### Step 6.8 - Grouped Error Heatmaps and Detailed Error Visual Evidence
+- ### Step 6.9 - Visual Evaluation and Feature Influence
+- ### Step 6 Discussion
+- ## Step 7 - Demonstration, Interpretation, and Output Evidence
+- ### Step 7.1 - Representative Prediction Demonstrator
+- ### Step 7.2 - Feature Influence and Demonstration Visual Evidence
+- ### Step 7.3 - Visual Evidence Registry Update
+- ### Step 7.4 - Smart Government Interpretation and Limitations
+- ### Step 7.5 - Final Output and Folder Check
+- ### Step 7.6 - Reflective Statement
+- ### Step 7 Discussion

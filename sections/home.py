@@ -1,36 +1,41 @@
 import streamlit as st
-from src.config import APP_TITLE, TABLES_DIR, CHECKS_DIR, REQUIRED_CORE_FILES
-from src.data_loader import load_csv, load_json
-from src.formatting import fmt_num
-from src.ui_components import page_header, purpose_box, metric_row, file_status_table, show_dataframe
+from src.ui_components import page_header, render_page_intro, render_page_discussion, metric_cards, next_steps, abbreviation_note
+from src.summary_builders import build_svr_metric_summary, build_supervised_system_overview
 
-page_header(APP_TITLE, "Interactive Streamlit replacement for the completed Support Vector Regression notebook.")
-purpose_box("This app presents the completed SVR notebook as an interactive system: raw data audit, target construction, feature engineering, validation, model training, final evaluation, visual evidence, AI demonstrator, output checks, and limitations.")
+page_header("COS40007 State Completion Rate Prediction", "Supervised-regression review system for Malaysian school completion-rate prediction.")
+render_page_intro("home")
 
-metrics = load_csv(TABLES_DIR / "final_svr_metrics.csv")
-summary = load_csv(TABLES_DIR / "final_notebook_completion_summary.csv")
-if not metrics.empty:
-    row = metrics.iloc[0]
-    metric_row([
-        ("MAE", fmt_num(row.get("MAE"), 3), "Mean absolute error in completion-rate percentage points"),
-        ("RMSE", fmt_num(row.get("RMSE"), 3), "Large-error penalty metric"),
-        ("R²", fmt_num(row.get("R2"), 3), "Can be negative on held-out data"),
-        ("Median AE", fmt_num(row.get("Median_AE"), 3), "Robust typical error"),
-    ])
-    st.caption(f"Selected feature set: `{row.get('Selected Feature Set')}` | Candidate: `{row.get('Selected Candidate Name')}`")
+st.markdown("### Current branch status")
+metric_cards({
+    "Shared workflow": "Complete",
+    "SVR branch": "Complete",
+    "RandomForestRegressor": "Pending",
+    "Model comparison": "Pending",
+}, columns=4, help_map={
+    "Shared workflow": "Shared data, target, features, leakage control, validation, and baselines are available.",
+    "SVR branch": "Completed Support Vector Regression branch is available for review.",
+    "RandomForestRegressor": "Reserved for teammate outputs once validated.",
+    "Model comparison": "Enabled only after RF outputs match the shared contract.",
+})
 
-st.subheader("System status")
-file_status_table(REQUIRED_CORE_FILES)
+st.markdown("### SVR branch headline metrics")
+metric_cards(build_svr_metric_summary(), columns=4, help_map={
+    "MAE": "Mean Absolute Error. Lower is better.",
+    "RMSE": "Root Mean Squared Error. Lower is better.",
+    "R²": "R-squared. Higher is better; negative indicates weak held-out explanatory power.",
+    "Median AE": "Median Absolute Error. Lower is better.",
+})
+abbreviation_note()
 
-if not summary.empty:
-    st.subheader("Notebook completion summary")
-    show_dataframe(summary, height=280)
+st.markdown("### Supervised-regression workflow summary")
+st.dataframe(build_supervised_system_overview(), width="stretch", hide_index=True)
 
-st.subheader("How to read this system")
-st.markdown("""
-1. Start with **Project Scope** to understand the supervised-regression framing.
-2. Move through **Raw Data Audit**, **Target Construction**, and **Feature Engineering** to verify the data pipeline.
-3. Review **Validation & Baselines** and **SVR Training** to see how the model was selected.
-4. Use **Final Evaluation**, **Error Diagnostics**, **Visual Evidence**, and **AI Demonstrator** for results.
-5. Use **Output Check** and **Limitations** before presenting or submitting.
-""")
+next_steps([
+    "For the full shared methodology, open Supervised Regression System → 1. Overview.",
+    "For the completed model result, open SVR Branch → 1. Overview.",
+    "For final metrics, open SVR Branch → 4. Final Evaluation.",
+    "For practical model behaviour, open SVR Branch → 5. Error Diagnostics.",
+    "For one user-facing example, open SVR Branch → 8. AI Demonstrator.",
+])
+
+render_page_discussion("home")

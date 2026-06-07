@@ -1,50 +1,99 @@
 from __future__ import annotations
+
 from pathlib import Path
-from typing import Optional, Iterable
 import json
 import pandas as pd
 import streamlit as st
+from .config import CHECKS_DIR, TABLES_DIR, ARTIFACTS_DIR, RAW_DATA_DIR, SVR_FIGURES_DIR, SVR_MODELS_DIR, DATA_DIR
 
-@st.cache_data(show_spinner=False)
-def load_csv(path: str | Path) -> pd.DataFrame:
-    path = Path(path)
-    if not path.exists():
-        return pd.DataFrame()
+
+def _read_csv(path: Path) -> pd.DataFrame:
     return pd.read_csv(path)
 
+
 @st.cache_data(show_spinner=False)
-def load_json(path: str | Path) -> dict:
-    path = Path(path)
+def load_csv_cached(path_str: str) -> pd.DataFrame:
+    path = Path(path_str)
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        return _read_csv(path)
+    except Exception as exc:
+        return pd.DataFrame({"load_error": [str(exc)], "path": [str(path)]})
+
+
+@st.cache_data(show_spinner=False)
+def load_json_cached(path_str: str) -> dict:
+    path = Path(path_str)
     if not path.exists():
         return {}
-    with path.open("r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return {"load_error": str(exc), "path": str(path)}
 
-def file_exists(path: str | Path) -> bool:
-    return Path(path).exists()
 
-def load_first_existing(paths: Iterable[str | Path]) -> tuple[pd.DataFrame, Optional[Path]]:
-    for p in paths:
-        p = Path(p)
-        if p.exists():
-            return load_csv(str(p)), p
-    return pd.DataFrame(), None
+def table_path(name: str) -> Path:
+    p = TABLES_DIR / name
+    if p.exists():
+        return p
+    return CHECKS_DIR / name
 
-def safe_head(df: pd.DataFrame, n: int = 10) -> pd.DataFrame:
-    if df is None or df.empty:
-        return pd.DataFrame()
-    return df.head(n)
 
-def list_pngs(directory: str | Path):
-    directory = Path(directory)
+def artifact_path(name: str) -> Path:
+    return ARTIFACTS_DIR / name
+
+
+def figure_path(filename: str) -> Path:
+    return SVR_FIGURES_DIR / filename
+
+
+def raw_path(filename: str) -> Path:
+    return RAW_DATA_DIR / filename
+
+
+def model_path(filename: str) -> Path:
+    return SVR_MODELS_DIR / filename
+
+
+def load_table(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(table_path(name)))
+
+
+def load_check(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(CHECKS_DIR / name))
+
+
+def load_raw(name: str) -> pd.DataFrame:
+    return load_csv_cached(str(raw_path(name)))
+
+
+def load_artifact_json(name: str) -> dict:
+    return load_json_cached(str(artifact_path(name)))
+
+
+def file_exists(path: Path) -> bool:
+    return path.exists() and path.is_file()
+
+
+def list_files(directory: Path, suffix: str | None = None) -> list[Path]:
     if not directory.exists():
         return []
-    return sorted(directory.glob("*.png"))
+    files = [p for p in directory.iterdir() if p.is_file()]
+    if suffix:
+        files = [p for p in files if p.suffix.lower() == suffix.lower()]
+    return sorted(files, key=lambda p: p.name.lower())
 
-def get_column(df: pd.DataFrame, candidates: list[str]) -> Optional[str]:
-    lookup = {c.lower().strip(): c for c in df.columns}
-    for cand in candidates:
-        key = cand.lower().strip()
-        if key in lookup:
-            return lookup[key]
-    return None
+
+def folder_inventory() -> pd.DataFrame:
+    rows = []
+    for label, directory in [("checks", CHECKS_DIR), ("tables", TABLES_DIR), ("artifacts", ARTIFACTS_DIR), ("raw", RAW_DATA_DIR), ("figures_svr", SVR_FIGURES_DIR), ("models_svr", SVR_MODELS_DIR)]:
+        files = list_files(directory)
+        rows.append({
+            "folder": label,
+            "path": str(directory.relative_to(DATA_DIR.parent)),
+            "file_count": len(files),
+            "total_size_kb": round(sum(f.stat().st_size for f in files) / 1024, 2),
+            "exists": directory.exists(),
+        })
+    return pd.DataFrame(rows)

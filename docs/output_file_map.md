@@ -1,8 +1,7 @@
-# Output File Map
+# Output file map
 
-- `final_svr_metrics.csv`: Home and Final Evaluation.
-- `test_predictions.csv`: Final Evaluation and AI Demonstrator.
-- `residual_summary.csv`: Error Diagnostics.
-- `visual_evidence_registry.csv`: Visual Evidence.
-- `final_ai_demonstrator.csv`: AI Demonstrator.
-- `final_output_check.csv`: Output Check.
+- Raw audit files: `data/checks/`
+- Model tables and metrics: `data/tables/`
+- Best parameter JSON: `data/artifacts/`
+- Figures: `figures/svr/`
+- Saved model: `models/svr/`
