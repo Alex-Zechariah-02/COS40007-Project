@@ -128,10 +128,10 @@ def build_comparison_metric_cards() -> dict[str, str]:
         return {}
     best = leader.sort_values(["mae", "rmse"], ascending=[True, True]).iloc[0]
     return {
-        "Selected model": str(best.get("model_name", "N/A")),
         "Best MAE": fmt_pp(best.get("mae")),
         "Best RMSE": fmt_pp(best.get("rmse")),
         "Best R²": fmt_r2(best.get("r2")),
+        "Best Median AE": fmt_pp(best.get("median_absolute_error")),
     }
 
 
@@ -289,7 +289,7 @@ def build_ai_demo_cards() -> dict[str, str]:
         "Actual": f"{float(r.get('actual_next_year_completion_rate')):.2f}%",
         "SVR prediction": f"{float(r.get('svr_prediction')):.2f}%",
         "RF prediction": f"{float(r.get('rf_prediction')):.2f}%",
-        "Winner": str(r.get("winner_for_row", r.get("winner_by_row", "N/A"))).upper(),
+        "Winner": "Support Vector Regression" if str(r.get("winner_for_row", r.get("winner_by_row", "N/A"))).strip().lower() == "svr" else "RandomForestRegressor" if str(r.get("winner_for_row", r.get("winner_by_row", "N/A"))).strip().lower() == "rf" else str(r.get("winner_for_row", r.get("winner_by_row", "N/A"))),
     }
 
 
@@ -312,8 +312,8 @@ def build_forecast_cards() -> dict[str, str]:
         return {}
     return {
         "Forecast rows": str(len(df)),
-        "SVR mean preview": fmt_pp(df["svr_forecast_prediction"].mean()),
-        "RF mean preview": fmt_pp(df["rf_forecast_prediction"].mean()),
+        "SVR mean preview": fmt_pct(df["svr_forecast_prediction"].mean(), decimals=2),
+        "RF mean preview": fmt_pct(df["rf_forecast_prediction"].mean(), decimals=2),
         "Mean model difference": fmt_pp(df["absolute_forecast_prediction_difference"].mean()),
     }
 

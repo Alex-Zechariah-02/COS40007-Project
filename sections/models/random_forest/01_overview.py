@@ -1,6 +1,6 @@
 import streamlit as st
-from src.ui_components import page_header, render_page_intro, render_page_discussion, metric_cards, abbreviation_note, guided_figure, next_steps
-from src.rf_summary_builders import build_rf_metric_summary, build_rf_config_summary, build_rf_diagnostic_summary, build_rf_grouped_error_summary, build_rf_output_status_summary, build_rf_validation_issue_summary
+from src.ui_components import page_header, render_page_intro, render_page_discussion, metric_cards, abbreviation_note, guided_figure, next_steps, show_table_with_guide
+from src.rf_summary_builders import build_rf_metric_summary, build_rf_config_summary, build_rf_diagnostic_summary, build_rf_grouped_error_summary, build_rf_output_status_summary, build_rf_validation_issue_summary, build_rf_baseline_summary
 from src.data_loader import load_rf_table, rf_figure_path
 
 page_header("Random Forest Branch: Overview", "Executive overview of the completed RandomForestRegressor branch.")
@@ -36,6 +36,11 @@ metric_cards(build_rf_metric_summary(), columns=4, help_map={
 })
 abbreviation_note()
 
+st.markdown("### Baseline comparison summary")
+base = build_rf_baseline_summary()
+if not base.empty:
+    st.dataframe(base, width="stretch", hide_index=True)
+
 st.markdown("### Practical diagnostics")
 diag = build_rf_diagnostic_summary()
 metric_cards({
@@ -66,9 +71,16 @@ st.markdown("### Featured visual evidence")
 for fig, title, purpose, how, better, takeaway in [
     ("actual_vs_predicted.png", "Actual versus predicted", "Compares held-out actual values with RF predictions.", "Points closer to the diagonal line have smaller prediction error.", "Closer to diagonal is better.", "RF shows larger misses than the completed SVR branch."),
     ("residual_distribution.png", "Residual distribution", "Shows actual-minus-predicted error spread.", "Positive residuals mean underprediction.", "Centered near 0 is better.", "RF has clear underprediction bias."),
-    ("rf_vs_svr_metric_comparison.png", "RF versus SVR metric comparison", "Compares RF and SVR on the main regression metrics.", "Lower error metrics are better; higher R² is better.", "SVR is better on current held-out metrics.", "This comparison uses saved notebook outputs."),
+    ("expanded_mae_comparison.png", "MAE comparison", "Compares RF error against the tested baseline set.", "Lower bars are better.", "Lower is better.", "RF does not beat the strongest simple baselines by MAE."),
+    ("error_by_state.png", "Error by state", "Shows where held-out RF errors are larger or smaller by state.", "Higher bars mean larger error.", "Lower is better.", "State-level diagnostics identify where RF predictions need more caution."),
+    ("native_feature_importance.png", "Native feature importance", "Shows RF split-based feature influence.", "Higher values mean greater tree-based importance.", "No performance direction; this is interpretation evidence.", "Completion-history features dominate RF importance."),
 ]:
     guided_figure(rf_figure_path(fig), title, purpose, how, better, takeaway, "Use detailed RF pages and comparison pages for full evidence.")
+
+st.markdown("### AI demonstrator snapshot")
+demo = load_rf_table("final_ai_demonstrator.csv")
+if not demo.empty:
+    show_table_with_guide(demo, "final_ai_demonstrator.csv", "Representative RF prediction row", max_rows=1)
 
 st.markdown("### Output evidence status")
 out = build_rf_output_status_summary()
@@ -78,5 +90,7 @@ render_page_discussion("rf_overview")
 next_steps([
     "Open 2. Model Design for the RF pipeline and feature-set setup.",
     "Open 4. Final Evaluation for exact held-out metrics and baseline comparison.",
+    "Open 5. Error Diagnostics for residual, tolerance, and grouped-error behaviour.",
+    "Open 8. AI Demonstrator for the user-facing prediction example.",
     "Open the Supervised Model Comparison section to compare RF against SVR.",
 ])

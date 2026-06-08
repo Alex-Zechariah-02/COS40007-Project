@@ -7,13 +7,13 @@ PAGE_NARRATIVES = {
             "Then open the SVR Branch pages to review the completed model design, training, evaluation, diagnostics, demonstrator, and limitations.",
             "The RandomForestRegressor and comparison sections are now available using validated saved outputs.",
         ],
-        "discussion": "The app is organised around a shared supervised-regression contract rather than a single-model story. This keeps the workflow ready for a later fair comparison between Support Vector Regression and RandomForestRegressor using the same target, row unit, split, baselines, and metrics.",
+        "discussion": "The app is organised around a shared supervised-regression contract rather than a single-model story. The completed Support Vector Regression and RandomForestRegressor branches are compared using the same target, row unit, split, baselines, and metric contract.",
     },
     "supervised_overview": {
         "key": "The supervised task is regression because the output is a numeric next-year completion-rate value, not a class label.",
         "answers": "This page explains the shared supervised-regression objective and how the completed SVR and RandomForestRegressor branches fit the same modelling task.",
         "read": ["Read the task cards first.", "Then inspect the overview of data, target, feature, leakage, validation, and baseline decisions.", "Use the detailed shared pages for evidence behind each decision."],
-        "discussion": "The supervised branch predicts next-year school completion rate. This requires regression metrics such as MAE, RMSE, R², and Median AE. Classification metrics are excluded because no categorical class label is used. A later RandomForestRegressor branch can only be compared against SVR if it follows the same target, row unit, split, baselines, and metric contract.",
+        "discussion": "The supervised branch predicts next-year school completion rate. This requires regression metrics such as MAE, RMSE, R², and Median AE. Classification metrics are excluded because no categorical class label is used. The completed SVR and RandomForestRegressor branches are comparable because they follow the same target, row unit, split, baselines, and metric contract.",
     },
     "shared_data_audit": {
         "key": "The workflow starts from nine raw CSV datasets and audits schema, coverage, missing values, duplicates, and dataset role before modelling.",
@@ -55,7 +55,7 @@ PAGE_NARRATIVES = {
         "key": "The SVR branch uses an RBF-kernel regression pipeline with numeric scaling and categorical encoding for state, stage, and sex.",
         "answers": "This page explains the model design, preprocessing, feature sets, and why SVR needs a pipeline.",
         "read": ["Review the model design cards.", "Check pipeline readiness and feature-set registry.", "Use candidate registry only for detailed tuning evidence."],
-        "discussion": "SVR with an RBF kernel can model nonlinear relationships, but it is sensitive to feature scale. Numeric features therefore use imputation and scaling, while categorical identifiers are encoded safely. RandomForestRegressor later may use different model-specific preprocessing, but it must still use the same target, split, baselines, and metrics.",
+        "discussion": "SVR with an RBF kernel can model nonlinear relationships, but it is sensitive to feature scale. Numeric features therefore use imputation and scaling, while categorical identifiers are encoded safely. RandomForestRegressor uses model-specific preprocessing, but both completed branches follow the same target, split, baselines, and metric contract for fair comparison.",
     },
     "svr_training": {
         "key": "The selected SVR was chosen using chronological validation, not held-out test performance.",
@@ -173,10 +173,10 @@ V4_NARRATIVES = {
         "discussion": "The RF demonstrator helps translate model output into a user-facing prediction case. In the representative row, RF underpredicts actual next-year completion. Forecast-candidate rows should be read as preview-only because actual future targets are not available.",
     },
     "rf_output_check": {
-        "key": "The RF branch has saved output tables, figures, model artifact, and parameter artifact, so it can be integrated into the supervised-regression app.",
-        "answers": "This page verifies RandomForestRegressor output evidence availability.",
-        "read": ["Check output summary first.", "Then verify model and artifact files.", "Use detailed expanders only when checking exact file lists."],
-        "discussion": "Output completeness means the RF branch has saved evidence for review. It does not mean RF is the best model. Model quality must still be judged from metrics, baselines, diagnostics, and comparison pages.",
+        "key": "The RF branch output evidence is normalised into the same Streamlit status-check structure used by the SVR branch while still deriving every value from Sam's saved RF files.",
+        "answers": "This page verifies RandomForestRegressor output evidence availability using a derived status view, artifact checks, manifest evidence, and detailed raw audit tables.",
+        "read": ["Start with the derived output status checks, where Pass confirms that the required RF evidence is available.", "Then verify the model artifact and best-parameter JSON.", "Use the detailed expanders to inspect Sam's original RF file audit, output manifest, and visual registry."],
+        "discussion": "The RF output-check page is a presentation-layer normalisation of the saved RF output package. It does not claim that the RF notebook produced the same status-table format as the SVR notebook. Output completeness means the RF branch has saved evidence for review; model quality must still be judged from metrics, baselines, diagnostics, and comparison pages.",
     },
     "rf_limitations": {
         "key": "The RF branch is usable as the second supervised-regression model branch, but the current results do not support selecting RF as the best model.",
@@ -300,4 +300,14 @@ PAGE_NARRATIVES.update({
         "read": ["Forecast preview rows are not used for model selection.", "Compare SVR and RF prediction distributions only as future-candidate behaviour.", "Use the evaluation-status column to confirm these rows are non-evaluable."],
         "discussion": "The forecast preview is useful for showing how the two models behave on future-candidate inputs. However, because actual 2023 completion-rate values are not available in the current data, these predictions cannot be scored and cannot be used to select the final model.",
     },
+})
+
+
+PAGE_NARRATIVES.update({
+    "rf_error_diagnostics": PAGE_NARRATIVES.get("rf_error_diag", {
+        "key": "The RF model has stronger underprediction bias than SVR and lower practical tolerance coverage.",
+        "answers": "This page shows RF residual direction, tolerance coverage, grouped errors, and worst predictions.",
+        "read": ["Residual = actual minus predicted.", "Positive residual means underprediction.", "Lower grouped MAE/RMSE is better.", "Higher within-tolerance coverage is better."],
+        "discussion": "RF underpredicts most held-out rows. Tolerance coverage is lower than SVR, and grouped diagnostics show larger errors for W.P. Putrajaya, secondary_upper, and male rows in the current RF output.",
+    })
 })

@@ -30,10 +30,10 @@ metric_cards(build_comparison_overview_cards(), columns=5, help_map={
     "RF row wins": "Rows where RF has lower absolute error.",
 })
 metric_cards(build_comparison_metric_cards(), columns=4, help_map={
-    "Selected model": "Selected supervised-regression model.",
-    "Best MAE": "Lower is better.",
-    "Best RMSE": "Lower is better.",
-    "Best R²": "Higher is better; negative values still limit the model claim.",
+    "Best MAE": "Lowest held-out Mean Absolute Error from the selected supervised model. Lower is better.",
+    "Best RMSE": "Lowest held-out Root Mean Squared Error from the selected supervised model. Lower is better.",
+    "Best R²": "Best held-out R² from the selected supervised model. Higher is better; negative values still limit the model claim.",
+    "Best Median AE": "Median Absolute Error from the selected supervised model. Lower is better.",
 })
 
 st.markdown("### SVR branch headline metrics")

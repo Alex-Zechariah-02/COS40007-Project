@@ -92,6 +92,15 @@ TABLE_EXPLANATIONS = {
     },
 }
 
+TABLE_EXPLANATIONS.update({
+    "rf_normalized_output_check.csv": {
+        "how": "Each row is a derived Random Forest output-status check created from the saved RF files, manifest, visual registry, model artifact, and parameter artifact.",
+        "better": "Pass status is required for completed evidence. A missing status identifies an output package issue that should be checked.",
+        "takeaway": "The Random Forest evidence package is complete when required directories, files, figures, model artifact, and parameter artifact are present.",
+        "caveat": "This table normalises the Streamlit presentation layer; it does not claim that the RF notebook saved the same status table format as the SVR notebook.",
+    },
+})
+
 def explain_table(filename: str) -> dict:
     return TABLE_EXPLANATIONS.get(filename, DEFAULT_TABLE_EXPLANATION)
 

@@ -63,3 +63,42 @@ def render_gallery():
     display_image(SVR_FIGURES_DIR/selected)
     with st.expander("Show registry row for this figure"):
         st.dataframe(pd.DataFrame([row]), width="stretch", hide_index=True)
+
+
+def render_gallery_for(registry: pd.DataFrame, figure_dir, selector_prefix: str = "figure"):
+    if registry is None or registry.empty:
+        st.info("Visual evidence registry is not available.")
+        return
+    registry = registry.copy()
+    if "Figure Filename" not in registry.columns:
+        st.dataframe(registry, width="stretch")
+        return
+    registry["App Category"] = registry["Figure Filename"].apply(infer_category)
+    categories = ["All"] + sorted(registry["App Category"].dropna().unique().tolist())
+    category = st.selectbox("Filter figure category", categories, key=f"{selector_prefix}_category")
+    view = registry if category == "All" else registry[registry["App Category"] == category]
+    fig_names = view["Figure Filename"].tolist()
+    if not fig_names:
+        st.info("No figures for this category.")
+        return
+    selected = st.selectbox(
+        "Select figure",
+        fig_names,
+        key=f"{selector_prefix}_selected",
+        format_func=lambda x: registry.loc[registry["Figure Filename"] == x, "Figure Name"].iloc[0]
+        if "Figure Name" in registry.columns and (registry["Figure Filename"] == x).any() else x,
+    )
+    row = registry[registry["Figure Filename"] == selected].iloc[0]
+    st.markdown(f"#### {row.get('Figure Name', selected)}")
+    if "Purpose" in row and pd.notna(row["Purpose"]):
+        st.write(row["Purpose"])
+    render_explanation(selected)
+    display_image(figure_dir/selected)
+    with st.expander("Show registry row for this figure"):
+        st.dataframe(pd.DataFrame([row]), width="stretch", hide_index=True)
+
+
+def render_rf_gallery():
+    from .data_loader import load_rf_table
+    from .config import RF_FIGURES_DIR
+    render_gallery_for(load_rf_table("visual_evidence_registry.csv"), RF_FIGURES_DIR, selector_prefix="rf_figure")

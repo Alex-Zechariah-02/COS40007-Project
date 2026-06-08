@@ -1,6 +1,7 @@
 from __future__ import annotations
 import pandas as pd
 from .data_loader import load_rf_table, load_rf_check, load_rf_artifact_json, rf_model_path, RF_ARTIFACTS_DIR
+from .config import RF_TABLES_DIR, RF_CHECKS_DIR, RF_FIGURES_DIR, RF_MODELS_DIR
 from .formatting import fmt_pp, fmt_r2, fmt_pct
 
 
@@ -110,3 +111,113 @@ def build_rf_validation_issue_summary() -> pd.DataFrame:
         return pd.DataFrame()
     counts = df["Fit Status"].value_counts(dropna=False).rename_axis("Fit status").reset_index(name="Rows")
     return counts.astype(str)
+
+
+def build_rf_baseline_summary() -> pd.DataFrame:
+    summary = load_rf_table("rf_result_summary.csv")
+    delta = load_rf_table("expanded_baseline_vs_rf_delta.csv")
+    rows = []
+    if not summary.empty:
+        r = summary.iloc[0]
+        rows.extend([
+            {"Question": "Does RF beat all compared models on MAE?", "Result": safe_get(r, "RF Beats All Compared Models on MAE")},
+            {"Question": "Does RF beat all compared models on RMSE?", "Result": safe_get(r, "RF Beats All Compared Models on RMSE")},
+            {"Question": "Is held-out R² positive?", "Result": safe_get(r, "RF R2 Positive")},
+        ])
+    if not delta.empty and "Compared Model" in delta.columns:
+        beats_mae = delta[delta.get("RF Beats Compared Model on MAE", False) == True]["Compared Model"].tolist() if "RF Beats Compared Model on MAE" in delta.columns else []
+        not_beats_mae = delta[delta.get("RF Beats Compared Model on MAE", False) == False]["Compared Model"].tolist() if "RF Beats Compared Model on MAE" in delta.columns else []
+        rows.append({"Question": "Baselines beaten by RF on MAE", "Result": ", ".join(beats_mae) if beats_mae else "None reported"})
+        rows.append({"Question": "Stronger baselines not beaten by RF on MAE", "Result": ", ".join(not_beats_mae[:5]) if not_beats_mae else "None reported"})
+    rows.append({"Question": "Result note", "Result": "RF is a valid second supervised-regression branch, but current held-out results do not support selecting RF as the best model."})
+    return pd.DataFrame(rows).astype(str)
+
+
+def build_rf_artifact_status() -> pd.DataFrame:
+    rows = [
+        {"Artifact": "RF model artifact", "Status": "Present" if rf_model_path("final_selected_rf_pipeline.joblib").exists() else "Missing"},
+        {"Artifact": "Best RF parameter JSON", "Status": "Present" if (RF_ARTIFACTS_DIR/"best_rf_params.json").exists() else "Missing"},
+        {"Artifact": "RF pipeline artifact", "Status": "Present" if (RF_ARTIFACTS_DIR/"final_selected_rf_pipeline.joblib").exists() else "Missing"},
+    ]
+    return pd.DataFrame(rows).astype(str)
+
+
+def _pass_status(condition: bool) -> str:
+    return "Pass" if bool(condition) else "Missing"
+
+
+def _bool_from_exists(series: pd.Series) -> pd.Series:
+    return series.astype(str).str.lower().isin(["true", "1", "yes", "present", "pass"])
+
+
+def build_rf_normalized_output_check() -> pd.DataFrame:
+    audit = load_rf_check("output_file_audit.csv")
+    manifest = load_rf_table("final_output_manifest.csv")
+    visual = load_rf_table("visual_evidence_registry.csv")
+
+    audited_exists = None
+    if not audit.empty and "Exists" in audit.columns:
+        audited_exists = _bool_from_exists(audit["Exists"])
+
+    missing_count = int((~audited_exists).sum()) if audited_exists is not None else 0
+    registered_count = int(len(visual)) if not visual.empty else 0
+    registered_exists = None
+    if not visual.empty and "File Exists" in visual.columns:
+        registered_exists = _bool_from_exists(visual["File Exists"])
+    registered_available = int(registered_exists.sum()) if registered_exists is not None else registered_count
+    saved_png_count = len(list(RF_FIGURES_DIR.glob("*.png"))) if RF_FIGURES_DIR.exists() else 0
+    model_exists = rf_model_path("final_selected_rf_pipeline.joblib").exists()
+    params_exists = (RF_ARTIFACTS_DIR / "best_rf_params.json").exists()
+    pipeline_artifact_exists = (RF_ARTIFACTS_DIR / "final_selected_rf_pipeline.joblib").exists()
+
+    checks = [
+        ("Table output directory exists", RF_TABLES_DIR.exists()),
+        ("Check output directory exists", RF_CHECKS_DIR.exists()),
+        ("Figure output directory exists", RF_FIGURES_DIR.exists()),
+        ("Model output directory exists", RF_MODELS_DIR.exists()),
+        ("Artifact output directory exists", RF_ARTIFACTS_DIR.exists()),
+        ("Missing required file count", missing_count == 0, missing_count),
+        ("Registered figure count", registered_count > 0, registered_count),
+        ("Saved PNG figure count", saved_png_count >= registered_available and saved_png_count > 0, saved_png_count),
+        ("Saved RF model file exists", model_exists),
+        ("Best-parameter JSON exists", params_exists),
+        ("RF pipeline artifact exists", pipeline_artifact_exists),
+    ]
+
+    rows = []
+    for item in checks:
+        if len(item) == 2:
+            label, ok = item
+            value = bool(ok)
+        else:
+            label, ok, value = item
+        rows.append({"Check": label, "Value": value, "Status": _pass_status(ok)})
+    return pd.DataFrame(rows).astype(str)
+
+
+def build_rf_output_completion_summary() -> pd.DataFrame:
+    audit = load_rf_check("output_file_audit.csv")
+    manifest = load_rf_table("final_output_manifest.csv")
+    visual = load_rf_table("visual_evidence_registry.csv")
+    normalized = build_rf_normalized_output_check()
+    pass_count = int((normalized["Status"] == "Pass").sum()) if not normalized.empty else 0
+    rows = [
+        {"Item": "RF output audit rows", "Value": f"{len(audit):,}" if not audit.empty else "0"},
+        {"Item": "RF output manifest rows", "Value": f"{len(manifest):,}" if not manifest.empty else "0"},
+        {"Item": "Registered RF figures", "Value": f"{len(visual):,}" if not visual.empty else "0"},
+        {"Item": "Normalized status checks passed", "Value": f"{pass_count}/{len(normalized)}" if not normalized.empty else "0/0"},
+        {"Item": "Output-status source", "Value": "Derived from saved RF output files, manifest, visual registry, model artifact, and parameter artifact."},
+    ]
+    return pd.DataFrame(rows).astype(str)
+
+
+def build_rf_output_check_summary() -> pd.DataFrame:
+    return build_rf_output_completion_summary()
+
+
+def build_rf_missing_output_summary() -> pd.DataFrame:
+    audit = load_rf_check("output_file_audit.csv")
+    if audit.empty or "Exists" not in audit.columns:
+        return pd.DataFrame()
+    missing = audit[audit["Exists"] == False].copy()
+    return missing.astype(str)
